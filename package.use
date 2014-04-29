@@ -129,6 +129,7 @@ sys-devel/llvm clang
 sys-kernel/gentoo-sources -symlink
 sys-libs/ncurses static-libs
 sys-power/nvclock gtk
+sys-process/cronie anacron
 virtual/mysql embedded
 www-apps/trac cgi fastcgi mysql postgres sqlite vhosts
 www-client/casperjs doc examples mono mono_compile python
