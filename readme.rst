@@ -1,5 +1,5 @@
 portage-config
-==============
+--------------
 
 My configuration files for Portage, the official `Gentoo
 <http://www.gentoo.org/>`_ package manager, after roughly 7 years of continuous
