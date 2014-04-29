@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/ui/bookmarks/recently_used_folders_combo_model.cc b/chrome/browser/ui/bookmarks/recently_used_folders_combo_model.cc
+index 88df062..5adbc2e 100644
+--- a/chrome/browser/ui/bookmarks/recently_used_folders_combo_model.cc
++++ b/chrome/browser/ui/bookmarks/recently_used_folders_combo_model.cc
+@@ -14,7 +14,7 @@
+ namespace {
+ 
+ // Max number of most recently used folders.
+-const size_t kMaxMRUFolders = 5;
++const size_t kMaxMRUFolders = 18;
+ 
+ }  // namespace
+ 

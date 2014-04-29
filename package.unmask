@@ -1,0 +1,8 @@
+# 9999
+# =sys-fs/zfs-kmod-9999
+# =sys-fs/zfs-9999
+# =sys-kernel/spl-9999
+# =media-video/mplayer-9999
+
+# needed for dev (unfortunately)
+dev-java/sun-jdk
