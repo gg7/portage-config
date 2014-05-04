@@ -259,9 +259,6 @@ dev-python/django-celery ~*
 dev-python/django-tastypie ~*
 dev-python/django-registration ~*
 dev-python/django-annoying ~*
-dev-python/cheetah ~*
-dev-python/cheetah-docs ~*
-dev-python/cherrypy ~*
 dev-python/pygraphviz ~*
 
 # flask:

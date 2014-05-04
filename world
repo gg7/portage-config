@@ -129,7 +129,9 @@ dev-haskell/hlint
 dev-haskell/math-functions
 dev-java/ant
 dev-java/ant-contrib
-dev-java/icedtea
+dev-java/icedtea:7
+dev-java/icedtea-bin:6
+dev-java/icedtea-bin:7
 dev-java/maven-bin
 dev-java/oracle-jdk-bin:1.7
 dev-java/oracle-jdk-bin:1.8
@@ -155,8 +157,6 @@ dev-libs/udis86
 dev-python/bottle
 dev-python/bpython
 dev-python/celery
-dev-python/cheetah
-dev-python/cherrypy
 dev-python/colorama
 dev-python/couchdb-python
 dev-python/django
@@ -281,6 +281,7 @@ kde-base/okular
 kde-base/palapeli
 kde-base/picmi
 kde-misc/customizable-weather
+kde-misc/kcm-grub2
 kde-misc/kde-gtk-config
 kde-misc/krename
 kde-misc/yakuake
@@ -492,7 +493,7 @@ sys-power/cpufrequtils
 sys-power/nvclock
 sys-power/powertop
 sys-process/atop
-sys-process/cronie
+sys-process/fcron
 sys-process/glances
 sys-process/htop
 sys-process/iotop
