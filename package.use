@@ -10,12 +10,12 @@ app-emulation/virtualbox -additions extensions
 app-emulation/virtualbox-bin -additions extensions
 app-emulation/wine custom-cflags gecko -nls -mono prelink threads truetype -udisks win32 -win64
 app-misc/bb mikmod
-app-office/libreoffice linguas_bg linguas_en linguas_uk -nsplugin
+app-office/libreoffice linguas_bg linguas_en -nsplugin
 app-portage/pfl -network-cron
 app-shells/zsh doc examples maildir pcre -static unicode
 app-text/acroread minimal
-app-text/aspell linguas_bg linguas_en linguas_uk
-app-text/hunspell linguas_bg linguas_en linguas_uk
+app-text/aspell linguas_bg linguas_en
+app-text/hunspell linguas_bg linguas_en
 app-text/pandoc -http-conduit
 app-text/tesseract tiff
 app-text/texlive cyrillic
