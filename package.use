@@ -1,0 +1,343 @@
+app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
+app-admin/sudo offensive
+app-arch/p7zip kde doc rar wxwidgets
+app-cdr/k3b dvd encode ffmpeg flac handbook mp3 musicbrainz taglib vorbis wav
+app-crypt/hashcat-gui cuda opencl
+app-editors/gvim bash-completion cscope gtk -gpm -motif -netbeans -nextaw -nls perl python -ruby
+app-editors/nano ncurses minimal unicode
+app-editors/vim bash-completion cscope gpm -nls vim-pager perl python -ruby
+app-emulation/virtualbox -additions extensions
+app-emulation/virtualbox-bin -additions extensions
+app-emulation/wine custom-cflags gecko -nls -mono prelink threads truetype -udisks win32 -win64
+app-misc/bb mikmod
+app-office/libreoffice linguas_bg linguas_en linguas_uk -nsplugin
+app-portage/pfl -network-cron
+app-shells/zsh doc examples maildir pcre -static unicode
+app-text/acroread minimal
+app-text/aspell linguas_bg linguas_en linguas_uk
+app-text/hunspell linguas_bg linguas_en linguas_uk
+app-text/pandoc -http-conduit
+app-text/tesseract tiff
+app-text/texlive cyrillic
+dev-db/mysql -berkdb community embedded extraengine -latin1 profiling -perl
+dev-db/phpmyadmin vhosts
+dev-db/phppgadmin vhosts
+dev-db/postgresql-base doc python -pg_legacytimestamp readline ssl threads zlib
+dev-db/postgresql-server doc -pg_legacytimestamp python ssl uuid xml
+dev-lang/ghc -binary doc
+dev-lang/php apache2 -berkdb bzip2 cgi cli crypt curl doc exif ftp gd -gdbm json -kerberos -ldap mysql mysqli pcre postgres readline session simplexml sockets -spell sqlite ssl suhosin threads unicode xml xmlreader xmlwriter zip zlib
+dev-lang/python -berkdb doc examples -gdbm ncurses readline sqlite threads tk wininst xml
+dev-libs/geoip city
+dev-libs/libstrl doc static-libs
+dev-libs/libxml2 icu
+dev-python/cherrypy doc
+dev-python/ipython mongodb
+dev-python/jinja doc examples i18n
+dev-qt/qtgui -gtk
+dev-ruby/activerecord postgres mysql
+dev-util/kdevelop cmake cxx qmake qthelp
+dev-util/kdevplatform subversion
+dev-util/ninja doc
+dev-util/perf python
+dev-vcs/git curl cvs -doc -perl subversion tk
+dev-vcs/subversion -berkdb -perl
+games-fps/nexuiz opengl -dedicated maps -sdl
+games-fps/urbanterror server
+games-strategy/wesnoth doc server
+kde-base/akregator handbook -kontact
+kde-base/ark bzip2 handbook
+kde-base/dolphin hardbook thumbnail
+kde-base/juk handbook musicbrainz
+kde-base/knetwalk handbook
+kde-base/knode -kontact
+kde-base/mplayerthumbs mplayer
+kde-base/okular -chm crypt djvu ebook -jpeg pdf ps -tiff
+kde-misc/kcm-grub2 imagemagick
+kde-misc/krename -pdf
+mail-client/thunderbird crypt lightning linguas_bg
+media-gfx/digikam glib gphoto2 lensfun thumbnails
+media-gfx/gimp exif jpeg pdf png svg tiff
+media-gfx/graphviz doc examples -perl python -ruby
+media-gfx/imagemagick graphviz gs hdri jpeg jpeg2k -perl png -raw svg tiff
+media-gfx/inkscape gs spell
+media-libs/mesa -d3d g3dvl vdpau xa xvmc
+media-libs/phonon -gstreamer vlc
+media-libs/taglib asf mp4
+media-plugins/audacious-plugins gtk -gtk3 ffmpeg libsamplerate
+media-sound/amarok cdda debug embedded -lastfm -mtp ofa -opengl
+media-sound/aqualung ladspa libsamplerate systray
+media-sound/audacious gtk -gtk3
+media-sound/beets beatport -bpd chroma -convert discogs doc echonest_tempo lastgenre replaygain web
+media-sound/clementine moodbar
+media-sound/easytag flac mp3 vorbis mp4
+media-sound/kid3 flac handbook musicbrainz vorbis taglib
+media-sound/mixxx tonal
+media-sound/picard cdda coverart ffmpeg
+media-video/ffmpeg doc examples opus rtmp libcaca
+media-video/transcode a52 aac dvd mp3 mpeg ogg postproc quicktime theora v4l2 vorbis x264 xvid
+net-analyzer/dsniff -X
+net-analyzer/ettercap gtk ncurses ssl
+net-analyzer/metasploit gui mysql postgres sqlite
+net-analyzer/nmap gtk
+net-analyzer/rrdtool python
+net-analyzer/tcpdump -samba
+net-analyzer/wireshark gcrypt geoip gnutls gtk pcap pcre zlib gtk2 -qt4
+net-fs/cifs-utils -acl -ads
+net-fs/samba cups server smbclient syslog
+net-irc/hexchat gtk perl python ssl
+net-irc/irssi perl socks5 ssl
+net-libs/zeromq pgm static-libs test
+net-misc/aria2 ares -bittorrent metalink -scripts ssl
+net-misc/badvpn -client -debug -ncd -server xtun2socks -udpgw
+net-misc/bfgminer -adl cpumining examples -lm_sensors -opencl scrypt
+net-misc/curl -ares gnutls idn ssl
+net-misc/knemo wifi
+net-misc/networkmanager dhcpcd
+net-misc/ntp caps
+net-misc/openssh hpn X X509
+net-misc/rdesktop ao
+net-misc/rsync acl xattr
+net-misc/tightvnc server
+net-misc/tor tor-hardening
+net-misc/wicd X gtk pm-utils
+net-nntp/sabnzbd rar ssl yenc rss unzip
+net-p2p/amule geoip gtk -remote -stats unicode
+net-p2p/deluge gtk
+net-p2p/eiskaltdcpp cli json -xmlrpc gtk
+net-p2p/ktorrent -bwscheduler downloadorder infowidget ipfilter -mediaplayer -rss scanfolder search shutdown stats -upnp -webinterface -zeroconf
+net-p2p/mldonkey gnutella gtk
+net-p2p/rtorrent daemon
+net-print/hplip X qt4
+net-proxy/tsocks tordns
+net-wireless/pyrit cuda opencl
+sci-mathematics/minisat doc extended-solver
+sci-visualization/gnuplot -pdf
+sys-apps/busybox static
+sys-apps/moreutils -perl -doc
+sys-apps/paludis portage
+sys-apps/portage doc epydoc python3
+sys-apps/util-linux loop-aes
+sys-block/gparted dmraid fat hfs jfs reiser4 reiserfs xfs
+sys-block/parted -debug
+sys-devel/gcc gcj -gtk
+sys-kernel/gentoo-sources -symlink
+sys-libs/ncurses static-libs
+sys-power/nvclock gtk
+sys-process/cronie anacron
+virtual/mysql embedded
+www-apps/trac cgi fastcgi mysql postgres sqlite vhosts
+www-client/casperjs doc examples mono mono_compile python
+www-client/chromium cups
+www-client/elinks -samba
+www-client/links directfb fbcon gpm jpeg png ssl unicode zlib
+www-client/lynx bzip2 gnutls ssl unicode
+www-client/opera -gstreamer
+www-client/phantomjs examples doc pack text-rendering
+www-client/phantomjs-bin examples doc
+www-client/rekonq -kde
+www-client/w3m fbcon gpm imlib ssl unicode -xface
+www-plugins/adobe-flash abi_x86_32 abi_x86_64 kde vdpau
+www-plugins/gnash -python gtk nsplugin
+www-plugins/lightspark nsplugin
+www-servers/apache -doc ssl threads
+www-servers/lighttpd bzip2 fastcgi -gdbm mysql pcre php ssl
+www-servers/nginx http http-cache pcre syslog ssl
+www-servers/tomcat doc extra-webapps source
+x11-misc/dmenu xft
+x11-misc/redshift -geoclue -gnome gtk
+x11-misc/tint2 battery examples
+x11-misc/xmobar -alsa unicode -mail xft
+x11-terms/rxvt-unicode 256-color blink fading-colors font-styles -force-hints iso14755 perl pixbuf truetype -vanilla wcwidth xft
+x11-themes/gtk-engines-qtcurve -firefox3 -mozilla
+x11-wm/xmonad default-term doc hscolour
+x11-wm/xmonad-contrib doc hscolour xft
+
+# needed for FEATURES="compressdebug"
+sys-devel/binutils zlib
+sys-devel/gdb expat lzma zlib
+
+#  geoloc? ( introspection ) introspection? ( gstreamer )
+net-libs/webkit-gtk -geoloc -introspection
+
+# kdenlive:
+media-libs/mlt ffmpeg melt
+
+# cuda:
+dev-util/nvidia-cuda-sdk cuda doc examples opencl
+dev-util/nvidia-cuda-toolkit doc profiler
+x11-drivers/nvidia-drivers uvm
+
+# steam:
+games-util/steam-client-meta steamruntime flash trayicon
+games-util/steam-games-meta steamruntime steamgames_source_engine
+games-util/steam-launcher steamruntime
+games-util/steam-meta steamruntime
+
+# required by games-util/steam-games-meta[video_cards_nvidia]:
+x11-drivers/nvidia-drivers multilib
+
+# required by visualvm:
+dev-java/swing-layout source
+
+# TODO: enable this:
+dev-haskell/* -profile
+
+# required by sys-fs/udev-171-r5[hwdb]
+sys-apps/pciutils -zlib
+
+# octave;
+sys-devel/gcc fortran
+
+# firefox:
+www-client/firefox custom-cflags custom-optimization -pgo system-cairo system-icu system-jpeg system-sqlite wifi
+# required by www-client/firefox-29.0[system-sqlite]:
+dev-db/sqlite secure-delete
+# required by firefox[pgo]:
+x11-base/xorg-server xvfb
+
+# udev hotplugging:
+x11-base/xorg-server udev
+
+# interactive git:
+dev-vcs/git perl
+dev-vcs/subversion -dso perl
+dev-db/sqlite extensions
+
+# required by graphviz;
+media-libs/gd fontconfig
+
+# qemu:
+app-emulation/qemu sdl vde
+app-emulation/libvirt libvirtd -lxc -nls policykit -python qemu virtualbox -xen virt-network
+
+# python webdev:
+dev-python/django doc -mysql postgres sqlite vhosts python_targets_python2_7 python_targets_python3_3
+dev-python/django-extensions graphviz
+dev-python/pylons genshi jinja test
+dev-python/south doc
+dev-python/sphinx doc
+dev-python/sqlalchemy sqlite doc examples -mssql -mysql postgres
+
+# if you are having problems compiling c++ code with clang, uncomment this:
+# sys-devel/clang system-cxx-headers
+
+# <3 fortune:
+games-misc/fortune-mod offensive
+games-misc/fortune-mod-gentoo-forums offensive
+games-misc/fortune-mod-slackware offensive
+
+# jre/jdk:
+dev-java/icedtea -nsplugin -webstart
+dev-java/icedtea-web -nsplugin
+dev-java/oracle-jdk-bin -doc
+dev-java/sun-jdk -doc examples -nsplugin
+dev-java/sun-jre-bin -nsplugin
+
+# boost:
+dev-libs/boost doc python static-libs tools
+dev-util/boost-build examples python
+
+# "Since you've chosen to turn off some of libsdl's functionality, don't bother
+# filing libsdl-related bugs until trying to remerge libsdl with the audio,
+# video, and joystick flags in USE. You need to know what you're doing to
+# selectively turn off parts of libsdl."
+media-libs/libsdl audio video joystick
+
+# media players:
+media-libs/xine-lib aac css flac mad real -samba theora vorbis win32codecs
+media-video/ffmpeg bluray -cpudetection dirac encode mp3 network theora threads vpx
+media-video/mplayer aac aalib -cpudetection dirac directfb dvb dvd dvdnav enca encode fbcon ftp -gmplayer libcaca mad mp3 network pvr quicktime real rtc svga theora truetype unicode v4l v4l2 vorbis win32codecs x264 xscreensaver xvid
+media-video/vlc aac aalib dirac directfb dvb dvd fbcon ffmpeg flac fontconfig -httpd id3tag libass libcaca libv4l2 matroska mp3 mpeg mtp -nsplugin ogg -png -samba skins stream -svg svga taglib theora truetype v4l v4l2 vorbis win32codecs x264
+
+# mpd:
+media-sound/ario taglib
+media-sound/gimmix cover lyrics taglib
+media-sound/mpd aac ao cue -debug ffmpeg flac id3 inotify libsamplerate mad network ogg oss soundcloud sqlite unicode vorbis
+media-sound/ncmpcpp clock outputs taglib unicode fftw visualizer
+
+# needed to enable CAcert in firefox/chromium:
+dev-libs/nss utils
+
+# app-text/texlive
+app-text/texlive png truetype xml context detex doc dvipdfm extra -games graphics humanities latex3 omega pstricks publishers science xetex
+app-text/texlive-core xetex
+
+# required by media-video/vlc:
+sys-libs/zlib minizip
+
+# required by xpdf
+app-text/poppler xpdf-headers
+
+# required by app-forensics/rkhunter:
+sys-process/lsof rpc
+
+# required by media-sound/quodlibet:
+dev-libs/keybinder python
+
+# required by media-sound/picard[acoustid]
+media-libs/chromaprint tools
+
+# required by dev-lang/php:
+app-admin/eselect-php apache2
+
+# required by sys-devel/clang:
+sys-devel/llvm clang
+
+# required by dev-util/findbugs:
+dev-java/bcel findbugs
+
+# required by sys-libs/tevent-0.9.19
+# required by net-fs/samba-3.6.16
+# required by kde-base/kdebase-kioslaves-4.10.5[samba]
+# required by net-p2p/ktorrent-4.3.1[ipfilter]
+sys-libs/talloc python
+
+# required by kde-base/libkexiv2-4.10.5
+# required by kde-base/thumbnailers-4.10.5
+# required by kde-base/dolphin-4.10.5[thumbnail]
+media-gfx/exiv2 xmp
+
+# required by app-office/libreoffice:
+media-libs/harfbuzz icu
+
+# required by app-editors/gedit:
+dev-libs/libpeas gtk
+
+# required by net-p2p/bitcoin-qt:
+dev-libs/leveldb -snappy
+
+# required by sys-devel/prelink
+# required by app-emulation/wine[prelink]
+dev-libs/elfutils static-libs
+
+# ruby 2.0
+dev-ruby/abstract ruby_targets_ruby20
+dev-ruby/childprocess ruby_targets_ruby20
+dev-ruby/erubis ruby_targets_ruby20
+dev-ruby/ffi ruby_targets_ruby20
+dev-ruby/i18n ruby_targets_ruby20
+dev-ruby/json ruby_targets_ruby20
+dev-ruby/log4r ruby_targets_ruby20
+dev-ruby/net-scp ruby_targets_ruby20
+dev-ruby/net-ssh ruby_targets_ruby20
+dev-ruby/rake ruby_targets_ruby20
+dev-ruby/rake-compiler ruby_targets_ruby20
+dev-ruby/rdoc ruby_targets_ruby20
+dev-ruby/rubygems ruby_targets_ruby20
+dev-ruby/yard ruby_targets_ruby20
+virtual/ruby-ffi ruby_targets_ruby20
+
+# ???
+dev-qt/qtsql sqlite mysql
+dev-libs/apr-util -berkdb -gdbm mysql postgres -sqlite sqlite3
+
+# ???
+virtual/jpeg static-libs
+media-libs/libjpeg-turbo static-libs
+
+# not needed:
+# dev-python/PyQt4 declarative webkit
+
+# required by thunderbird:
+# media-libs/libpng apng
+

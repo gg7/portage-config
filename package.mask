@@ -1,0 +1,27 @@
+media-sound/pulseaudio
+
+# only required by clementine
+# media-libs/gstreamer
+
+>=net-im/skype-3
+
+# kernel version lock:
+<sys-kernel/gentoo-sources-3.12.15
+>sys-kernel/gentoo-sources-3.12.15
+
+# nvidia version lock:
+# >x11-drivers/nvidia-drivers-331.20
+# <x11-drivers/nvidia-drivers-331.20
+# >media-video/nvidia-settings-325.15
+# <media-video/nvidia-settings-325.15
+
+# wine version lock:
+# >app-emulation/wine-1.6.1
+# <app-emulation/wine-1.6.1
+
+# <sys-devel/llvm-3.4 required by (media-libs/mesa-9.1.6::gentoo, installed)
+>=sys-devel/llvm-3.4
+>=sys-devel/clang-3.4
+
+# dev-libs/libgcrypt:0/11 ("dev-libs/libgcrypt:0/11" is blocking dev-libs/libgcrypt-1.5.3-r100)
+>media-sound/spotify-0.9.4.183-r5

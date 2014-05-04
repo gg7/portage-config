@@ -1,0 +1,580 @@
+# 9999
+=media-sound/pianobar-9999 **
+=net-p2p/linuxdcpp-9999 **
+
+app-admin/keepass ~*
+app-admin/logstash ~*
+app-admin/profile-cleaner ~*
+app-arch/duff ~*
+app-arch/upx-ucl ~*
+app-crypt/fcrackzip ~*
+app-crypt/tc-play ~*
+app-crypt/truecrypt ~*
+app-doc/phrack ~*
+app-doc/phrack-all ~*
+app-emulation/vmware-player ~*
+app-misc/bb ~*
+app-misc/elasticsearch ~*
+app-misc/tmux-mem-cpu-load ~*
+app-shells/autojump ~*
+app-text/XML-Schema-learner ~*
+app-text/ansifilter ~*
+app-text/diffpdf ~*
+app-text/jpdftweak ~*
+app-text/par ~*
+app-vim/recover ~*
+dev-cpp/gflags ~*
+dev-db/couchdb ~*
+dev-db/pgbadger ~*
+dev-db/pgtune ~*
+dev-db/sqlitebrowser ~*
+dev-java/icedtea ~*
+dev-java/icedtea-bin ~*
+dev-java/icedtea-web ~*
+dev-lang/fsharp ~*
+dev-libs/log4cxx ~*
+dev-python/colorama ~*
+dev-python/mongoengine ~*
+dev-python/pypy ~*
+dev-python/sh ~*
+dev-python/termcolor ~*
+dev-ruby/activerecord ~*
+dev-util/checkbashisms ~*
+dev-util/checkstyle ~*
+dev-util/cloc ~*
+dev-util/dissy ~*
+dev-util/dwarves ~*
+dev-util/dwdiff ~*
+dev-util/flawfinder ~*
+dev-util/nvidia-cuda-sdk ~*
+dev-util/perf ~*
+dev-util/scanmem ~*
+dev-vcs/cvs-fast-export ~*
+dev-vcs/gitstats ~*
+dev-vcs/hub ~*
+dev-vcs/vcsh ~*
+games-fps/ut2004-crossfire ~*
+games-misc/doge ~*
+gnustep-apps/batmon ~*
+kde-misc/redshift-plasmoid ~*
+media-fonts/takao-fonts ~*
+media-libs/fontconfig ~*
+media-sound/bpmdetect ~*
+media-sound/kid3 ~*
+media-sound/mixxx ~*
+media-sound/mp3diags ~*
+media-sound/pianobar ~*
+media-sound/qtmpc ~*
+media-sound/spotify ~*
+media-sound/tomahawk ~*
+media-video/get_flash_videos ~*
+media-video/istanbul ~*
+media-video/luvcview ~*
+net-analyzer/openbsd-netcat ~*
+net-im/skype ~*
+net-misc/vidalia ~*
+net-misc/youtube-dl ~*
+net-p2p/dogecoin-qt ~*
+net-p2p/linuxdcpp ~*
+net-print/hplip ~*
+sci-mathematics/minisat ~*
+sys-apps/ack ~*
+sys-apps/paludis ~*
+sys-apps/pkgcore ~*
+sys-devel/crossdev ~*
+sys-devel/gcc:4.8 ~*
+sys-devel/gcc:4.9 ~*
+sys-fs/btrfs-progs ~*
+sys-kernel/gentoo-sources ~*
+sys-process/glances ~*
+x11-misc/read-edid ~*
+x11-misc/redshift ~*
+
+# nvidia:
+# http://www.nvidia.com/Download/index.aspx?lang=en-us
+# =x11-drivers/nvidia-drivers-331.20 **
+# =media-video/nvidia-settings-331.20 **
+
+# vlc
+media-video/vlc ~*
+=x11-libs/libvdpau-0.7 ~amd64
+
+# livestreamer
+net-misc/livestreamer ~*
+=media-video/rtmpdump-2.4_p20131018 ~*
+
+# gentoolkit:
+# app-portage/gentoolkit ~*
+# app-portage/gentoolkit-dev ~*
+
+# zathura:
+=app-text/zathura-0.2.7 ~amd64
+=app-text/zathura-djvu-0.2.3 ~amd64
+=app-text/zathura-pdf-poppler-0.2.5 ~amd64
+=app-text/zathura-ps-0.2.2 ~amd64
+=dev-libs/girara-0.2.0 ~amd64
+
+# games-util/steam-meta
+games-util/steam-client-meta ~*
+games-util/steam-games-meta ~*
+games-util/steam-launcher ~*
+games-util/steam-meta ~*
+
+# wireless broadcom drivers:
+sys-firmware/b43-firmware ~*
+net-wireless/b43-fwcutter ~*
+net-wireless/broadcom-sta ~*
+
+# java dev:
+dev-java/hamcrest-library ~*
+dev-java/java-sdk-docs:1.7 ~*
+dev-java/java-sdk-docs:1.8 ~*
+dev-java/netbeans-platform ~*
+dev-java/oracle-jdk-bin:1.8 ~*
+dev-java/oracle-jre-bin:1.8 ~*
+dev-util/visualvm ~*
+virtual/jdk ~*
+
+# testng
+dev-java/testng ~*
+=dev-java/guice-2.0 ~amd64
+=dev-java/jcommander-1.32 ~amd64
+
+# mockito
+dev-java/mockito ~*
+=dev-java/objenesis-1.3 ~amd64
+
+# slf4j
+=dev-java/slf4j-api-1.7.5 ~amd64
+=dev-java/slf4j-log4j12-1.7.5 ~amd64
+
+# zfs
+sys-fs/zfs ~*
+sys-fs/zfs-kmod ~*
+sys-kernel/spl ~*
+
+# printer
+net-print/hplip ~*
+net-print/foo2zjs **
+
+# js scraping
+www-client/phantomjs ~*
+www-client/phantomjs-bin ~*
+www-client/casperjs ~*
+
+# pentesting
+net-wireless/pyrit ~*
+net-wireless/cpyrit-cuda ~*
+net-wireless/cpyrit-opencl ~*
+app-crypt/hashcat-bin ~*
+app-crypt/hashcat-gui ~*
+
+# beets
+# media-sound/beets **
+# =dev-python/python-musicbrainz-ngs-0.4 ~amd64
+# =media-libs/mutagen-1.22 ~amd64
+# =dev-python/unidecode-0.04.9-r1 ~amd64
+# =dev-python/munkres-1.0.5.4-r2 ~amd64
+# =dev-python/pyechonest-7.2.1 ~amd64
+# =dev-python/pyacoustid-1.0.0 ~amd64
+# =dev-python/pylast-0.5.11-r1 ~amd64
+# =dev-python/discogs-client-1.1.1 ~amd64
+# =dev-python/audioread-1.0.1 ~amd64
+
+# firefox and thunderbird
+=www-client/firefox-29* ~*
+# www-client/firefox-bin ~*
+# mail-client/thunderbird ~*
+
+# virtualization:
+# app-emulation/qemu ~*
+# app-emulation/qemu-kvm ~*
+# app-emulation/virt-manager ~*
+# app-emulation/virtinst ~*
+# app-emulation/libvirt ~*
+
+# docker
+app-emulation/docker ~*
+app-emulation/lxc ~*
+
+# vagrant 1.0.7:
+# ~app-emulation/vagrant-1.0.7 ~*
+# =dev-ruby/net-scp-1.1.2-r1 ~amd64
+# =dev-ruby/i18n-0.6.9-r1 ~amd64
+# =dev-ruby/childprocess-0.3.9 ~amd64
+# =dev-ruby/net-ssh-2.7.0-r1 ~amd64
+
+# vagrant 1.4.3:
+# ~app-emulation/vagrant-1.4.3 ~*
+# =dev-ruby/childprocess-0.3.9 ~amd64
+# =dev-ruby/childprocess-0.5.1 ~amd64
+# =dev-ruby/erubis-2.7.0-r1 ~amd64
+# =dev-ruby/ffi-1.9.3 ~amd64
+# =dev-ruby/i18n-0.6.9-r1 ~amd64
+# =dev-ruby/log4r-1.1.10-r1 ~amd64
+# =dev-ruby/net-scp-1.1.2-r1 ~amd64
+# =dev-ruby/net-ssh-2.7.0-r1 ~amd64
+# =dev-ruby/rake-compiler-0.9.2 ~amd64
+# =virtual/ruby-ffi-2 ~amd64
+
+# wine:
+# app-emulation/wine ~*
+# app-emulation/winetricks ~*
+# app-emulation/wine-doors ~*
+# app-emulation/playonlinux ~*
+
+# llvm and clang:
+sys-devel/clang ~*
+sys-devel/llvm ~*
+
+# tox
+dev-libs/libsodium ~*
+
+# amarok:
+# media-sound/amarok ~*
+# media-libs/taglib ~*
+
+# mpd:
+# media-sound/mpd ~*
+# media-libs/libmpd ~*
+# media-sound/quimup ~*
+# media-sound/gmpc ~*
+# media-plugins/gmpc-alarm ~*
+# media-plugins/gmpc-coveramazon ~*
+# media-plugins/gmpc-discogs ~*
+# media-plugins/gmpc-extraplaylist ~*
+# media-plugins/gmpc-last-fm ~*
+# media-plugins/gmpc-lyrics ~*
+# media-plugins/gmpc-lyricwiki ~*
+# media-plugins/gmpc-mdcover ~*
+# media-plugins/gmpc-playlistsort ~*
+# media-plugins/gmpc-tagedit ~*
+# media-plugins/gmpc-wikipedia ~*
+
+# python web frameworks:
+dev-python/django ~*
+dev-python/django-extensions ~*
+dev-python/django-piston ~*
+dev-python/django-celery ~*
+dev-python/django-tastypie ~*
+dev-python/django-registration ~*
+dev-python/django-annoying ~*
+dev-python/cheetah ~*
+dev-python/cheetah-docs ~*
+dev-python/cherrypy ~*
+dev-python/pygraphviz ~*
+
+# flask:
+dev-python/flask ~*
+=dev-python/blinker-1.3 ~amd64
+=dev-python/itsdangerous-0.22 ~amd64
+
+# dev-python/turbokid ~*
+# dev-python/sqlobject ~*
+# dev-python/ruledispatch ~*
+# dev-python/turbojson ~*
+# dev-python/kid ~*
+
+# pylons:
+# dev-python/pylons ~*
+# dev-python/tempita ~*
+# dev-python/pastedeploy ~*
+# dev-python/paste ~*
+# dev-python/webhelpers ~*
+# dev-python/pastescript ~*
+# dev-python/weberror ~*
+# dev-python/routes ~*
+
+# django-debug-toolbar:
+# dev-python/django-debug-toolbar ~*
+# =dev-python/python-sqlparse-0.1.10 ~amd64
+
+# virtualenv and virtualenvwrapper:
+dev-python/virtualenv ~*
+dev-python/virtualenvwrapper ~*
+=dev-python/pbr-0.7.0 ~amd64
+=dev-python/stevedore-0.15 ~amd64
+
+# celery
+dev-python/celery ~*
+=dev-python/kombu-3.0.14 ~amd64
+=dev-python/py-amqp-1.4.4 ~amd64
+=dev-python/billiard-3.3.0.16 ~amd64
+
+# sabnzbd:
+# dev-python/yenc ~*
+# net-nntp/hellanzb ~*
+# net-nntp/sabnzbd ~*
+
+# haskell:
+# dev-haskell/* ~*
+dev-haskell/cabal-install ~*
+dev-haskell/haskell-platform ~*
+# app-emacs/ghc-mod ~*
+# dev-haskell/aeson ~*
+# dev-haskell/hakyll ~*
+# dev-haskell/hoogle ~*
+# dev-haskell/yesod ~*
+# dev-lang/ghc ~*
+# dev-vcs/darcs ~*
+
+# lens
+dev-haskell/lens ~*
+=dev-haskell/generic-deriving-1.6.2 ~amd64
+=dev-haskell/lens-3.10.0.1 ~amd64
+=dev-haskell/reflection-1.3.2 ~amd64
+
+# pandoc:
+app-text/pandoc ~*
+=dev-haskell/highlighting-kate-0.5.6.1 ~amd64
+=dev-haskell/texmath-0.6.6 ~amd64
+
+# hlint:
+dev-haskell/hlint ~*
+=dev-haskell/haskell-src-exts-1.14.0 ~amd64
+=dev-haskell/uniplate-1.6.12 ~amd64
+
+# xmonad and xmobar:
+x11-misc/xmobar ~*
+# x11-wm/xmonad ~*
+# x11-wm/xmonad-contrib ~*
+
+# gitit
+www-apps/gitit ~*
+=dev-haskell/configfile-1.1.1 ~amd64
+=dev-haskell/happstack-server-7.3.1 ~amd64
+=dev-haskell/time-compat-0.1.0.3 ~amd64
+=dev-haskell/threads-0.5.1.1 ~amd64
+=dev-haskell/hstringtemplate-0.7.1 ~amd64
+=dev-haskell/filestore-0.6.0.1 ~amd64
+=dev-haskell/recaptcha-0.1-r1 ~amd64
+=dev-haskell/sendfile-0.7.9 ~amd64
+=dev-haskell/url-2.1.3-r1 ~amd64
+
+# git-annex
+dev-vcs/git-annex ~*
+=dev-haskell/ansi-terminal-0.6.1.1 ~amd64
+=dev-haskell/appar-0.1.4 ~amd64
+=dev-haskell/asn1-encoding-0.8.1.3 ~amd64
+=dev-haskell/asn1-parse-0.8.1 ~amd64
+=dev-haskell/asn1-types-0.2.3 ~amd64
+=dev-haskell/attoparsec-conduit-1.0.1.2 ~amd64
+=dev-haskell/authenticate-1.3.2.6 ~amd64
+=dev-haskell/bifunctors-4.1.1 ~amd64
+=dev-haskell/bloomfilter-1.2.6.10-r1 ~amd64
+=dev-haskell/byteorder-1.0.4 ~amd64
+=dev-haskell/clientsession-0.9.0.3 ~amd64
+=dev-haskell/comonad-4.0 ~amd64
+=dev-haskell/connection-0.2.0 ~amd64
+=dev-haskell/contravariant-0.4.4 ~amd64
+=dev-haskell/control-monad-loop-0.1 ~amd64
+=dev-haskell/crypto-4.2.5.1 ~amd64
+=dev-haskell/crypto-api-0.13 ~amd64
+=dev-haskell/crypto-conduit-0.5.2.2 ~amd64
+=dev-haskell/crypto-pubkey-0.2.4 ~amd64
+=dev-haskell/crypto-pubkey-types-0.4.2.2 ~amd64
+=dev-haskell/cryptohash-cryptoapi-0.1.0 ~amd64
+=dev-haskell/css-text-0.1.1 ~amd64
+=dev-haskell/dav-0.6.1 ~amd64
+=dev-haskell/distributive-0.4 ~amd64
+=dev-haskell/dns-0.3.8 ~amd64
+=dev-haskell/edit-distance-0.2.1.2 ~amd64
+=dev-haskell/either-4.1.1 ~amd64
+=dev-haskell/email-validate-2.0.1 ~amd64
+=dev-haskell/entropy-0.2.2.4 ~amd64
+=dev-haskell/errors-1.4.5 ~amd64
+=dev-haskell/fast-logger-2.1.5 ~amd64
+=dev-haskell/feed-0.3.8-r1 ~amd64
+=dev-haskell/file-embed-0.0.6 ~amd64
+=dev-haskell/fingertree-0.1.0.0 ~amd64
+=dev-haskell/free-4.5 ~amd64
+=dev-haskell/gnuidn-0.2.1 ~amd64
+=dev-haskell/gnutls-0.1.4 ~amd64
+=dev-haskell/gsasl-0.3.5 ~amd64
+=dev-haskell/hamlet-1.1.9.2 ~amd64
+=dev-haskell/hinotify-0.3.6 ~amd64
+=dev-haskell/hjsmin-0.1.4.5 ~amd64
+=dev-haskell/hs3-0.5.7 ~amd64
+=dev-haskell/http-client-0.2.2.2 ~amd64
+=dev-haskell/http-client-conduit-0.2.0.1 ~amd64
+=dev-haskell/http-client-tls-0.2.1.1 ~amd64
+=dev-haskell/http-conduit-2.0.0.8 ~amd64
+=dev-haskell/http-date-0.0.4 ~amd64
+=dev-haskell/ifelse-0.85 ~amd64
+=dev-haskell/iproute-1.2.11 ~amd64
+=dev-haskell/keys-3.10 ~amd64
+=dev-haskell/language-javascript-0.5.8 ~amd64
+=dev-haskell/mime-mail-0.4.4.1 ~amd64
+=dev-haskell/monad-logger-0.3.4.0 ~amd64
+=dev-haskell/monad-loops-0.4.2 ~amd64
+=dev-haskell/monadcatchio-transformers-0.3.1.0 ~amd64
+=dev-haskell/monadrandom-0.1.13 ~amd64
+=dev-haskell/monads-tf-0.1.0.1-r1 ~amd64
+=dev-haskell/network-bytestring-0.1.3.4 ~amd64
+=dev-haskell/network-info-0.2.0.3 ~amd64
+=dev-haskell/network-multicast-0.0.10 ~amd64
+=dev-haskell/network-protocol-xmpp-0.4.6 ~amd64
+=dev-haskell/optparse-applicative-0.7.0.2 ~amd64
+=dev-haskell/path-pieces-0.1.3.1 ~amd64
+=dev-haskell/persistent-1.3.0.2 ~amd64
+=dev-haskell/persistent-template-1.3.1.1 ~amd64
+=dev-haskell/pointed-4.0 ~amd64
+=dev-haskell/pool-conduit-0.1.2 ~amd64
+=dev-haskell/process-conduit-1.0.0.1 ~amd64
+=dev-haskell/profunctors-4.0.1 ~amd64
+=dev-haskell/puremd5-2.1.2.1 ~amd64
+=dev-haskell/pwstore-fast-2.4.1 ~amd64
+=dev-haskell/reducers-3.10.2 ~amd64
+=dev-haskell/regex-tdfa-1.2.0 ~amd64
+=dev-haskell/resource-pool-0.2.1.1 ~amd64
+=dev-haskell/safe-0.3.4 ~amd64
+=dev-haskell/safesemaphore-0.9.0 ~amd64
+=dev-haskell/scientific-0.2.0.1 ~amd64
+=dev-haskell/semigroupoids-4.0 ~amd64
+=dev-haskell/sha-1.6.4-r1 ~amd64
+=dev-haskell/shakespeare-1.2.1.1 ~amd64
+=dev-haskell/shakespeare-css-1.0.6.6 ~amd64
+=dev-haskell/shakespeare-i18n-1.0.0.5 ~amd64
+=dev-haskell/shakespeare-js-1.2.0.4 ~amd64
+=dev-haskell/shakespeare-text-1.0.2 ~amd64
+=dev-haskell/skein-1.0.9 ~amd64
+=dev-haskell/stm-chans-3.0.0 ~amd64
+=dev-haskell/stringsearch-0.3.6.5 ~amd64
+=dev-haskell/system-fileio-0.3.12 ~amd64
+=dev-haskell/tagged-0.7 ~amd64
+=dev-haskell/tasty-0.8 ~amd64
+=dev-haskell/tasty-hunit-0.8.0.1 ~amd64
+=dev-haskell/tasty-quickcheck-0.8 ~amd64
+=dev-haskell/tasty-rerun-1.1.2 ~amd64
+=dev-haskell/tls-1.2.2 ~amd64
+=dev-haskell/transformers-compat-0.1.1.1 ~amd64
+=dev-haskell/unbounded-delays-0.1.0.5-r1 ~amd64
+=dev-haskell/unix-time-0.2.2 ~amd64
+=dev-haskell/utf8-light-0.4.2 ~amd64
+=dev-haskell/uuid-1.3.3-r1 ~amd64
+=dev-haskell/wai-2.1.0 ~amd64
+=dev-haskell/wai-app-static-2.0.0.3 ~amd64
+=dev-haskell/wai-extra-2.1.0 ~amd64
+=dev-haskell/wai-logger-2.1.1 ~amd64
+=dev-haskell/warp-2.1.0 ~amd64
+=dev-haskell/warp-tls-2.0.3.1 ~amd64
+=dev-haskell/word8-0.0.4 ~amd64
+=dev-haskell/x509-1.4.10 ~amd64
+=dev-haskell/x509-store-1.4.4 ~amd64
+=dev-haskell/x509-system-1.4.2 ~amd64
+=dev-haskell/x509-validation-1.5.0 ~amd64
+=dev-haskell/xml-conduit-1.1.0.9 ~amd64
+=dev-haskell/xml-hamlet-0.4.0.6 ~amd64
+=dev-haskell/xss-sanitize-0.3.5 ~amd64
+=dev-haskell/yesod-1.2.5 ~amd64
+=dev-haskell/yesod-auth-1.2.7 ~amd64
+=dev-haskell/yesod-core-1.2.7 ~amd64
+=dev-haskell/yesod-default-1.2.0 ~amd64
+=dev-haskell/yesod-form-1.3.6 ~amd64
+=dev-haskell/yesod-persistent-1.2.2.1 ~amd64
+=dev-haskell/yesod-routes-1.2.0.6 ~amd64
+=dev-haskell/yesod-static-1.2.2.1 ~amd64
+
+# namebench:
+net-analyzer/namebench ~*
+=dev-python/graphy-1.0-r1 ~amd64
+=dev-python/dnspython-1.10.0-r1 ~amd64
+=dev-python/httplib2-0.8 ~amd64
+
+# salt:
+app-admin/salt ~*
+=dev-python/pycryptopp-0.6.0 ~amd64
+=dev-python/msgpack-0.3.0 ~amd64
+=dev-python/m2crypto-0.21.1-r1 ~amd64
+=dev-python/pyyaml-3.10-r1 ~amd64
+=dev-python/pyzmq-13.1.0 ~amd64
+
+# findbugs:
+dev-util/findbugs ~*
+=dev-java/jformatstring-0.9-r1 ~amd64
+
+# ipython:
+dev-python/ipython ~*
+=dev-python/pexpect-3.0 ~amd64
+
+# required for activerecord 4
+=dev-ruby/thread_safe-0.1.3-r1 ~amd64
+=dev-ruby/arel-4.0.1 ~amd64
+=dev-ruby/builder-3.1.4 ~amd64
+=dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
+=dev-ruby/mysql2-0.3.14 ~amd64
+=dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
+=dev-ruby/activesupport-4.0.2 ~amd64
+=dev-ruby/atomic-1.1.14 ~amd64
+=dev-ruby/activemodel-4.0.2 ~amd64
+
+# required by jinja:
+=dev-python/markupsafe-0.18 ~amd64
+
+# barman
+dev-db/barman ~*
+=dev-python/argh-0.24.1 ~amd64
+
+# cppcheck
+dev-util/cppcheck ~*
+=dev-libs/tinyxml2-2.0.2 ~amd64
+
+# owncloud-client:
+net-misc/owncloud-client ~*
+=dev-libs/qtkeychain-0.3.0 ~amd64
+
+# httpie:
+net-misc/httpie ~*
+=dev-python/requests-2.2.1 ~amd64
+
+# metasploit:4.9:
+net-analyzer/metasploit:4.9 ~*
+=app-admin/eselect-metasploit-0.13 ~amd64
+=dev-ruby/activemodel-3.2.17 ~amd64
+=dev-ruby/activemodel-4.1.0 ~amd64
+=dev-ruby/activesupport-3.2.17 ~amd64
+=dev-ruby/activesupport-4.1.0 ~amd64
+=dev-ruby/arel-3.0.2-r2 ~amd64
+=dev-ruby/arel-5.0.1.20140414130214 ~amd64
+=dev-ruby/bcrypt-ruby-3.1.7 ~amd64
+=dev-ruby/kissfft-0.0.1-r1 ~amd64
+=dev-ruby/metasploit_data_models-0.17.0 ~amd64
+=dev-ruby/minitest-5.3.3-r1 ~amd64
+=dev-ruby/msgpack-0.5.8 ~amd64
+=dev-ruby/network_interface-0.0.1-r1 ~amd64
+=dev-ruby/packetfu-1.1.9 ~amd64
+=dev-ruby/pcaprub-0.11.3-r1 ~amd64
+=dev-ruby/rb-readline-0.5.1 ~amd64
+=dev-ruby/rjb-1.4.9 ~amd64
+=dev-ruby/robots-0.10.1-r2 ~amd64
+=dev-ruby/tzinfo-1.1.0 ~amd64
+
+# new hardware
+sys-apps/idle3-tools ~*
+sys-apps/smartmontools ~*
+=sys-kernel/linux-firmware-20131230 ~*
+
+# core dumps with older versions
+=app-text/nfoview-1.12.1 ~*
+
+# Error loading RubyGems plugin "/usr/lib64/ruby/gems/1.9.1/gems/yard-0.8.3/lib/rubygems_plugin.rb": cannot load such file -- rubygems/doc_manager (LoadError)
+=dev-ruby/yard-0.8.7.3 ~*
+
+# elogv .xz support
+=dev-python/pyliblzma-0.5.3-r1 ~amd64
+
+# needed for dev
+=media-video/ffmpeg-1.2.6 ~*
+
+# vim 7.4 supports '~/.vim/'
+=app-editors/vim-7.4.273 ~*
+=app-editors/gvim-7.4.273 ~*
+=app-editors/vim-core-7.4.273 ~*
+
+# required by app-emulation/emul-linux-x86-baselibs-20131008-r6:
+=media-libs/lcms-2.5-r1 ~amd64
+
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667361
+=net-p2p/rtorrent-0.9.2 ~*
+=net-libs/libtorrent-0.13.2 ~*
+
