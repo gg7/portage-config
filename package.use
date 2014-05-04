@@ -13,13 +13,13 @@ app-emulation/virtualbox-bin -additions
 app-emulation/wine custom-cflags gecko -nls -mono threads truetype -udisks win32 -win64
 app-misc/anki -recording -sound
 app-misc/bb mikmod
-app-office/libreoffice linguas_bg linguas_en linguas_uk -nsplugin
-app-office/openoffice-bin linguas_bg linguas_en linguas_uk
+app-office/libreoffice linguas_bg linguas_en -nsplugin
+app-office/openoffice-bin linguas_bg linguas_en
 app-portage/pfl -network-cron
 app-shells/zsh doc examples maildir pcre -static unicode
 app-text/acroread minimal
-app-text/aspell linguas_bg linguas_en linguas_uk
-app-text/hunspell linguas_bg linguas_en linguas_uk
+app-text/aspell linguas_bg linguas_en
+app-text/hunspell linguas_bg linguas_en
 app-text/pandoc -http-conduit
 app-text/tesseract tiff
 app-text/texlive cyrillic
