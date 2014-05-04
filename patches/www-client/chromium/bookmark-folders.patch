@@ -7,7 +7,7 @@ index 88df062..5adbc2e 100644
  
  // Max number of most recently used folders.
 -const size_t kMaxMRUFolders = 5;
-+const size_t kMaxMRUFolders = 18;
++const size_t kMaxMRUFolders = 20;
  
  }  // namespace
  
