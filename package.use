@@ -54,7 +54,8 @@ kde-base/mplayerthumbs mplayer
 kde-base/okular -chm crypt djvu ebook -jpeg pdf ps -tiff
 kde-misc/kcm-grub2 imagemagick
 kde-misc/krename -pdf
-mail-client/thunderbird crypt lightning linguas_bg
+mail-client/mutt crypt doc gpg imap mbox pop sasl sidebar slang smime smtp tokyocabinet
+mail-client/thunderbird crypt custom-cflags custom-optimization libnotify lightning system-cairo system-icu system-jpeg system-sqlite wifi
 media-gfx/digikam glib gphoto2 lensfun thumbnails
 media-gfx/gimp exif jpeg pdf png svg tiff
 media-gfx/graphviz doc examples -perl python -ruby

@@ -25,3 +25,6 @@ media-sound/pulseaudio
 
 # dev-libs/libgcrypt:0/11 ("dev-libs/libgcrypt:0/11" is blocking dev-libs/libgcrypt-1.5.3-r100)
 >media-sound/spotify-0.9.4.183-r5
+
+# http://forums.gentoo.org/viewtopic-t-983998-start-0.html
+>=media-libs/libvorbis-1.3.4
