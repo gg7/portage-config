@@ -33,6 +33,7 @@ dev-libs/libxml2 icu
 dev-python/cherrypy doc
 dev-python/ipython mongodb
 dev-python/jinja doc examples i18n
+dev-python/pypy doc
 dev-qt/qtgui -gtk
 dev-ruby/activerecord postgres mysql
 dev-util/kdevelop cmake cxx qmake qthelp
