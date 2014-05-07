@@ -1,4 +1,5 @@
 media-libs/gstreamer
+sys-apps/systemd
 
 >sys-kernel/gentoo-sources-3.13.5
 <sys-kernel/gentoo-sources-3.13.5

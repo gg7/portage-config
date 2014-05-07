@@ -33,6 +33,7 @@ dev-java/icedtea-web ~*
 dev-lang/fsharp ~*
 dev-libs/log4cxx ~*
 dev-python/colorama ~*
+dev-python/cython ~*
 dev-python/mongoengine ~*
 dev-python/pypy ~*
 dev-python/sh ~*
@@ -463,15 +464,17 @@ dev-python/ipython ~*
 =dev-python/pexpect-3.0 ~amd64
 
 # required for activerecord 4
-=dev-ruby/thread_safe-0.1.3-r1 ~amd64
-=dev-ruby/arel-4.0.1 ~amd64
-=dev-ruby/builder-3.1.4 ~amd64
+=dev-ruby/activemodel-3.2.18 ~amd64
+=dev-ruby/activemodel-4.1.1 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
-=dev-ruby/mysql2-0.3.14 ~amd64
-=dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
-=dev-ruby/activesupport-4.0.2 ~amd64
+=dev-ruby/activesupport-3.2.18 ~amd64
+=dev-ruby/activesupport-4.1.1 ~amd64
+=dev-ruby/arel-4.0.1 ~amd64
 =dev-ruby/atomic-1.1.14 ~amd64
-=dev-ruby/activemodel-4.0.2 ~amd64
+=dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
+=dev-ruby/builder-3.1.4 ~amd64
+=dev-ruby/mysql2-0.3.14 ~amd64
+=dev-ruby/thread_safe-0.1.3-r1 ~amd64
 
 # required by jinja:
 =dev-python/markupsafe-0.18 ~amd64
@@ -545,4 +548,11 @@ sys-apps/smartmontools ~*
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667361
 =net-p2p/rtorrent-0.9.2 ~*
 =net-libs/libtorrent-0.13.2 ~*
+
+# required by kde-misc/redshift-plasmoid-0.6.2
+=kde-base/plasma-workspace-4.11.9 ~amd64
+
+# required by kde-base/kdebase-startkde-4.11.9
+# required by kde-base/kdebase-meta-4.12.5
+=kde-base/krunner-4.11.9 ~amd64
 

@@ -103,7 +103,8 @@ dev-java/junit
 dev-java/junit:0
 dev-java/maven-bin
 dev-java/mockito
-dev-java/oracle-jdk-bin
+dev-java/oracle-jdk-bin:1.7
+dev-java/oracle-jdk-bin:1.8
 dev-java/slf4j-log4j12
 dev-java/testng
 dev-java/tomcat-native
@@ -186,6 +187,7 @@ kde-base/ksnapshot
 kde-base/ktouch
 kde-misc/kcm-grub2
 kde-misc/kde-gtk-config
+kde-misc/redshift-plasmoid
 lxde-base/lxrandr
 mail-client/mutt
 mail-client/thunderbird
@@ -232,6 +234,8 @@ net-analyzer/arping
 net-analyzer/hping
 net-analyzer/iftop
 net-analyzer/macchanger
+net-analyzer/metasploit:4.9
+net-analyzer/namebench
 net-analyzer/nmap
 net-analyzer/openbsd-netcat
 net-analyzer/tcpdump
@@ -250,6 +254,7 @@ net-misc/bfgminer
 net-misc/curl
 net-misc/dhcpcd
 net-misc/dropbox
+net-misc/geoipupdate
 net-misc/httpie
 net-misc/knemo
 net-misc/livestreamer
@@ -321,7 +326,6 @@ sys-power/acpid
 sys-power/acpitool
 sys-power/cpupower
 sys-power/powertop
-sys-process/cronie
 sys-process/daemontools
 sys-process/glances
 sys-process/htop
@@ -356,6 +360,7 @@ x11-apps/xrandr
 x11-base/xorg-server
 x11-misc/arandr
 x11-misc/gmrun
+x11-misc/read-edid
 x11-misc/redshift
 x11-misc/trayer
 x11-misc/x11vnc
