@@ -337,8 +337,8 @@ dev-libs/apr-util -berkdb -gdbm mysql postgres -sqlite sqlite3
 virtual/jpeg static-libs
 media-libs/libjpeg-turbo static-libs
 
-# not needed:
-# dev-python/PyQt4 declarative webkit
+# dev-python/PyQt4[X,svg,webkit] required by (app-misc/anki-2.0.20::gentoo, installed)
+dev-python/PyQt4 svg webkit
 
 # required by thunderbird:
 # media-libs/libpng apng
