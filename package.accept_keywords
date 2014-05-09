@@ -101,7 +101,11 @@ x11-misc/redshift ~*
 media-video/vlc ~*
 =x11-libs/libvdpau-0.7 ~amd64
 
-# livestreamer
+# qterminal:
+x11-terms/qterminal ~*
+x11-libs/qtermwidget ~*
+
+# livestreamer:
 net-misc/livestreamer ~*
 =media-video/rtmpdump-2.4_p20131018 ~*
 
