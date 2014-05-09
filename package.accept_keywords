@@ -84,6 +84,7 @@ sys-auth/fprint_demo ~*
 sys-devel/crossdev ~*
 sys-devel/gcc:4.8 ~*
 sys-devel/gcc:4.9 ~*
+sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-kernel/gentoo-sources ~*
 sys-process/glances ~*
