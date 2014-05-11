@@ -106,7 +106,7 @@ net-nntp/sabnzbd rar ssl yenc rss unzip
 net-p2p/amule geoip gtk -remote -stats unicode
 net-p2p/deluge gtk
 net-p2p/eiskaltdcpp cli json -xmlrpc gtk
-net-p2p/ktorrent -bwscheduler downloadorder infowidget ipfilter -mediaplayer -rss scanfolder search shutdown stats -upnp -webinterface -zeroconf
+net-p2p/ktorrent -bwscheduler downloadorder infowidget ipfilter mediaplayer -rss scanfolder search shutdown stats -upnp -webinterface -zeroconf
 net-p2p/mldonkey gnutella gtk
 net-p2p/rtorrent daemon
 net-print/hplip X qt4
