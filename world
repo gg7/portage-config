@@ -173,6 +173,7 @@ games-board/knights
 games-misc/bsd-games
 games-misc/doge
 games-misc/fortune-mod
+games-strategy/wesnoth
 gnome-extra/zenity
 kde-base/ark
 kde-base/dolphin
