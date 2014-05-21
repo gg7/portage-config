@@ -32,6 +32,7 @@ dev-java/icedtea ~*
 dev-java/icedtea-bin ~*
 dev-java/icedtea-web ~*
 dev-lang/fsharp ~*
+dev-lang/rust ~*
 dev-libs/log4cxx ~*
 dev-python/colorama ~*
 dev-python/mongoengine ~*

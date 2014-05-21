@@ -15,6 +15,7 @@ app-admin/salt
 app-admin/sudo
 app-admin/syslog-ng
 app-antivirus/clamav
+app-arch/deb2targz
 app-arch/duff
 app-arch/lzop
 app-arch/p7zip
@@ -65,6 +66,7 @@ app-misc/ompload
 app-misc/sl
 app-misc/tmux
 app-misc/tmux-mem-cpu-load
+app-misc/uptimed
 app-misc/vifm
 app-office/dia
 app-office/libreoffice
@@ -76,6 +78,7 @@ app-portage/genlop
 app-portage/gentoolkit
 app-portage/gentoolkit-dev
 app-portage/layman
+app-portage/mirrorselect
 app-shells/autojump
 app-shells/bash-completion
 app-shells/zsh
@@ -84,7 +87,9 @@ app-text/XML-Schema-learner
 app-text/acroread
 app-text/ansifilter
 app-text/diffpdf
+app-text/dos2unix
 app-text/fbreader
+app-text/htmltidy
 app-text/kchmviewer
 app-text/mupdf
 app-text/nfoview
@@ -115,6 +120,7 @@ dev-db/couchdb
 dev-db/mongodb
 dev-db/mysql
 dev-db/pgadmin3
+dev-db/phppgadmin
 dev-db/postgresql-base
 dev-db/postgresql-docs
 dev-db/postgresql-server
@@ -125,18 +131,21 @@ dev-db/sqliteman
 dev-dotnet/gnomevfs-sharp
 dev-dotnet/gtk-sharp
 dev-haskell/cabal-install
+dev-haskell/haskell-platform
 dev-haskell/hlint
 dev-haskell/math-functions
 dev-java/ant
 dev-java/ant-contrib
-dev-java/icedtea:7
+dev-java/icedtea
 dev-java/icedtea-bin:6
 dev-java/icedtea-bin:7
+dev-java/icedtea:7
 dev-java/maven-bin
 dev-java/oracle-jdk-bin:1.7
 dev-java/oracle-jdk-bin:1.8
 dev-lang/fsharp
 dev-lang/ghc
+dev-lang/go
 dev-lang/gprolog
 dev-lang/mono
 dev-lang/perl
@@ -147,6 +156,7 @@ dev-lang/python:3.2
 dev-lang/python:3.3
 dev-lang/ruby
 dev-lang/ruby:1.9
+dev-lang/rust
 dev-libs/boost
 dev-libs/boost:0
 dev-libs/geoip
@@ -159,6 +169,7 @@ dev-python/bpython
 dev-python/celery
 dev-python/colorama
 dev-python/couchdb-python
+dev-python/cython
 dev-python/django
 dev-python/django-annoying
 dev-python/django-extensions
@@ -167,6 +178,7 @@ dev-python/django-registration
 dev-python/flake8
 dev-python/flask
 dev-python/ipython
+dev-python/jinja
 dev-python/lxml
 dev-python/mongoengine
 dev-python/pep8
@@ -179,6 +191,7 @@ dev-python/pygments
 dev-python/pyliblzma
 dev-python/pylint
 dev-python/pymongo
+dev-python/pypy
 dev-python/redis-py
 dev-python/requests
 dev-python/rst2pdf
@@ -196,6 +209,7 @@ dev-tex/catdvi
 dev-tex/tex4ht
 dev-util/astyle
 dev-util/bcpp
+dev-util/ccache
 dev-util/cccc
 dev-util/cdecl
 dev-util/checkbashisms
@@ -203,6 +217,7 @@ dev-util/checkstyle
 dev-util/cloc
 dev-util/colorgcc
 dev-util/cppcheck
+dev-util/ctags
 dev-util/ddd
 dev-util/dwarves
 dev-util/dwdiff
@@ -221,6 +236,7 @@ dev-util/weka
 dev-vcs/bzr
 dev-vcs/cvs
 dev-vcs/cvs-fast-export
+dev-vcs/darcs
 dev-vcs/git
 dev-vcs/git-annex
 dev-vcs/gitg
@@ -239,6 +255,7 @@ games-arcade/syobon
 games-board/qgo
 games-misc/bsd-games
 games-misc/cowsay
+games-misc/doge
 games-misc/fortune-mod
 games-misc/fortune-mod-gentoo-forums
 games-misc/fortune-mod-slackware
@@ -256,8 +273,10 @@ kde-base/katomic
 kde-base/kcachegrind
 kde-base/kcalc
 kde-base/kcolorchooser
+kde-base/kdeartwork-meta
 kde-base/kdebase-meta
 kde-base/kdegraphics-mobipocket
+kde-base/kdemultimedia-meta
 kde-base/khangman
 kde-base/kig
 kde-base/kigo
@@ -342,6 +361,7 @@ media-sound/quimup
 media-sound/quodlibet
 media-sound/spotify
 media-video/ffmpeg
+media-video/ffmpeg2theora
 media-video/get_flash_videos
 media-video/gtk-recordmydesktop
 media-video/guvcview
@@ -362,6 +382,7 @@ net-analyzer/hping
 net-analyzer/hydra
 net-analyzer/iftop
 net-analyzer/macchanger
+net-analyzer/metasploit:4.9
 net-analyzer/mtr
 net-analyzer/namebench
 net-analyzer/nethogs
@@ -384,6 +405,7 @@ net-libs/nodejs
 net-libs/zeromq
 net-misc/aria2
 net-misc/badvpn
+net-misc/bfgminer
 net-misc/bridge-utils
 net-misc/curl
 net-misc/dhcpcd
@@ -396,6 +418,7 @@ net-misc/memcached
 net-misc/netifrc
 net-misc/ntp
 net-misc/ntpclient
+net-misc/openssh
 net-misc/openvpn
 net-misc/proxychains
 net-misc/rdate
@@ -434,6 +457,7 @@ sci-mathematics/minisat
 sci-mathematics/octave
 sci-mathematics/qtoctave
 sys-apps/ack
+sys-apps/cpuid
 sys-apps/dmidecode
 sys-apps/dstat
 sys-apps/ethtool
@@ -474,6 +498,7 @@ sys-devel/gdb
 sys-devel/llvm
 sys-firmware/b43-firmware
 sys-fs/btrfs-progs
+sys-fs/cryptsetup
 sys-fs/inotify-tools
 sys-fs/jfsutils
 sys-fs/lvm2
@@ -500,7 +525,6 @@ sys-process/iotop
 sys-process/latencytop
 sys-process/lsof
 sys-process/parallel
-virtual/libc
 www-apache/mod_fastcgi
 www-apache/mod_wsgi
 www-client/casperjs
@@ -517,9 +541,11 @@ www-client/uzbl
 www-client/w3m
 www-plugins/adobe-flash
 www-servers/apache
+www-servers/gunicorn
 www-servers/lighttpd
 www-servers/nginx
 www-servers/spawn-fcgi
+www-servers/tomcat:7
 x11-apps/mesa-progs
 x11-apps/xbacklight
 x11-apps/xclock
