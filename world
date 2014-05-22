@@ -87,6 +87,7 @@ app-text/XML-Schema-learner
 app-text/acroread
 app-text/ansifilter
 app-text/diffpdf
+app-text/djvu
 app-text/dos2unix
 app-text/fbreader
 app-text/htmltidy
@@ -412,6 +413,7 @@ net-misc/dhcpcd
 net-misc/dropbox
 net-misc/geoipupdate
 net-misc/httpie
+net-misc/keychain
 net-misc/knemo
 net-misc/livestreamer
 net-misc/memcached
@@ -466,6 +468,7 @@ sys-apps/hwinfo
 sys-apps/i2c-tools
 sys-apps/idle3-tools
 sys-apps/iproute2
+sys-apps/irqbalance
 sys-apps/less
 sys-apps/lm_sensors
 sys-apps/lshw
@@ -475,6 +478,7 @@ sys-apps/moreutils
 sys-apps/paludis
 sys-apps/pciutils
 sys-apps/portage
+sys-apps/preload
 sys-apps/pv
 sys-apps/sdparm
 sys-apps/smartmontools
@@ -496,6 +500,7 @@ sys-devel/gcc:4.7
 sys-devel/gcc:4.8
 sys-devel/gdb
 sys-devel/llvm
+sys-devel/prelink
 sys-firmware/b43-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
@@ -579,6 +584,7 @@ x11-misc/xcompmgr
 x11-misc/xmobar
 x11-misc/xrestop
 x11-misc/xscreensaver
+x11-terms/qterminal
 x11-terms/rxvt-unicode
 x11-themes/audacious-themes
 x11-themes/crystal
