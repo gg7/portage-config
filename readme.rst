@@ -12,3 +12,13 @@ You can find the actual config files in the various branches of this repo:
 
   * `home <https://github.com/gg7/portage-config/tree/home>`_
   * `work <https://github.com/gg7/portage-config/tree/work>`_
+
+Synchronisation
+---------------
+
+.. code :: sh
+
+  git cherry-pick --no-commit REF
+  git commit
+  git tag home-synced REF
+  git tag work-synced REF
