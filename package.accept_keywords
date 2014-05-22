@@ -43,7 +43,6 @@ dev-ruby/activerecord ~*
 dev-util/checkbashisms ~*
 dev-util/checkstyle ~*
 dev-util/cloc ~*
-dev-util/dissy ~*
 dev-util/dwarves ~*
 dev-util/dwdiff ~*
 dev-util/flawfinder ~*
@@ -57,7 +56,6 @@ dev-vcs/vcsh ~*
 games-fps/ut2004-crossfire ~*
 games-misc/doge ~*
 gnustep-apps/batmon ~*
-kde-misc/redshift-plasmoid ~*
 media-fonts/takao-fonts ~*
 media-libs/fontconfig ~*
 media-sound/bpmdetect ~*
@@ -67,9 +65,7 @@ media-sound/mp3diags ~*
 media-sound/pianobar ~*
 media-sound/qtmpc ~*
 media-sound/spotify ~*
-media-sound/tomahawk ~*
 media-video/get_flash_videos ~*
-media-video/istanbul ~*
 media-video/luvcview ~*
 net-analyzer/openbsd-netcat ~*
 net-im/skype ~*
@@ -77,7 +73,6 @@ net-misc/vidalia ~*
 net-misc/youtube-dl ~*
 net-p2p/dogecoin-qt ~*
 net-p2p/linuxdcpp ~*
-net-print/hplip ~*
 sci-mathematics/minisat ~*
 sys-apps/ack ~*
 sys-apps/paludis ~*
@@ -151,7 +146,7 @@ dev-java/mockito ~*
 =dev-java/objenesis-1.3 ~amd64
 
 # slf4j
-=dev-java/slf4j-api-1.7.5 ~amd64
+=dev-java/slf4j-api-1.7.5-r1 ~amd64
 =dev-java/slf4j-log4j12-1.7.5 ~amd64
 
 # zfs
@@ -327,11 +322,6 @@ dev-haskell/lens ~*
 =dev-haskell/lens-3.10.0.1 ~amd64
 =dev-haskell/reflection-1.3.2 ~amd64
 
-# pandoc:
-app-text/pandoc ~*
-=dev-haskell/highlighting-kate-0.5.6.1 ~amd64
-=dev-haskell/texmath-0.6.6 ~amd64
-
 # hlint:
 dev-haskell/hlint ~*
 =dev-haskell/haskell-src-exts-1.14.0 ~amd64
@@ -368,6 +358,7 @@ dev-vcs/git-annex ~*
 =dev-haskell/byteorder-1.0.4 ~amd64
 =dev-haskell/clientsession-0.9.0.3 ~amd64
 =dev-haskell/comonad-4.0 ~amd64
+=dev-haskell/conduit-1.0.15.1 ~amd64
 =dev-haskell/connection-0.2.0 ~amd64
 =dev-haskell/contravariant-0.4.4 ~amd64
 =dev-haskell/control-monad-loop-0.1 ~amd64
@@ -449,6 +440,7 @@ dev-vcs/git-annex ~*
 =dev-haskell/tasty-hunit-0.8.0.1 ~amd64
 =dev-haskell/tasty-quickcheck-0.8 ~amd64
 =dev-haskell/tasty-rerun-1.1.2 ~amd64
+=dev-haskell/text-stream-decode-0.1.0.5 ~amd64
 =dev-haskell/tls-1.2.2 ~amd64
 =dev-haskell/transformers-compat-0.1.1.1 ~amd64
 =dev-haskell/unbounded-delays-0.1.0.5-r1 ~amd64
@@ -501,15 +493,12 @@ dev-python/ipython ~*
 =dev-python/pexpect-3.0 ~amd64
 
 # required for activerecord 4
-=dev-ruby/thread_safe-0.1.3-r1 ~amd64
+=dev-ruby/thread_safe-0.3.3 ~amd64
 =dev-ruby/arel-4.0.1 ~amd64
 =dev-ruby/builder-3.1.4 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
-=dev-ruby/mysql2-0.3.14 ~amd64
-=dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
-=dev-ruby/activesupport-4.0.2 ~amd64
-=dev-ruby/atomic-1.1.14 ~amd64
-=dev-ruby/activemodel-4.0.2 ~amd64
+=dev-ruby/mysql2-0.3.16 ~amd64
+=dev-ruby/atomic-1.1.16 ~amd64
 
 # required by jinja:
 =dev-python/markupsafe-0.18 ~amd64
