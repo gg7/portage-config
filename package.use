@@ -343,3 +343,6 @@ dev-python/PyQt4 svg webkit
 # required by thunderbird:
 # media-libs/libpng apng
 
+# required by sys-devel/prelink-20130503
+dev-libs/elfutils static-libs
+
