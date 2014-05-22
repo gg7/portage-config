@@ -134,7 +134,6 @@ dev-dotnet/gtk-sharp
 dev-haskell/cabal-install
 dev-haskell/haskell-platform
 dev-haskell/hlint
-dev-haskell/math-functions
 dev-java/ant
 dev-java/ant-contrib
 dev-java/icedtea
