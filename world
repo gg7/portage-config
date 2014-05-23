@@ -193,7 +193,6 @@ kde-base/ktouch
 kde-base/okular
 kde-misc/kcm-grub2
 kde-misc/kde-gtk-config
-kde-misc/redshift-plasmoid
 lxde-base/lxrandr
 mail-client/mutt
 mail-client/thunderbird
