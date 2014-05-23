@@ -90,6 +90,7 @@ sys-kernel/gentoo-sources ~*
 sys-process/glances ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
+x11-misc/urxvt-font-size ~*
 
 # qterminal:
 x11-terms/qterminal ~*

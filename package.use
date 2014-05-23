@@ -4,9 +4,9 @@ app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
 app-cdr/k3b dvd encode ffmpeg flac handbook mp3 musicbrainz taglib vorbis wav
-app-editors/gvim bash-completion cscope gtk -gpm -motif netbeans -nextaw -nls perl python -ruby
+app-editors/gvim bash-completion cscope gtk -gpm -motif netbeans -nextaw -nls perl python ruby
 app-editors/nano ncurses minimal unicode
-app-editors/vim bash-completion cscope gpm -nls vim-pager perl python -ruby
+app-editors/vim bash-completion cscope gpm -nls vim-pager perl python ruby
 app-emulation/vagrant ruby_targets_ruby20
 app-emulation/virtualbox -additions
 app-emulation/virtualbox-bin -additions

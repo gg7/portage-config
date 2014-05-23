@@ -249,6 +249,7 @@ net-analyzer/tcptraceroute
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-dns/bind-tools
+net-dns/host
 net-firewall/iptables
 net-im/skype
 net-irc/hexchat
@@ -294,6 +295,7 @@ sys-apps/ethtool
 sys-apps/hdparm
 sys-apps/hwinfo
 sys-apps/iproute2
+sys-apps/irqbalance
 sys-apps/lm_sensors
 sys-apps/lshw
 sys-apps/memtest86+
@@ -301,6 +303,7 @@ sys-apps/mlocate
 sys-apps/moreutils
 sys-apps/pciutils
 sys-apps/portage
+sys-apps/preload
 sys-apps/pv
 sys-apps/sdparm
 sys-apps/smartmontools
@@ -373,8 +376,11 @@ x11-misc/gmrun
 x11-misc/read-edid
 x11-misc/redshift
 x11-misc/trayer
+x11-misc/urxvt-font-size
+x11-misc/wmctrl
 x11-misc/x11vnc
 x11-misc/xclip
+x11-misc/xdotool
 x11-misc/xmobar
 x11-misc/xscreensaver
 x11-terms/qterminal
