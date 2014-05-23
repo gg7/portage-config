@@ -18,7 +18,8 @@ Synchronisation
 
 .. code :: sh
 
+  git log work-synced..work
   git cherry-pick --no-commit REF
   git commit
-  git tag home-synced REF
-  git tag work-synced REF
+  git tag -f home-synced REF
+  git tag -f work-synced REF
