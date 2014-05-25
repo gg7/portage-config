@@ -3,8 +3,6 @@ media-sound/pulseaudio
 # only required by clementine
 # media-libs/gstreamer
 
->=net-im/skype-3
-
 # kernel version lock:
 <sys-kernel/gentoo-sources-3.12.15
 >sys-kernel/gentoo-sources-3.12.15
