@@ -207,6 +207,7 @@ dev-python/virtualenvwrapper
 dev-python/werkzeug
 dev-ruby/bundler
 dev-ruby/ffi
+dev-scheme/racket
 dev-tex/catdvi
 dev-tex/tex4ht
 dev-util/astyle
