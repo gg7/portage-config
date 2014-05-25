@@ -34,6 +34,7 @@ dev-java/icedtea-web ~*
 dev-lang/fsharp ~*
 dev-lang/rust ~*
 dev-libs/log4cxx ~*
+dev-libs/msgpack ~*
 dev-python/colorama ~*
 dev-python/mongoengine ~*
 dev-python/pypy ~*

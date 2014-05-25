@@ -212,6 +212,9 @@ media-libs/gd fontconfig
 app-emulation/qemu sdl vde
 app-emulation/libvirt libvirtd -lxc -nls policykit -python qemu virtualbox -xen virt-network
 
+# mesg/wall/write:
+sys-apps/util-linux tty-helpers
+
 # python webdev:
 dev-python/django doc -mysql postgres sqlite vhosts python_targets_python2_7 python_targets_python3_3
 dev-python/django-extensions graphviz

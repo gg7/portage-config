@@ -162,7 +162,9 @@ dev-libs/boost:0
 dev-libs/geoip
 dev-libs/libstrl
 dev-libs/log4cxx
+dev-libs/msgpack
 dev-libs/openssl
+dev-libs/protobuf
 dev-libs/udis86
 dev-python/bottle
 dev-python/bpython
