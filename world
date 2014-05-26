@@ -214,6 +214,7 @@ media-fonts/ttf-bitstream-vera
 media-fonts/unifont
 media-gfx/dispcalgui
 media-gfx/feh
+media-gfx/fondu
 media-gfx/gimp
 media-gfx/gpicview
 media-gfx/graphviz
