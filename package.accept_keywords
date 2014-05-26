@@ -327,7 +327,6 @@ dev-vcs/git-annex ~*
 =dev-haskell/byteorder-1.0.4 ~amd64
 =dev-haskell/clientsession-0.9.0.3 ~amd64
 =dev-haskell/comonad-4.0 ~amd64
-=dev-haskell/conduit-1.0.15.1 ~amd64
 =dev-haskell/connection-0.2.0 ~amd64
 =dev-haskell/contravariant-0.4.4 ~amd64
 =dev-haskell/control-monad-loop-0.1 ~amd64
@@ -409,7 +408,6 @@ dev-vcs/git-annex ~*
 =dev-haskell/tasty-hunit-0.8.0.1 ~amd64
 =dev-haskell/tasty-quickcheck-0.8 ~amd64
 =dev-haskell/tasty-rerun-1.1.2 ~amd64
-=dev-haskell/text-1.1.0.1 ~amd64
 =dev-haskell/text-stream-decode-0.1.0.5 ~amd64
 =dev-haskell/tls-1.2.2 ~amd64
 =dev-haskell/transformers-compat-0.1.1.1 ~amd64
