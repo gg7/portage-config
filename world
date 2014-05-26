@@ -261,7 +261,6 @@ net-misc/curl
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/geoipupdate
-net-misc/hotot
 net-misc/httpie
 net-misc/keychain
 net-misc/knemo
