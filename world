@@ -139,6 +139,7 @@ dev-python/sphinx
 dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-ruby/bundler
+dev-scheme/racket
 dev-util/astyle
 dev-util/ccache
 dev-util/cdecl

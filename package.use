@@ -44,6 +44,7 @@ dev-python/jinja doc examples i18n
 dev-python/pypy doc
 dev-qt/qtgui -gtk
 dev-ruby/activerecord postgres mysql
+dev-scheme/racket doc jit plot
 dev-util/kdevelop cmake cxx qmake qthelp
 dev-util/kdevplatform subversion
 dev-util/ninja doc
