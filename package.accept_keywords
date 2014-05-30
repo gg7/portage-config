@@ -48,7 +48,6 @@ dev-util/cloc ~*
 dev-util/dwarves ~*
 dev-util/dwdiff ~*
 dev-util/flawfinder ~*
-dev-util/nvidia-cuda-sdk ~*
 dev-util/perf ~*
 dev-util/scanmem ~*
 dev-vcs/cvs-fast-export ~*
