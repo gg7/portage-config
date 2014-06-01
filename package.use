@@ -83,6 +83,7 @@ media-sound/mixxx tonal
 media-sound/mpd aac ao cue -debug ffmpeg flac id3 inotify mad network ogg oss soundcloud sqlite unicode vorbis
 media-sound/picard cdda coverart ffmpeg
 media-video/ffmpeg doc examples opus rtmp libcaca
+media-video/handbrake ffmpeg gtk
 media-video/transcode a52 aac dvd mp3 mpeg ogg postproc quicktime theora v4l2 vorbis x264 xvid
 net-analyzer/dsniff -X
 net-analyzer/ettercap gtk ncurses ssl

@@ -62,6 +62,7 @@ media-sound/pianobar ~*
 media-sound/qtmpc ~*
 media-sound/spotify ~*
 media-video/get_flash_videos ~*
+media-video/handbrake ~*
 media-video/luvcview ~*
 media-video/vlc ~*
 net-analyzer/openbsd-netcat ~*
