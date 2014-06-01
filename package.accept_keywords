@@ -86,6 +86,11 @@ sys-process/glances ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
 
+# 0ad:
+games-strategy/0ad ~*
+games-strategy/0ad-data ~*
+=dev-lang/spidermonkey-24.2.0-r2 ~amd64
+
 # nvidia:
 # http://www.nvidia.com/Download/index.aspx?lang=en-us
 # =x11-drivers/nvidia-drivers-331.20 **
