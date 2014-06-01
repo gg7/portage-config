@@ -262,6 +262,7 @@ games-misc/doge
 games-misc/fortune-mod
 games-misc/fortune-mod-gentoo-forums
 games-misc/fortune-mod-slackware
+games-strategy/0ad
 games-util/steam-client-meta
 games-util/steam-games-meta
 games-util/steam-launcher
@@ -367,6 +368,7 @@ media-video/ffmpeg2theora
 media-video/get_flash_videos
 media-video/gtk-recordmydesktop
 media-video/guvcview
+media-video/handbrake
 media-video/kdenlive
 media-video/luvcview
 media-video/mplayer
