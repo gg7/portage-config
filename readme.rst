@@ -2,13 +2,13 @@ Stats
 -----
 
 +--------------------+------+
-| Packages installed | 2295 |
+| Packages installed | 2267 |
 +--------------------+------+
-| Packages in world  |  599 |
+| Packages in world  |  602 |
 +--------------------+------+
 | Packages in system |   44 |
 +--------------------+------+
-| Required packages  | 2294 |
+| Required packages  | 2267 |
 +--------------------+------+
 
 (Updated weeekly)
