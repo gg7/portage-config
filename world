@@ -74,6 +74,7 @@ app-text/texlive
 app-text/tree
 app-text/xchm
 app-vim/align
+app-vim/colorschemes
 app-vim/gentoo-syntax
 app-vim/nginx-syntax
 app-vim/ntp-syntax
@@ -124,6 +125,7 @@ dev-libs/openssl
 dev-libs/protobuf
 dev-python/bpython
 dev-python/cython
+dev-python/dreampie
 dev-python/flask
 dev-python/ipython
 dev-python/jinja
@@ -142,6 +144,7 @@ dev-python/sphinx
 dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-ruby/bundler
+dev-ruby/pry
 dev-scheme/racket
 dev-util/astyle
 dev-util/ccache
