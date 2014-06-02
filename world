@@ -72,6 +72,7 @@ app-text/pdftk
 app-text/sloccount
 app-text/texlive
 app-text/tree
+app-text/xchm
 app-vim/align
 app-vim/gentoo-syntax
 app-vim/nginx-syntax
