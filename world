@@ -118,7 +118,9 @@ dev-libs/boost
 dev-libs/geoip
 dev-libs/libstrl
 dev-libs/log4cxx
+dev-libs/msgpack
 dev-libs/openssl
+dev-libs/protobuf
 dev-python/bpython
 dev-python/cython
 dev-python/flask
@@ -234,6 +236,7 @@ media-video/ffmpeg2theora
 media-video/get_flash_videos
 media-video/gtk-recordmydesktop
 media-video/guvcview
+media-video/handbrake
 media-video/mplayer
 media-video/smplayer
 media-video/vlc
