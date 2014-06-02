@@ -27,9 +27,6 @@ dev-db/couchdb ~*
 dev-db/pgbadger ~*
 dev-db/pgtune ~*
 dev-db/sqlitebrowser ~*
-dev-java/icedtea ~*
-dev-java/icedtea-bin ~*
-dev-java/icedtea-web ~*
 dev-lang/fsharp ~*
 dev-libs/log4cxx ~*
 dev-libs/msgpack ~*
@@ -110,6 +107,11 @@ dev-java/oracle-jdk-bin:1.8 ~*
 dev-java/oracle-jre-bin:1.8 ~*
 dev-util/visualvm ~*
 virtual/jdk ~*
+
+# icedtea:
+dev-java/icedtea ~*
+dev-java/icedtea-bin ~*
+dev-java/icedtea-web ~*
 
 # testng
 dev-java/testng ~*
