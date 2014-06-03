@@ -137,6 +137,7 @@ dev-haskell/hlint
 dev-java/ant
 dev-java/ant-contrib
 dev-java/icedtea
+dev-java/icedtea-bin
 dev-java/icedtea-bin:6
 dev-java/icedtea-bin:7
 dev-java/icedtea:7
