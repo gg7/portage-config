@@ -45,6 +45,7 @@ app-office/libreoffice
 app-portage/eix
 app-portage/elogv
 app-portage/emerge-delta-webrsync
+app-portage/fquery
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
@@ -294,6 +295,7 @@ net-proxy/tsocks
 net-wireless/aircrack-ng
 net-wireless/iw
 net-wireless/rfkill
+sci-mathematics/agda
 sci-mathematics/minisat
 sys-apps/ack
 sys-apps/cpuid

@@ -89,6 +89,13 @@ x11-misc/read-edid ~*
 x11-misc/redshift ~*
 x11-misc/urxvt-font-size ~*
 
+# agda:
+sci-mathematics/agda ~*
+=sci-mathematics/agda-executable-2.3.0.1-r2 ~amd64
+=sci-mathematics/agda-stdlib-0.7-r1 ~amd64
+=dev-haskell/geniplate-0.6.0.3 ~amd64
+=dev-haskell/filemanip-0.3.6.2 ~amd64
+
 # pry:
 dev-ruby/pry ~*
 # required by dev-ruby/pry-0.9.12.6[ruby_targets_ruby19]
