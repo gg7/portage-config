@@ -33,6 +33,7 @@ dev-lang/rust ~*
 dev-libs/log4cxx ~*
 dev-libs/msgpack ~*
 dev-python/colorama ~*
+dev-python/dreampie ~*
 dev-python/mongoengine ~*
 dev-python/pypy ~*
 dev-python/sh ~*
@@ -99,6 +100,15 @@ games-strategy/0ad-data ~*
 # vlc
 media-video/vlc ~*
 =x11-libs/libvdpau-0.7 ~amd64
+
+# pry:
+dev-ruby/pry ~*
+# required by dev-ruby/pry-0.9.12.6[ruby_targets_ruby19]
+# required by dev-ruby/pry (argument)
+=dev-ruby/slop-3.5.0 ~amd64
+# required by dev-ruby/pry-0.9.12.6[ruby_targets_ruby19]
+# required by dev-ruby/pry (argument)
+=dev-ruby/method_source-0.8.2-r2 ~amd64
 
 # qterminal:
 x11-terms/qterminal ~*
