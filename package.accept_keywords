@@ -16,6 +16,7 @@ app-emulation/vmware-player ~*
 app-misc/bb ~*
 app-misc/elasticsearch ~*
 app-misc/tmux-mem-cpu-load ~*
+app-portage/fquery ~*
 app-shells/autojump ~*
 app-text/XML-Schema-learner ~*
 app-text/ansifilter ~*
