@@ -178,6 +178,7 @@ dev-python/django-annoying
 dev-python/django-extensions
 dev-python/django-piston
 dev-python/django-registration
+dev-python/dreampie
 dev-python/flake8
 dev-python/flask
 dev-python/ipython
@@ -208,6 +209,7 @@ dev-python/virtualenvwrapper
 dev-python/werkzeug
 dev-ruby/bundler
 dev-ruby/ffi
+dev-ruby/pry
 dev-scheme/racket
 dev-tex/catdvi
 dev-tex/tex4ht
@@ -459,6 +461,7 @@ net-wireless/b43-fwcutter
 net-wireless/iw
 net-wireless/pyrit
 net-wireless/rfkill
+sci-mathematics/agda
 sci-mathematics/minisat
 sci-mathematics/octave
 sci-mathematics/qtoctave
