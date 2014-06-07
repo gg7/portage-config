@@ -210,6 +210,7 @@ dev-python/werkzeug
 dev-ruby/bundler
 dev-ruby/ffi
 dev-ruby/pry
+dev-ruby/tilt
 dev-scheme/racket
 dev-tex/catdvi
 dev-tex/tex4ht

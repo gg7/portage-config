@@ -3,9 +3,9 @@ app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
 app-cdr/k3b dvd encode ffmpeg flac handbook mp3 musicbrainz taglib vorbis wav
 app-crypt/hashcat-gui cuda opencl
-app-editors/gvim bash-completion cscope gtk -gpm lua -motif -netbeans -nextaw -nls perl python -ruby
+app-editors/gvim bash-completion cscope gtk -gpm lua -motif -netbeans -nextaw -nls perl python ruby
 app-editors/nano ncurses minimal unicode
-app-editors/vim bash-completion cscope gpm lua -nls vim-pager perl python -ruby
+app-editors/vim bash-completion cscope gpm lua -nls vim-pager perl python ruby
 app-emulation/virtualbox -additions extensions
 app-emulation/virtualbox-bin -additions extensions
 app-emulation/wine custom-cflags gecko -nls -mono prelink threads truetype -udisks win32 -win64
@@ -350,3 +350,6 @@ dev-python/PyQt4 svg webkit
 # required by sys-devel/prelink-20130503
 dev-libs/elfutils static-libs
 
+# qt 5:
+=dev-libs/libpcre-8.33 pcre16
+=dev-qt/qtcore-5.3.0 icu
