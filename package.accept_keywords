@@ -50,6 +50,7 @@ dev-util/flawfinder ~*
 dev-util/perf ~*
 dev-util/scanmem ~*
 dev-vcs/cvs-fast-export ~*
+dev-vcs/gitinspector ~*
 dev-vcs/gitstats ~*
 dev-vcs/hub ~*
 dev-vcs/vcsh ~*

@@ -247,6 +247,7 @@ dev-vcs/darcs
 dev-vcs/git
 dev-vcs/git-annex
 dev-vcs/gitg
+dev-vcs/gitinspector
 dev-vcs/gitolite
 dev-vcs/gitstats
 dev-vcs/hub
