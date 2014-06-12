@@ -534,6 +534,7 @@ net-analyzer/metasploit:4.9 ~*
 =dev-ruby/pcaprub-0.11.3-r1 ~amd64
 =dev-ruby/rb-readline-0.5.1 ~amd64
 =dev-ruby/rjb-1.4.9 ~amd64
+=dev-ruby/rkelly-remix-0.0.6 ~amd64
 =dev-ruby/robots-0.10.1-r2 ~amd64
 =dev-ruby/tzinfo-1.1.0 ~amd64
 
