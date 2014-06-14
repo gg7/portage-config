@@ -139,7 +139,7 @@ www-client/phantomjs examples doc pack text-rendering
 www-client/phantomjs-bin examples doc
 www-client/rekonq -kde
 www-client/w3m fbcon gpm imlib ssl unicode -xface
-www-plugins/adobe-flash abi_x86_32 abi_x86_64 kde vdpau
+www-plugins/adobe-flash -abi_x86_32 abi_x86_64 kde vdpau
 www-plugins/gnash -python gtk nsplugin
 www-plugins/lightspark nsplugin
 www-servers/apache -doc ssl threads
