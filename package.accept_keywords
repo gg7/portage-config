@@ -84,10 +84,13 @@ sys-devel/gcc:4.9 ~*
 sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-kernel/gentoo-sources ~*
-sys-process/glances ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
 x11-misc/urxvt-font-size ~*
+
+# glances:
+sys-process/glances ~*
+=dev-python/psutil-2.1.1 ~amd64
 
 # agda:
 sci-mathematics/agda ~*
@@ -368,6 +371,7 @@ dev-vcs/git-annex ~*
 =dev-haskell/email-validate-2.0.1 ~amd64
 =dev-haskell/entropy-0.2.2.4 ~amd64
 =dev-haskell/errors-1.4.5 ~amd64
+=dev-haskell/exceptions-0.6.1 ~amd64
 =dev-haskell/fast-logger-2.1.5 ~amd64
 =dev-haskell/feed-0.3.8-r1 ~amd64
 =dev-haskell/file-embed-0.0.6 ~amd64
