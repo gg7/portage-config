@@ -561,6 +561,7 @@ sys-apps/smartmontools ~*
 
 # needed for dev
 =media-video/ffmpeg-1.2.6 ~*
+=virtual/ffmpeg-9 ~amd64
 
 # vim 7.4 supports '~/.vim/'
 =app-editors/vim-7.4.273 ~*
