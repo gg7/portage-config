@@ -26,3 +26,10 @@ media-sound/pulseaudio
 
 # http://forums.gentoo.org/viewtopic-t-983998-start-0.html
 >=media-libs/libvorbis-1.3.4
+
+# # required by virtual/ffmpeg-9-r1
+# # required by media-sound/pianobar-2014.06.08
+# # required by @selected
+# # required by @world (argument)
+# =media-video/libav-9.14 ~amd64
+>media-sound/pianobar-2013.09.15
