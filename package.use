@@ -164,6 +164,9 @@ x11-themes/gtk-engines-qtcurve -firefox3 -mozilla
 x11-wm/xmonad default-term doc hscolour
 x11-wm/xmonad-contrib doc hscolour xft
 
+# soundcloud2000
+media-sound/mpg123 portaudio
+
 # needed for FEATURES="compressdebug"
 sys-devel/binutils zlib
 sys-devel/gdb expat lzma zlib
