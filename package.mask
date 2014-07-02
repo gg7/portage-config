@@ -7,6 +7,3 @@ sys-apps/systemd
 # <sys-devel/llvm-3.4 required by (media-libs/mesa-9.1.6::gentoo, installed)
 >=sys-devel/llvm-3.4
 >=sys-devel/clang-3.4
-
-# dev-libs/libgcrypt:0/11 ("dev-libs/libgcrypt:0/11" is blocking dev-libs/libgcrypt-1.5.3-r100)
->media-sound/spotify-0.9.4.183-r5
