@@ -84,6 +84,7 @@ sys-devel/gcc:4.9 ~*
 sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-kernel/gentoo-sources ~*
+sys-process/nmon ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
 x11-misc/urxvt-font-size ~*

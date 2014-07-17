@@ -353,6 +353,7 @@ sys-process/glances
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
+sys-process/nmon
 sys-process/parallel
 www-apache/mod_fastcgi
 www-apache/mod_wsgi
