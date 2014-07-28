@@ -110,6 +110,7 @@ net-p2p/eiskaltdcpp cli json -xmlrpc gtk
 net-p2p/ktorrent -bwscheduler downloadorder infowidget ipfilter mediaplayer -rss scanfolder search shutdown stats -upnp -webinterface -zeroconf
 net-p2p/mldonkey gnutella gtk
 net-p2p/rtorrent daemon
+net-print/cups -usb
 net-print/hplip X qt4
 net-proxy/tsocks tordns
 net-wireless/pyrit cuda opencl

@@ -1,4 +1,4 @@
-# 9999
+# -9999:
 # =media-sound/pianobar-9999 **
 =net-p2p/linuxdcpp-9999 **
 
@@ -93,11 +93,18 @@ sys-process/glances ~*
 =dev-python/psutil-2.1.1 ~amd64
 
 # agda:
-sci-mathematics/agda ~*
-=sci-mathematics/agda-executable-2.3.0.1-r2 ~amd64
-=sci-mathematics/agda-stdlib-0.7-r1 ~amd64
-=dev-haskell/geniplate-0.6.0.3 ~amd64
-=dev-haskell/filemanip-0.3.6.2 ~amd64
+# sci-mathematics/agda ~*
+# =dev-haskell/boxes-0.1.3 ~amd64
+# =dev-haskell/data-hash-0.2.0.0 ~amd64
+# =dev-haskell/equivalence-0.2.3 ~amd64
+# =dev-haskell/filemanip-0.3.6.2 ~amd64
+# =dev-haskell/geniplate-0.6.0.3 ~amd64
+# =dev-haskell/haskeline-0.7.1.3 ~amd64
+# =dev-haskell/quickcheck-2.7.5 ~amd64
+# =dev-haskell/stmonadtrans-0.3.2 ~amd64
+# =dev-haskell/tf-random-0.5 ~amd64
+# =sci-mathematics/agda-executable-2.3.0.1-r2 ~amd64
+# =sci-mathematics/agda-stdlib-0.7-r1 ~amd64
 
 # 0ad:
 games-strategy/0ad ~*
@@ -116,12 +123,9 @@ games-strategy/0ad-data ~*
 
 # pry:
 dev-ruby/pry ~*
-# required by dev-ruby/pry-0.9.12.6[ruby_targets_ruby19]
-# required by dev-ruby/pry (argument)
-=dev-ruby/slop-3.5.0 ~amd64
-# required by dev-ruby/pry-0.9.12.6[ruby_targets_ruby19]
-# required by dev-ruby/pry (argument)
+=dev-ruby/coderay-1.1.0-r2 ~amd64
 =dev-ruby/method_source-0.8.2-r2 ~amd64
+=dev-ruby/slop-3.5.0 ~amd64
 
 # qterminal:
 x11-terms/qterminal ~*
@@ -135,14 +139,7 @@ net-misc/livestreamer ~*
 # app-portage/gentoolkit ~*
 # app-portage/gentoolkit-dev ~*
 
-# zathura:
-=app-text/zathura-0.2.7 ~amd64
-=app-text/zathura-djvu-0.2.3 ~amd64
-=app-text/zathura-pdf-poppler-0.2.5 ~amd64
-=app-text/zathura-ps-0.2.2 ~amd64
-=dev-libs/girara-0.2.0 ~amd64
-
-# games-util/steam-meta
+# steam:
 games-util/steam-client-meta ~*
 games-util/steam-games-meta ~*
 games-util/steam-launcher ~*
@@ -323,12 +320,12 @@ dev-python/flask ~*
 dev-python/virtualenv ~*
 dev-python/virtualenvwrapper ~*
 =dev-python/pbr-0.7.0 ~amd64
-=dev-python/stevedore-0.15 ~amd64
+=dev-python/stevedore-0.15-r1 ~amd64
 
 # celery
 dev-python/celery ~*
-=dev-python/billiard-3.3.0.17 ~amd64
-=dev-python/kombu-3.0.15 ~amd64
+=dev-python/billiard-3.3.0.18 ~amd64
+=dev-python/kombu-3.0.21 ~amd64
 =dev-python/py-amqp-1.4.5 ~amd64
 
 # sabnzbd:
@@ -349,7 +346,6 @@ dev-haskell/haskell-platform ~*
 # dev-vcs/darcs ~*
 
 # lens
-dev-haskell/lens ~*
 =dev-haskell/generic-deriving-1.6.2 ~amd64
 =dev-haskell/lens-3.10.0.1 ~amd64
 =dev-haskell/reflection-1.3.2 ~amd64
@@ -554,10 +550,10 @@ net-misc/httpie ~*
 # required by net-analyzer/metasploit-4.9.2-r2[ruby_targets_ruby19,-test]
 net-analyzer/metasploit:4.9 ~*
 =app-admin/eselect-metasploit-0.13 ~amd64
-=dev-ruby/activemodel-3.2.18 ~amd64
-=dev-ruby/activemodel-4.1.2 ~amd64
-=dev-ruby/activesupport-3.2.18 ~amd64
-=dev-ruby/activesupport-4.1.2 ~amd64
+=dev-ruby/activemodel-3.2.19 ~amd64
+=dev-ruby/activemodel-4.1.4 ~amd64
+=dev-ruby/activesupport-3.2.19 ~amd64
+=dev-ruby/activesupport-4.1.4 ~amd64
 =dev-ruby/arel-3.0.2-r2 ~amd64
 =dev-ruby/arel-5.0.1.20140414130214 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.7 ~amd64
@@ -593,25 +589,6 @@ sys-apps/smartmontools ~*
 # elogv .xz support
 =dev-python/pyliblzma-0.5.3-r1 ~amd64
 
-# needed for ffmpeg dev:
-# =dev-util/pkgconfig-0.28-r1 ~amd64
-# =media-libs/libvorbis-1.3.3-r1 ~amd64
-# =media-libs/xvid-1.3.3 ~amd64
-# =media-sound/lame-3.99.5-r1 ~amd64
-# =media-video/ffmpeg-1.2.6 ~*
-# =media-video/libav-9.14 ~amd64
-# =virtual/ffmpeg-9-r1 ~amd64
-# =virtual/pkgconfig-0-r1 ~amd64
-# =x11-libs/libva-1.3.1 ~amd64
-# =x11-libs/libva-vdpau-driver-0.7.4-r1 ~amd64
-# =x11-libs/libvdpau-0.7 ~amd64
-# =media-libs/vo-aacenc-0.1.3 ~amd64
-
-# vim 7.4 supports '~/.vim/'
-=app-editors/vim-7.4.273 ~*
-=app-editors/gvim-7.4.273 ~*
-=app-editors/vim-core-7.4.273 ~*
-
 # required by app-emulation/emul-linux-x86-baselibs-20131008-r6:
 =media-libs/lcms-2.5-r1 ~amd64
 
@@ -621,10 +598,3 @@ sys-apps/smartmontools ~*
 
 # https://bugs.gentoo.org/show_bug.cgi?id=506200
 dev-lang/mono ~*
-
-# required by media-libs/imlib2-1.4.5-r1
-# required by media-libs/giblib-1.2.4
-# required by media-gfx/feh-2.9.3
-# required by @selected
-# required by @world (argument)
-=media-libs/freetype-2.5.3-r1 ~amd64
