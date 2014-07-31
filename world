@@ -115,6 +115,7 @@ dev-java/tomcat-native
 dev-lang/ghc
 dev-lang/go
 dev-lang/mono
+dev-lang/ocaml
 dev-lang/perl
 dev-lang/php
 dev-libs/boost
