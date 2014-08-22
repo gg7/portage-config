@@ -357,6 +357,7 @@ sys-process/iotop
 sys-process/lsof
 sys-process/nmon
 sys-process/parallel
+sys-process/tiptop
 www-apache/mod_fastcgi
 www-apache/mod_wsgi
 www-apps/gitit

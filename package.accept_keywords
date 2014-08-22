@@ -1,6 +1,8 @@
 # 9999
 =media-sound/pianobar-9999 **
 
+sys-process/tiptop ~*
+
 app-admin/keepass ~*
 app-admin/logstash ~*
 app-admin/profile-cleaner ~*
