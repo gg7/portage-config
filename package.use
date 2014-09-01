@@ -349,3 +349,7 @@ virtual/ruby-ffi ruby_targets_ruby20
 # required by sys-devel/prelink-20130503
 dev-libs/elfutils static-libs
 
+# required by app-office/libreoffice-4.2.5.2
+# required by @selected
+# required by @world (argument)
+media-libs/harfbuzz icu

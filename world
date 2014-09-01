@@ -297,7 +297,6 @@ net-proxy/tsocks
 net-wireless/aircrack-ng
 net-wireless/iw
 net-wireless/rfkill
-sci-mathematics/agda
 sci-mathematics/minisat
 sys-apps/ack
 sys-apps/cpuid

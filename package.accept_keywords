@@ -289,7 +289,7 @@ dev-python/flask ~*
 dev-python/virtualenv ~*
 dev-python/virtualenvwrapper ~*
 =dev-python/pbr-0.7.0 ~amd64
-=dev-python/stevedore-0.15 ~amd64
+=dev-python/stevedore-0.15-r1 ~amd64
 
 # celery
 dev-python/celery ~*
@@ -491,11 +491,11 @@ dev-python/ipython ~*
 =dev-python/pexpect-3.0 ~amd64
 
 # required for activerecord 4
-=dev-ruby/activemodel-3.2.18 ~amd64
-=dev-ruby/activemodel-4.1.1 ~amd64
+=dev-ruby/activemodel-3.2.19 ~amd64
+=dev-ruby/activemodel-4.1.5 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
-=dev-ruby/activesupport-3.2.18 ~amd64
-=dev-ruby/activesupport-4.1.1 ~amd64
+=dev-ruby/activesupport-3.2.19 ~amd64
+=dev-ruby/activesupport-4.1.5 ~amd64
 =dev-ruby/arel-4.0.1 ~amd64
 =dev-ruby/atomic-1.1.16 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
