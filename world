@@ -245,6 +245,7 @@ media-video/gtk-recordmydesktop
 media-video/guvcview
 media-video/handbrake
 media-video/mplayer
+media-video/mpv
 media-video/smplayer
 media-video/vlc
 net-analyzer/arping
