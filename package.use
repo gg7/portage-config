@@ -1,5 +1,7 @@
 #kde-base/kdelibs -upower
 
+sys-apps/pcsc-lite libusb -udev
+
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets

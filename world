@@ -313,6 +313,7 @@ sys-apps/memtest86+
 sys-apps/mlocate
 sys-apps/moreutils
 sys-apps/pciutils
+sys-apps/pcsc-lite
 sys-apps/portage
 sys-apps/preload
 sys-apps/pv
