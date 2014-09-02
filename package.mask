@@ -7,3 +7,6 @@ sys-apps/systemd
 # <sys-devel/llvm-3.4 required by (media-libs/mesa-9.1.6::gentoo, installed)
 >=sys-devel/llvm-3.4
 >=sys-devel/clang-3.4
+
+# resolving world update problems:
+>=dev-lang/perl-5.18
