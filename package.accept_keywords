@@ -585,3 +585,8 @@ sys-apps/smartmontools ~*
 # required by kde-base/kdebase-meta-4.12.5
 =kde-base/krunner-4.11.9 ~amd64
 
+# required by virtual/perl-Pod-Simple-3.280.0-r1
+# required by net-analyzer/wireshark-1.10.9
+# required by @selected
+# required by @world (argument)
+# =dev-lang/perl-5.20.0-r1 ~amd64
