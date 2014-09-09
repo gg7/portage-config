@@ -8,4 +8,4 @@ sys-apps/systemd
 >=sys-devel/llvm-3.4
 >=sys-devel/clang-3.4
 
->virtual/perl-Pod-Simple-3.230.0
+# >virtual/perl-Pod-Simple-3.230.0
