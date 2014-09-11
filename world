@@ -314,6 +314,7 @@ sys-apps/lshw
 sys-apps/memtest86+
 sys-apps/mlocate
 sys-apps/moreutils
+sys-apps/paludis
 sys-apps/pciutils
 sys-apps/pcsc-lite
 sys-apps/portage
