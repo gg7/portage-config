@@ -83,6 +83,7 @@ app-vim/vim-spell-en
 dev-db/barman
 dev-db/couchdb
 dev-db/mongodb
+dev-db/mysql
 dev-db/mysql-workbench
 dev-db/pgadmin3
 dev-db/pgbadger
