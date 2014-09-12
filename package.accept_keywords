@@ -473,6 +473,14 @@ dev-vcs/git-annex ~*
 =dev-haskell/yesod-persistent-1.2.3 ~amd64
 =dev-haskell/yesod-routes-1.2.0.6 ~amd64
 =dev-haskell/yesod-static-1.2.4 ~amd64
+=dev-haskell/cookie-0.4.1.1 ~amd64
+=dev-haskell/conduit-1.1.6 ~amd64
+=dev-haskell/resourcet-1.1.2.2 ~amd64
+=dev-haskell/css-text-0.1.2.1 ~amd64
+=dev-haskell/base16-bytestring-0.1.1.6 ~amd64
+=dev-haskell/cryptohash-conduit-0.1.1 ~amd64
+=dev-haskell/conduit-extra-1.1.1 ~amd64
+=dev-haskell/streaming-commons-0.1.3 ~amd64
 
 # namebench:
 net-analyzer/namebench ~*
