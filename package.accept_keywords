@@ -317,7 +317,7 @@ dev-haskell/haskell-platform ~*
 # lens
 dev-haskell/lens ~*
 =dev-haskell/generic-deriving-1.6.2 ~amd64
-=dev-haskell/lens-4.2 ~amd64
+=dev-haskell/lens-3.10.0.1 ~amd64
 =dev-haskell/reflection-1.3.2 ~amd64
 
 # hlint:
