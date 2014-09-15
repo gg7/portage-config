@@ -169,9 +169,7 @@ dev-util/valgrind
 dev-util/visualvm
 dev-vcs/bzr
 dev-vcs/cvs
-dev-vcs/darcs
 dev-vcs/git
-dev-vcs/git-annex
 dev-vcs/gitg
 dev-vcs/hub
 dev-vcs/mercurial
@@ -364,7 +362,6 @@ sys-process/parallel
 sys-process/tiptop
 www-apache/mod_fastcgi
 www-apache/mod_wsgi
-www-apps/gitit
 www-client/casperjs
 www-client/chromium
 www-client/firefox
