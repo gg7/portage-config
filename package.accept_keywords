@@ -506,10 +506,10 @@ dev-python/ipython ~*
 
 # required for activerecord 4
 =dev-ruby/activemodel-3.2.19 ~amd64
-=dev-ruby/activemodel-4.1.5 ~amd64
+=dev-ruby/activemodel-4.1.6 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
 =dev-ruby/activesupport-3.2.19 ~amd64
-=dev-ruby/activesupport-4.1.5 ~amd64
+=dev-ruby/activesupport-4.1.6 ~amd64
 =dev-ruby/arel-4.0.1 ~amd64
 =dev-ruby/atomic-1.1.16 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
