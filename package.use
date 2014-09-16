@@ -354,3 +354,6 @@ dev-libs/elfutils static-libs
 # qt 5:
 =dev-libs/libpcre-8.33 pcre16
 =dev-qt/qtcore-5.3.0 icu
+
+# required by media-video/kdenlive
+media-libs/mlt kdenlive

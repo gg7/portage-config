@@ -6,6 +6,7 @@ dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
 games-fps/enemy-territory RTCW-ETEULA
 games-fps/urbanterror Q3AEULA
 net-im/skype skype-eula skype-4.0.0.7-copyright
+www-client/google-chrome google-chrome
 www-plugins/adobe-flash AdobeFlash-11.x
 www-plugins/google-talkplugin google-talkplugin
 
