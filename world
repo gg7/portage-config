@@ -207,7 +207,7 @@ kde-misc/kde-gtk-config
 lxde-base/lxrandr
 mail-client/mutt
 mail-client/thunderbird
-mail-mta/ssmtp
+mail-mta/postfix
 media-fonts/corefonts
 media-fonts/cronyx-fonts
 media-fonts/dejavu
