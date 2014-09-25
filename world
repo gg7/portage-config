@@ -206,6 +206,7 @@ kde-misc/kcm-grub2
 kde-misc/kde-gtk-config
 lxde-base/lxrandr
 mail-client/mutt
+mail-client/nail
 mail-client/thunderbird
 mail-mta/postfix
 media-fonts/corefonts
