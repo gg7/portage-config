@@ -51,6 +51,7 @@ app-portage/gentoolkit
 app-portage/layman
 app-portage/mirrorselect
 app-shells/autojump
+app-shells/bash
 app-shells/bash-completion
 app-shells/zsh
 app-shells/zsh-completion
