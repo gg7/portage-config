@@ -29,7 +29,6 @@ dev-cpp/gflags ~*
 dev-db/couchdb ~*
 dev-db/pgbadger ~*
 dev-db/pgtune ~*
-dev-db/sqlitebrowser ~*
 dev-lang/fsharp ~*
 dev-libs/log4cxx ~*
 dev-libs/msgpack ~*
@@ -95,6 +94,10 @@ x11-misc/urxvt-font-size ~*
 sys-process/glances ~*
 =dev-python/psutil-2.1.1 ~amd64
 
+# dev-db/sqlitebrowser:
+dev-db/sqlitebrowser ~*
+=dev-libs/qcustomplot-1.2.1 ~amd64
+
 # agda:
 sci-mathematics/agda ~*
 =sci-mathematics/agda-executable-2.3.0.1-r2 ~amd64
@@ -132,6 +135,7 @@ dev-java/oracle-jdk-bin:1.8 ~*
 dev-java/oracle-jre-bin:1.8 ~*
 dev-util/visualvm ~*
 virtual/jdk ~*
+virtual/jre:1.7 ~*
 
 # icedtea:
 dev-java/icedtea ~*
