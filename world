@@ -102,14 +102,13 @@ dev-haskell/hlint
 dev-java/ant
 dev-java/ant-contrib
 dev-java/ehcache
-dev-java/icedtea
+dev-java/icedtea:7
 dev-java/icedtea-bin:7
 dev-java/jdbc-postgresql
 dev-java/junit
 dev-java/junit:0
 dev-java/maven-bin
 dev-java/mockito
-dev-java/oracle-jdk-bin
 dev-java/oracle-jdk-bin:1.7
 dev-java/oracle-jdk-bin:1.8
 dev-java/slf4j-log4j12
