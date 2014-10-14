@@ -102,8 +102,8 @@ dev-haskell/hlint
 dev-java/ant
 dev-java/ant-contrib
 dev-java/ehcache
-dev-java/icedtea:7
 dev-java/icedtea-bin:7
+dev-java/icedtea:7
 dev-java/jdbc-postgresql
 dev-java/junit
 dev-java/junit:0
@@ -163,6 +163,7 @@ dev-util/findbugs
 dev-util/flawfinder
 dev-util/meld
 dev-util/perf
+dev-util/pmd
 dev-util/scons
 dev-util/strace
 dev-util/uncrustify
