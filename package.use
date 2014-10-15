@@ -197,7 +197,7 @@ dev-db/sqlite extensions
 media-libs/gd fontconfig
 
 # ???
-net-libs/webkit-gtk -introspection
+net-libs/webkit-gtk -geoloc -introspection
 
 # ???
 gnome-extra/zenity -webkit
