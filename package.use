@@ -1,6 +1,7 @@
 #kde-base/kdelibs -upower
 
 sys-apps/pcsc-lite libusb -udev
+dev-java/oracle-jdk-bin nsplugin
 
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
