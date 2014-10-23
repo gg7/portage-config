@@ -136,6 +136,7 @@ dev-java/java-sdk-docs:1.8 ~*
 dev-java/netbeans-platform ~*
 dev-java/oracle-jdk-bin:1.8 ~*
 dev-java/oracle-jre-bin:1.8 ~*
+dev-java/tomcat-native ~*
 dev-util/visualvm ~*
 virtual/jdk ~*
 virtual/jre:1.7 ~*
