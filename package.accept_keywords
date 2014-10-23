@@ -3,6 +3,9 @@
 
 sys-process/tiptop ~*
 
+kde-misc/kio-mtp ~*
+media-gfx/gphotofs ~*
+
 app-admin/keepass ~*
 app-admin/logstash ~*
 app-admin/profile-cleaner ~*

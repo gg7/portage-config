@@ -205,6 +205,7 @@ kde-base/okteta
 kde-base/okular
 kde-misc/kcm-grub2
 kde-misc/kde-gtk-config
+kde-misc/kio-mtp
 lxde-base/lxrandr
 mail-client/mutt
 mail-client/nail
@@ -229,6 +230,7 @@ media-gfx/dispcalgui
 media-gfx/feh
 media-gfx/fondu
 media-gfx/gimp
+media-gfx/gphotofs
 media-gfx/gpicview
 media-gfx/graphviz
 media-gfx/imagemagick
