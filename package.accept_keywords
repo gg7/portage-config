@@ -3,6 +3,12 @@
 =net-p2p/linuxdcpp-9999 **
 
 media-gfx/gphotofs ~*
+
+dev-db/postgresql-server:9.4 ~*
+dev-db/postgresql-docs:9.4 ~*
+dev-db/postgresql-base:9.4 ~*
+
+sys-fs/ecryptfs-utils ~*
 kde-misc/kio-mtp ~*
 app-admin/keepass ~*
 app-admin/logstash ~*
@@ -31,7 +37,6 @@ dev-db/couchdb ~*
 dev-db/pgbadger ~*
 dev-db/pgtune ~*
 dev-db/pgxnclient ~*
-dev-db/sqlitebrowser ~*
 dev-lang/fsharp ~*
 dev-lang/rust ~*
 dev-libs/log4cxx ~*
@@ -162,6 +167,7 @@ dev-java/oracle-jdk-bin:1.8 ~*
 dev-java/oracle-jre-bin:1.8 ~*
 dev-util/visualvm ~*
 virtual/jdk ~*
+virtual/jre:1.7 ~*
 
 # icedtea:
 dev-java/icedtea ~*
@@ -326,10 +332,10 @@ dev-python/virtualenvwrapper ~*
 =dev-python/stevedore-0.15-r1 ~amd64
 
 # celery
-dev-python/celery ~*
+=dev-python/celery-3.1.15-r1 ~*
 =dev-python/billiard-3.3.0.18 ~amd64
-=dev-python/kombu-3.0.21 ~amd64
-=dev-python/py-amqp-1.4.5 ~amd64
+=dev-python/kombu-3.0.23 ~amd64
+=dev-python/py-amqp-1.4.6 ~amd64
 
 # sabnzbd:
 # dev-python/yenc ~*
@@ -601,8 +607,9 @@ sys-apps/smartmontools ~*
 =net-libs/libtorrent-0.13.2 ~*
 
 # https://bugs.gentoo.org/show_bug.cgi?id=506200
-dev-lang/mono ~*
+=dev-lang/mono-3.2.8 ~*
 
-=www-client/google-chrome-36.0.1985.125_p1 ~amd64
+dev-db/sqlitebrowser ~*
+=dev-libs/qcustomplot-1.2.1 ~amd64
 
 =app-admin/eselect-rust-0.1_pre20140820 ~amd64

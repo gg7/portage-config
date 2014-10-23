@@ -30,3 +30,6 @@ media-sound/pulseaudio
 # # required by @world (argument)
 # =media-video/libav-9.14 ~amd64
 >media-sound/pianobar-2013.09.15
+
+# >=x11-drivers/nvidia-drivers-340.47
+>=x11-drivers/nvidia-drivers-341.0.0

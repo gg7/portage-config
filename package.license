@@ -17,3 +17,5 @@ games-fps/ut2004-* ut2003
 # wireless:
 net-wireless/broadcom-sta Broadcom
 sys-firmware/b43-firmware Broadcom
+
+=www-plugins/google-talkplugin-5.4.2.0 Google-TOS

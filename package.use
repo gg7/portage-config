@@ -236,9 +236,7 @@ games-misc/fortune-mod-slackware offensive
 # jre/jdk:
 dev-java/icedtea -nsplugin -webstart
 dev-java/icedtea-web -nsplugin
-dev-java/oracle-jdk-bin -doc
-dev-java/sun-jdk -doc examples -nsplugin
-dev-java/sun-jre-bin -nsplugin
+dev-java/oracle-jdk-bin -doc nsplugin
 
 # boost:
 dev-libs/boost doc python static-libs tools
@@ -253,7 +251,7 @@ media-libs/libsdl audio video joystick
 # media players:
 media-libs/xine-lib aac css flac mad real -samba theora vorbis win32codecs
 media-video/ffmpeg bluray -cpudetection dirac encode mp3 network theora threads vpx
-media-video/mplayer aac aalib -cpudetection dirac directfb dvb dvd dvdnav enca encode fbcon ftp -gmplayer libcaca mad mp3 network pvr quicktime real rtc svga theora truetype unicode v4l v4l2 vorbis win32codecs x264 xscreensaver xvid
+media-video/mplayer aac aalib bluray bs2b -cpudetection dirac directfb dga dv dvb dvd dvdnav enca encode fbcon ftp libcaca mad mp3 network pvr quicktime real rtc svga theora truetype unicode v4l v4l2 vorbis win32codecs x264 xscreensaver xvid
 media-video/vlc aac aalib dirac directfb dvb dvd fbcon ffmpeg flac fontconfig -httpd id3tag libass libcaca libv4l2 matroska mp3 mpeg mtp -nsplugin ogg -png -samba skins stream -svg svga taglib theora truetype v4l v4l2 vorbis win32codecs x264
 
 # mpd:
@@ -355,5 +353,15 @@ dev-libs/elfutils static-libs
 =dev-libs/libpcre-8.33 pcre16
 =dev-qt/qtcore-5.3.0 icu
 
+# >=dev-libs/redland-1.0.16[ssl] pulled in by:
+#   app-office/libreoffice-4.2.5.2
+dev-libs/redland ssl
+
 # required by media-video/kdenlive
 media-libs/mlt kdenlive
+
+# 0ad performance
+dev-lang/spidermonkey jit
+
+# smplayer wants it?
+media-video/mplayer bidi
