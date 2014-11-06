@@ -1,7 +1,9 @@
 # 9999
 =media-sound/pianobar-9999 **
 
+dev-db/pg_top ~*
 sys-process/tiptop ~*
+sys-apps/iostat ~*
 
 kde-misc/kio-mtp ~*
 media-gfx/gphotofs ~*
