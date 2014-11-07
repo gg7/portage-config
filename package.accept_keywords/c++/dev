@@ -1,0 +1,7 @@
+# llvm and clang:
+sys-devel/clang ~*
+sys-devel/llvm ~*
+
+# cppcheck
+dev-util/cppcheck ~*
+=dev-libs/tinyxml2-2.0.2 ~amd64

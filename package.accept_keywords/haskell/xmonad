@@ -1,0 +1,4 @@
+# xmonad and xmobar:
+x11-misc/xmobar ~*
+# x11-wm/xmonad ~*
+# x11-wm/xmonad-contrib ~*

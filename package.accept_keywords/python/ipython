@@ -1,0 +1,2 @@
+dev-python/ipython ~*
+=dev-python/pexpect-3.0 ~amd64

@@ -1,0 +1,26 @@
+dev-java/hamcrest-library ~*
+dev-java/java-sdk-docs:1.7 ~*
+dev-java/java-sdk-docs:1.8 ~*
+dev-java/netbeans-platform ~*
+dev-java/oracle-jdk-bin:1.8 ~*
+dev-java/oracle-jre-bin:1.8 ~*
+dev-util/visualvm ~*
+virtual/jdk ~*
+virtual/jre:1.7 ~*
+
+# testng
+dev-java/testng ~*
+=dev-java/guice-2.0 ~amd64
+=dev-java/jcommander-1.32 ~amd64
+
+# mockito
+dev-java/mockito ~*
+=dev-java/objenesis-1.3 ~amd64
+
+# slf4j
+=dev-java/slf4j-api-1.7.5-r1 ~amd64
+=dev-java/slf4j-log4j12-1.7.5 ~amd64
+
+# findbugs:
+dev-util/findbugs ~*
+=dev-java/jformatstring-0.9-r1 ~amd64

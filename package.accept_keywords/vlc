@@ -1,0 +1,3 @@
+# media-video/vlc ~*
+# =media-libs/x264-0.0.20140308 ~amd64
+=media-libs/libvorbis-1.3.3-r1 ~amd64

@@ -1,0 +1,5 @@
+# namebench:
+net-analyzer/namebench ~*
+=dev-python/graphy-1.0-r1 ~amd64
+=dev-python/dnspython-1.10.0-r1 ~amd64
+=dev-python/httplib2-0.8 ~amd64

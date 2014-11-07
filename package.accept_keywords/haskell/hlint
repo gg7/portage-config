@@ -1,0 +1,3 @@
+dev-haskell/hlint ~*
+=dev-haskell/haskell-src-exts-1.14.0 ~amd64
+=dev-haskell/uniplate-1.6.12 ~amd64

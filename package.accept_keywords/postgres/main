@@ -1,0 +1,3 @@
+dev-db/pgbadger ~*
+dev-db/pgtune ~*
+dev-db/pgxnclient ~*

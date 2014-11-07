@@ -1,0 +1,2 @@
+net-misc/owncloud-client ~*
+=dev-libs/qtkeychain-0.3.0 ~amd64

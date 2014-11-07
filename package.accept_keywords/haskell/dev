@@ -1,0 +1,10 @@
+# dev-haskell/* ~*
+dev-haskell/cabal-install ~*
+dev-haskell/haskell-platform ~*
+# app-emacs/ghc-mod ~*
+# dev-haskell/aeson ~*
+# dev-haskell/hakyll ~*
+# dev-haskell/hoogle ~*
+# dev-haskell/yesod ~*
+# dev-lang/ghc ~*
+# dev-vcs/darcs ~*

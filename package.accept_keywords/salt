@@ -1,0 +1,6 @@
+app-admin/salt ~*
+=dev-python/pycryptopp-0.6.0 ~amd64
+=dev-python/msgpack-0.3.0 ~amd64
+=dev-python/m2crypto-0.21.1-r1 ~amd64
+=dev-python/pyyaml-3.10-r1 ~amd64
+=dev-python/pyzmq-13.1.0 ~amd64

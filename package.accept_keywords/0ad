@@ -1,0 +1,4 @@
+# 0ad:
+games-strategy/0ad ~*
+games-strategy/0ad-data ~*
+=dev-lang/spidermonkey-24.2.0-r2 ~amd64

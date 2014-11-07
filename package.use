@@ -360,8 +360,19 @@ dev-libs/redland ssl
 # required by media-video/kdenlive
 media-libs/mlt kdenlive
 
-# 0ad performance
-dev-lang/spidermonkey jit
+# for improved 0ad performance you should enable jit, but you'll get a
+# conflict:
+#   required by sys-auth/polkit-0.112-r2
+#   required by app-emulation/libvirt-1.2.9[policykit]
+#   required by @selected
+#   required by @world (argument)
+#   >=dev-lang/spidermonkey-17.0.0-r3:17 -jit
+dev-lang/spidermonkey -jit
 
-# smplayer wants it?
+# smplayer dependency?
 media-video/mplayer bidi
+
+# required by app-emulation/libvirt-1.2.9[virt-network]
+# required by @selected
+# required by @world (argument)
+net-dns/dnsmasq script

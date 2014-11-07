@@ -1,0 +1,5 @@
+dev-lang/rust ~*
+
+app-admin/eselect-rust ~*
+app-shells/rust-zshcomp ~*
+app-vim/rust-mode ~*

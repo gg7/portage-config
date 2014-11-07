@@ -1,0 +1,15 @@
+# media-sound/mpd ~*
+# media-libs/libmpd ~*
+# media-sound/quimup ~*
+# media-sound/gmpc ~*
+# media-plugins/gmpc-alarm ~*
+# media-plugins/gmpc-coveramazon ~*
+# media-plugins/gmpc-discogs ~*
+# media-plugins/gmpc-extraplaylist ~*
+# media-plugins/gmpc-last-fm ~*
+# media-plugins/gmpc-lyrics ~*
+# media-plugins/gmpc-lyricwiki ~*
+# media-plugins/gmpc-mdcover ~*
+# media-plugins/gmpc-playlistsort ~*
+# media-plugins/gmpc-tagedit ~*
+# media-plugins/gmpc-wikipedia ~*

@@ -1,0 +1,3 @@
+www-client/phantomjs ~*
+www-client/phantomjs-bin ~*
+www-client/casperjs ~*

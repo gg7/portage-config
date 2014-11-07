@@ -1,0 +1,27 @@
+# required by net-analyzer/metasploit-4.9.2-r2[ruby_targets_ruby19,-test]
+net-analyzer/metasploit:4.9 ~*
+=app-admin/eselect-metasploit-0.13 ~amd64
+=dev-ruby/activemodel-3.2.20 ~amd64
+=dev-ruby/activemodel-4.1.7 ~amd64
+=dev-ruby/activesupport-3.2.20 ~amd64
+=dev-ruby/activesupport-4.1.7 ~amd64
+=dev-ruby/arel-3.0.2-r2 ~amd64
+=dev-ruby/arel-5.0.1.20140414130214 ~amd64
+=dev-ruby/bcrypt-ruby-3.1.7 ~amd64
+=dev-ruby/builder-3.0.4-r1 ~amd64
+=dev-ruby/i18n-0.6.9-r1 ~amd64
+=dev-ruby/kissfft-0.0.1-r1 ~amd64
+=dev-ruby/metasploit_data_models-0.17.0 ~amd64
+=dev-ruby/minitest-5.3.3-r1 ~amd64
+=dev-ruby/msgpack-0.5.8 ~amd64
+=dev-ruby/multi_json-1.9.3 ~amd64
+=dev-ruby/network_interface-0.0.1-r1 ~amd64
+=dev-ruby/packetfu-1.1.9 ~amd64
+=dev-ruby/pcaprub-0.11.3-r1 ~amd64
+=dev-ruby/pg-0.17.1 ~amd64
+=dev-ruby/rb-readline-0.5.1 ~amd64
+=dev-ruby/rjb-1.4.9 ~amd64
+=dev-ruby/rkelly-remix-0.0.6 ~amd64
+=dev-ruby/robots-0.10.1-r2 ~amd64
+=dev-ruby/tzinfo-0.3.38 ~amd64
+=dev-ruby/tzinfo-1.1.0 ~amd64

@@ -1,0 +1,49 @@
+# python web frameworks:
+dev-python/django ~*
+dev-python/django-extensions ~*
+dev-python/django-piston ~*
+dev-python/django-celery ~*
+dev-python/django-tastypie ~*
+dev-python/django-registration ~*
+dev-python/django-annoying ~*
+dev-python/pygraphviz ~*
+
+# flask:
+dev-python/flask ~*
+=dev-python/blinker-1.3 ~amd64
+=dev-python/itsdangerous-0.22 ~amd64
+
+# dev-python/turbokid ~*
+# dev-python/sqlobject ~*
+# dev-python/ruledispatch ~*
+# dev-python/turbojson ~*
+# dev-python/kid ~*
+
+# pylons:
+# dev-python/pylons ~*
+# dev-python/tempita ~*
+# dev-python/pastedeploy ~*
+# dev-python/paste ~*
+# dev-python/webhelpers ~*
+# dev-python/pastescript ~*
+# dev-python/weberror ~*
+# dev-python/routes ~*
+
+# django-debug-toolbar:
+# dev-python/django-debug-toolbar ~*
+# =dev-python/python-sqlparse-0.1.10 ~amd64
+
+# virtualenv and virtualenvwrapper:
+dev-python/virtualenv ~*
+dev-python/virtualenvwrapper ~*
+=dev-python/pbr-0.7.0 ~amd64
+=dev-python/stevedore-0.15-r1 ~amd64
+
+# celery
+=dev-python/celery-3.1.15-r1 ~*
+=dev-python/billiard-3.3.0.18 ~amd64
+=dev-python/kombu-3.0.23 ~amd64
+=dev-python/py-amqp-1.4.6 ~amd64
+
+# required by jinja:
+=dev-python/markupsafe-0.18 ~amd64
