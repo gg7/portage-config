@@ -7,3 +7,16 @@ sys-apps/systemd
 # <sys-devel/llvm-3.4 required by (media-libs/mesa-9.1.6::gentoo, installed)
 >=sys-devel/llvm-3.4
 >=sys-devel/clang-3.4
+
+# The following mask changes are necessary to proceed:
+#  (see "package.unmask" in the portage(5) man page for more details)
+# # required by media-libs/gst-plugins-base-0.10.36-r1
+# # required by www-client/phantomjs-1.9.8
+# # required by @selected
+# # required by @world (argument)
+# # /etc/portage/package.mask:
+# =media-libs/gstreamer-0.10.36-r2
+>=www-client/phantomjs-1.9.8
+
+# https://wiki.gentoo.org/wiki/Udev/upgrade#udev_216_to_217
+>=sys-fs/udev-217

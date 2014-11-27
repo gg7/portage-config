@@ -8,6 +8,7 @@ app-admin/pydf
 app-admin/salt
 app-admin/sudo
 app-admin/syslog-ng
+app-admin/sysstat
 app-arch/deb2targz
 app-arch/lzop
 app-arch/p7zip
@@ -53,8 +54,8 @@ app-portage/mirrorselect
 app-shells/autojump
 app-shells/bash
 app-shells/bash-completion
+app-shells/gentoo-zsh-completions
 app-shells/zsh
-app-shells/zsh-completion
 app-text/XML-Schema-learner
 app-text/acroread
 app-text/ansifilter
@@ -86,6 +87,7 @@ dev-db/couchdb
 dev-db/mongodb
 dev-db/mysql
 dev-db/mysql-workbench
+dev-db/pg_top
 dev-db/pgadmin3
 dev-db/pgbadger
 dev-db/pgtune
@@ -114,12 +116,14 @@ dev-java/oracle-jdk-bin:1.8
 dev-java/slf4j-log4j12
 dev-java/testng
 dev-java/tomcat-native
+dev-lang/clojure
 dev-lang/ghc
 dev-lang/go
 dev-lang/mono
 dev-lang/ocaml
 dev-lang/perl
 dev-lang/php
+dev-lang/scala
 dev-libs/boost
 dev-libs/geoip
 dev-libs/libstrl
@@ -180,7 +184,10 @@ dev-vcs/subversion
 dev-vcs/tig
 dev-vcs/vcsh
 games-action/rrootage
+games-board/crafty
+games-board/gnuchess
 games-board/knights
+games-board/sjeng
 games-misc/bsd-games
 games-misc/doge
 games-misc/fortune-mod
@@ -318,6 +325,7 @@ sys-apps/lshw
 sys-apps/memtest86+
 sys-apps/mlocate
 sys-apps/moreutils
+sys-apps/most
 sys-apps/paludis
 sys-apps/pciutils
 sys-apps/pcsc-lite
@@ -338,7 +346,6 @@ sys-devel/clang
 sys-devel/crossdev
 sys-devel/gcc
 sys-devel/gcc-config
-sys-devel/gcc:4.7
 sys-devel/gdb
 sys-devel/prelink
 sys-firmware/alsa-firmware

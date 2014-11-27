@@ -94,7 +94,7 @@ net-analyzer/metasploit gui mysql postgres sqlite
 net-analyzer/nmap gtk
 net-analyzer/rrdtool python
 net-analyzer/tcpdump -samba
-net-analyzer/wireshark gcrypt geoip gnutls gtk pcap pcre zlib gtk2 -qt4
+net-analyzer/wireshark gcrypt geoip gnutls gtk pcap pcre zlib gtk3 -qt4
 net-fs/cifs-utils -acl -ads
 net-fs/samba cups server smbclient syslog
 net-irc/hexchat gtk perl python ssl
@@ -356,3 +356,20 @@ dev-libs/elfutils static-libs
 # required by @selected
 # required by @world (argument)
 media-libs/harfbuzz icu
+# required by net-analyzer/metasploit-4.9.3
+# required by @selected
+# required by @world (argument)
+virtual/postgresql server
+# required by net-wireless/aircrack-ng-1.2_rc1[airdrop-ng]
+# required by @selected
+# required by @world (argument)
+net-wireless/lorcon python
+
+# required by dev-ruby/rdoc-4.0.1-r1[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.0.0_p594[rdoc]
+# required by app-editors/vim-7.4.273[ruby]
+# required by dev-util/ninja-1.5.1[vim-syntax]
+# required by www-client/chromium-38.0.2125.101
+# required by @selected
+# required by @world (argument)
+=dev-ruby/racc-1.4.9 ruby_targets_ruby20

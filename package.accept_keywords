@@ -1,6 +1,16 @@
 # 9999
 =media-sound/pianobar-9999 **
 
+dev-lang/scala
+=dev-java/hawtjni-runtime-1.8 ~amd64
+
+dev-lang/elixir ~*
+
+# dev-lang/julia ~*
+
+dev-python/bpython ~*
+=dev-python/urwid-1.2.2 ~amd64
+
 dev-db/pg_top ~*
 sys-process/tiptop ~*
 sys-apps/iostat ~*
@@ -85,8 +95,6 @@ sys-apps/paludis ~*
 sys-apps/pkgcore ~*
 sys-auth/fprint_demo ~*
 sys-devel/crossdev ~*
-# sys-devel/gcc:4.8 ~*
-# sys-devel/gcc:4.9 ~*
 sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-kernel/gentoo-sources ~*
@@ -97,7 +105,7 @@ x11-misc/urxvt-font-size ~*
 
 # glances:
 sys-process/glances ~*
-=dev-python/psutil-2.1.1 ~amd64
+=dev-python/psutil-2.1.3 ~amd64
 
 # dev-db/sqlitebrowser:
 dev-db/sqlitebrowser ~*
@@ -516,10 +524,10 @@ dev-python/ipython ~*
 
 # required for activerecord 4
 =dev-ruby/activemodel-3.2.19 ~amd64
-=dev-ruby/activemodel-4.1.6 ~amd64
+=dev-ruby/activemodel-4.1.7 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
 =dev-ruby/activesupport-3.2.19 ~amd64
-=dev-ruby/activesupport-4.1.6 ~amd64
+=dev-ruby/activesupport-4.1.7 ~amd64
 =dev-ruby/arel-4.0.1 ~amd64
 =dev-ruby/atomic-1.1.16 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
@@ -548,10 +556,10 @@ net-misc/httpie ~*
 
 # metasploit:4.9:
 net-analyzer/metasploit:4.9 ~*
-=app-admin/eselect-metasploit-0.13 ~amd64
-=dev-ruby/activemodel-3.2.17 ~amd64
+=app-admin/eselect-metasploit-0.15 ~amd64
+=dev-ruby/activemodel-3.2.20 ~amd64
 =dev-ruby/activemodel-4.1.0 ~amd64
-=dev-ruby/activesupport-3.2.17 ~amd64
+=dev-ruby/activesupport-3.2.20 ~amd64
 =dev-ruby/activesupport-4.1.0 ~amd64
 =dev-ruby/arel-3.0.2-r2 ~amd64
 =dev-ruby/arel-5.0.1.20140414130214 ~amd64
@@ -614,3 +622,131 @@ sys-apps/smartmontools ~*
 # required by @selected
 # required by @world (argument)
 # =dev-lang/perl-5.20.0-r1 ~amd64
+
+# required by dev-java/icedtea-7.2.5.3[pulseaudio]
+# required by @selected
+# required by @world (argument)
+=dev-java/icedtea-sound-1.0.1 ~amd64
+
+#   (media-libs/openjpeg-2.0.0::gentoo, installed) pulled in by
+#     <media-libs/openjpeg-2.1:2[static-libs?] required by (app-text/mupdf-1.3_p20140118::gentoo, installed)
+=app-text/mupdf-1.5-r1
+
+# required by dev-ruby/activesupport-4.1.7[ruby_targets_ruby19]
+# required by dev-ruby/activerecord-4.1.7[ruby_targets_ruby19]
+# required by dev-ruby/metasploit_data_models-0.17.0[ruby_targets_ruby19]
+# required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/thread_safe-0.3.4 ~amd64
+
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/http-4000.2.17 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/text-1.1.1.3 ~amd64
+## required by dev-haskell/cabal-install-1.20.0.3-r2
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/cabal-1.20.0.2 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/mtl-2.2.1 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/hashable-1.2.2.0 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/parallel-3.2.0.4 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/unordered-containers-0.2.4.0 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0[X]
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/openglraw-1.5.0.0 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/hpc-0.6.0.1 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/fgl-5.5.0.1 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/vector-0.10.11.0 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0[X]
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/opengl-2.9.2.0 ~amd64
+## required by dev-haskell/http-4000.2.17
+## required by dev-haskell/cabal-install-1.20.0.3-r2
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/network-2.5.0.0 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0[doc]
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/haddock-2.14.3.0.7.8.3 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/parsec-3.1.5 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0[X]
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/glut-2.5.1.1 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/happy-1.19.4 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/haskell-src-1.0.1.6 ~amd64
+## required by dev-haskell/mtl-2.2.1
+## required by dev-haskell/fgl-5.5.0.1
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/transformers-0.4.1.0 ~amd64
+## required by dev-haskell/vector-0.10.0.1
+## required by dev-haskell/aeson-0.6.2.1
+## required by dev-haskell/pandoc-types-1.12.3
+## required by dev-haskell/texmath-0.6.4
+## required by app-text/pandoc-1.12
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/primitive-0.5.3.0 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0[X]
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/gluraw-1.4.0.1 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/case-insensitive-1.2.0.0 ~amd64
+## required by dev-haskell/haddock-2.14.3.0.7.8.3
+## required by dev-haskell/haskell-platform-2014.2.0.0[doc]
+## required by @selected
+## required by @world (argument)
+#=dev-lang/ghc-7.8.3 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/async-2.0.1.5 ~amd64
+## required by dev-haskell/haskell-platform-2014.2.0.0
+## required by @selected
+## required by @world (argument)
+#=dev-haskell/hscolour-1.20.3-r1 ~amd64
