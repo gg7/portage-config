@@ -33,3 +33,6 @@ media-sound/pulseaudio
 
 # >=x11-drivers/nvidia-drivers-340.47
 >=x11-drivers/nvidia-drivers-341.0.0
+
+# https://wiki.gentoo.org/wiki/Udev/upgrade#udev_216_to_217
+>=sys-fs/udev-217

@@ -1,2 +1,3 @@
 net-misc/livestreamer ~*
+dev-python/singledispatch ~*
 =media-video/rtmpdump-2.4_p20131018 ~*

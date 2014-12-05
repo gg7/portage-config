@@ -1,3 +1,4 @@
+net-misc/openvpn examples iproute2
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
@@ -151,7 +152,7 @@ x11-misc/dmenu xft
 x11-misc/redshift -geoclue -gnome gtk
 x11-misc/tint2 battery examples
 x11-misc/xmobar -alsa unicode -mail xft
-x11-terms/rxvt-unicode 256-color blink fading-colors font-styles -force-hints iso14755 perl pixbuf truetype -vanilla wcwidth xft
+x11-terms/rxvt-unicode 256-color blink fading-colors font-styles -force-hints iso14755 perl pixbuf truetype unicode3 -vanilla wcwidth xft
 x11-themes/gtk-engines-qtcurve -firefox3 -mozilla
 x11-wm/xmonad default-term doc hscolour
 x11-wm/xmonad-contrib doc hscolour xft
@@ -252,7 +253,7 @@ media-libs/libsdl audio video joystick
 media-libs/xine-lib aac css flac mad real -samba theora vorbis win32codecs
 media-video/ffmpeg bluray -cpudetection dirac encode mp3 network theora threads vpx
 media-video/mplayer aac aalib bluray bs2b -cpudetection dirac directfb dga dv dvb dvd dvdnav enca encode fbcon ftp libcaca mad mp3 network pvr quicktime real rtc svga theora truetype unicode v4l v4l2 vorbis win32codecs x264 xscreensaver xvid
-media-video/vlc aac aalib dirac directfb dvb dvd fbcon ffmpeg flac fontconfig -httpd id3tag libass libcaca libv4l2 matroska mp3 mpeg mtp -nsplugin ogg -png -samba skins stream -svg svga taglib theora truetype v4l v4l2 vorbis win32codecs x264
+media-video/vlc aac aalib dirac directfb dvb dvd fbcon ffmpeg flac fontconfig -httpd id3tag libass libcaca libv4l2 lua matroska mp3 mpeg mtp -nsplugin ogg -png -samba skins stream -svg svga taglib theora truetype v4l v4l2 vorbis win32codecs x264
 
 # mpd:
 media-sound/ario taglib
@@ -376,3 +377,13 @@ media-video/mplayer bidi
 # required by @selected
 # required by @world (argument)
 net-dns/dnsmasq script
+
+# required by dev-db/pgxnclient-1.2-r1
+# required by @selected
+# required by @world (argument)
+virtual/postgresql server
+
+# required by net-wireless/aircrack-ng-1.2_rc1[airdrop-ng]
+# required by @selected
+# required by @world (argument)
+net-wireless/lorcon python

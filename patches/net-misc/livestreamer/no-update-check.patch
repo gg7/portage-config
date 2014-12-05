@@ -1,0 +1,17 @@
+diff --git a/src/livestreamer_cli/main.py b/src/livestreamer_cli/main.py
+index b002a7c..54b1d43 100644
+--- a/src/livestreamer_cli/main.py
++++ b/src/livestreamer_cli/main.py
+@@ -829,9 +829,9 @@ def main():
+     setup_console()
+     setup_http_session()
+ 
+-    if not args.no_version_check:
+-        with ignored(Exception):
+-            check_version()
++    # if not args.no_version_check:
++    #     with ignored(Exception):
++    #         check_version()
+ 
+     if args.plugins:
+         print_plugins()
