@@ -5,6 +5,7 @@ dev-lang/scala
 =dev-java/hawtjni-runtime-1.8 ~amd64
 
 dev-lang/elixir ~*
+=dev-lang/erlang-17.3 ~amd64
 
 # dev-lang/julia ~*
 
@@ -322,6 +323,7 @@ dev-python/celery ~*
 
 # haskell:
 # dev-haskell/* ~*
+=dev-lang/ghc-7.8.3 ~*
 dev-haskell/cabal-install ~*
 dev-haskell/haskell-platform ~*
 # app-emacs/ghc-mod ~*
@@ -329,7 +331,6 @@ dev-haskell/haskell-platform ~*
 # dev-haskell/hakyll ~*
 # dev-haskell/hoogle ~*
 # dev-haskell/yesod ~*
-# dev-lang/ghc ~*
 # dev-vcs/darcs ~*
 =dev-vcs/darcs-2.8.4-r3 ~*
 
@@ -523,11 +524,11 @@ dev-python/ipython ~*
 =dev-python/pexpect-3.0 ~amd64
 
 # required for activerecord 4
-=dev-ruby/activemodel-3.2.19 ~amd64
-=dev-ruby/activemodel-4.1.7 ~amd64
+=dev-ruby/activemodel-3.2.21 ~amd64
+=dev-ruby/activemodel-4.1.8 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
-=dev-ruby/activesupport-3.2.19 ~amd64
-=dev-ruby/activesupport-4.1.7 ~amd64
+=dev-ruby/activesupport-3.2.21 ~amd64
+=dev-ruby/activesupport-4.1.8 ~amd64
 =dev-ruby/arel-4.0.1 ~amd64
 =dev-ruby/atomic-1.1.16 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
@@ -557,10 +558,6 @@ net-misc/httpie ~*
 # metasploit:4.9:
 net-analyzer/metasploit:4.9 ~*
 =app-admin/eselect-metasploit-0.15 ~amd64
-=dev-ruby/activemodel-3.2.20 ~amd64
-=dev-ruby/activemodel-4.1.0 ~amd64
-=dev-ruby/activesupport-3.2.20 ~amd64
-=dev-ruby/activesupport-4.1.0 ~amd64
 =dev-ruby/arel-3.0.2-r2 ~amd64
 =dev-ruby/arel-5.0.1.20140414130214 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.7 ~amd64
