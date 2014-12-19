@@ -324,7 +324,10 @@ dev-python/celery ~*
 # haskell:
 # dev-haskell/* ~*
 =dev-lang/ghc-7.8.3 ~*
-dev-haskell/cabal-install ~*
+=dev-haskell/cabal-1.20.0.2 ~amd64
+=dev-haskell/cabal-install-1.20.0.3-r2 ~amd64
+=dev-haskell/deepseq-1.3.0.2 ~amd64
+=dev-haskell/http-4000.2.17 ~amd64
 dev-haskell/haskell-platform ~*
 # app-emacs/ghc-mod ~*
 # dev-haskell/aeson ~*

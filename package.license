@@ -2,6 +2,7 @@ app-emulation/virtualbox-additions PUEL
 app-emulation/virtualbox-extpack-oracle PUEL
 dev-java/oracle-jdk-bin Oracle-BCLA-JavaSE
 dev-java/sun-jdk Oracle-BCLA-JavaSE
+media-libs/fdk-aac FraunhoferFDK
 net-im/skype skype-eula skype-4.0.0.7-copyright
 www-client/google-chrome google-chrome
 www-plugins/adobe-flash AdobeFlash-11.x
