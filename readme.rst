@@ -8,7 +8,7 @@ Stats
 +--------------------+------+
 | Packages in system |   43 |
 +--------------------+------+
-| Required packages  | 2046 |
+| Required packages  | 2043 |
 +--------------------+------+
 
 (Updated weeekly)
