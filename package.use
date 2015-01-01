@@ -23,8 +23,7 @@ app-text/texlive cyrillic
 dev-db/mysql -berkdb community embedded extraengine -latin1 profiling -perl
 dev-db/phpmyadmin vhosts
 dev-db/phppgadmin vhosts
-dev-db/postgresql-base doc python -pg_legacytimestamp readline ssl threads zlib
-dev-db/postgresql-server doc -pg_legacytimestamp python ssl uuid xml
+dev-db/postgresql doc python server ssl uuid
 dev-lang/ghc -binary doc
 dev-lang/php apache2 -berkdb bzip2 cgi cli crypt curl doc exif ftp gd -gdbm json -kerberos -ldap mysql mysqli pcre postgres readline session simplexml sockets -spell sqlite ssl suhosin threads unicode xml xmlreader xmlwriter zip zlib
 dev-lang/python -berkdb doc examples -gdbm ncurses readline sqlite threads tk wininst xml
