@@ -1,3 +1,8 @@
+app-emulation/vagrant-bin ~*
+sys-fs/zerofree ~*
+sys-apps/mbox ~*
+
+app-admin/ansible ~*
 app-admin/keepass ~*
 app-admin/logstash ~*
 app-admin/profile-cleaner ~*
