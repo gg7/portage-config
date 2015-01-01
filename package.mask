@@ -4,8 +4,8 @@ media-sound/pulseaudio
 # media-libs/gstreamer
 
 # kernel version lock:
-<sys-kernel/gentoo-sources-3.12.15
->sys-kernel/gentoo-sources-3.12.15
+<sys-kernel/gentoo-sources-3.12.32
+>sys-kernel/gentoo-sources-3.12.32
 
 # nvidia version lock:
 # >x11-drivers/nvidia-drivers-331.20
