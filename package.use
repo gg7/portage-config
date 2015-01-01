@@ -150,7 +150,7 @@ www-servers/tomcat doc extra-webapps source
 x11-misc/dmenu xft
 x11-misc/redshift -geoclue -gnome gtk
 x11-misc/tint2 battery examples
-x11-misc/xmobar -alsa unicode -mail xft
+x11-misc/xmobar -alsa -dbus -mail unicode xft
 x11-terms/rxvt-unicode 256-color blink fading-colors font-styles -force-hints iso14755 perl pixbuf truetype unicode3 -vanilla wcwidth xft
 x11-themes/gtk-engines-qtcurve -firefox3 -mozilla
 x11-wm/xmonad default-term doc hscolour
