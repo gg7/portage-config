@@ -1,6 +1,7 @@
 app-emulation/vagrant-bin ~*
 sys-fs/zerofree ~*
 sys-apps/mbox ~*
+app-emulation/lxc ~*
 
 app-admin/ansible ~*
 app-admin/keepass ~*

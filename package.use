@@ -1,4 +1,6 @@
 net-misc/openvpn examples iproute2
+app-emulation/lxc -doc examples seccomp
+
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets

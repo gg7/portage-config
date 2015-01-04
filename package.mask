@@ -18,8 +18,8 @@ media-sound/pulseaudio
 # <app-emulation/wine-1.6.1
 
 # <sys-devel/llvm-3.4 required by (media-libs/mesa-9.1.6::gentoo, installed)
->=sys-devel/llvm-3.4
->=sys-devel/clang-3.4
+# >=sys-devel/llvm-3.4
+# >=sys-devel/clang-3.4
 
 # http://forums.gentoo.org/viewtopic-t-983998-start-0.html
 >=media-libs/libvorbis-1.3.4
@@ -36,3 +36,5 @@ media-sound/pulseaudio
 
 # https://wiki.gentoo.org/wiki/Udev/upgrade#udev_216_to_217
 >=sys-fs/udev-217
+
+>=net-misc/openssh-6.7_p1

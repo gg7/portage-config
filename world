@@ -50,6 +50,7 @@ app-editors/nano
 app-editors/vim
 app-emulation/docker
 app-emulation/libvirt
+app-emulation/lxc
 app-emulation/qemu
 app-emulation/vagrant-bin
 app-emulation/virtualbox
@@ -428,7 +429,6 @@ net-misc/geoipupdate
 net-misc/httpie
 net-misc/keychain
 net-misc/knemo
-net-misc/livestreamer
 net-misc/memcached
 net-misc/netifrc
 net-misc/ntp
