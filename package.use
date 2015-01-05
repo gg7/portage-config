@@ -9,7 +9,7 @@ app-arch/p7zip kde doc rar wxwidgets
 app-cdr/k3b dvd encode ffmpeg flac handbook mp3 musicbrainz taglib vorbis wav
 app-editors/gvim bash-completion cscope gtk -gpm -motif netbeans -nextaw -nls perl python ruby
 app-editors/nano ncurses minimal unicode
-app-editors/vim bash-completion cscope gpm -nls vim-pager perl python ruby
+app-editors/vim cscope gpm lua luajit -nls perl python ruby vim-pager
 app-emulation/vagrant ruby_targets_ruby20
 app-emulation/virtualbox -additions
 app-emulation/virtualbox-bin -additions
@@ -31,8 +31,7 @@ dev-db/mongodb v8
 dev-db/mysql -berkdb community embedded extraengine -latin1 profiling -perl
 dev-db/phpmyadmin vhosts
 dev-db/phppgadmin vhosts
-dev-db/postgresql-base doc python -pg_legacytimestamp readline ssl threads zlib
-dev-db/postgresql-server doc -pg_legacytimestamp python ssl uuid xml
+dev-db/postgresql doc -pg_legacytimestamp python server ssl threads uuid zlib
 dev-dotnet/mono-addins gtk
 dev-lang/ghc -binary doc
 dev-lang/php apache2 -berkdb bzip2 cgi cli crypt curl doc exif ftp gd -gdbm json -kerberos -ldap mysql mysqli pcre postgres readline session simplexml sockets -spell sqlite ssl suhosin threads unicode xml xmlreader xmlwriter zip zlib
