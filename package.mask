@@ -4,8 +4,6 @@ sys-apps/systemd
 >sys-kernel/gentoo-sources-3.13.5
 <sys-kernel/gentoo-sources-3.13.5
 
-# The following mask changes are necessary to proceed:
-#  (see "package.unmask" in the portage(5) man page for more details)
 # # required by media-libs/gst-plugins-base-0.10.36-r1
 # # required by www-client/phantomjs-1.9.8
 # # required by @selected

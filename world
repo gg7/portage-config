@@ -46,7 +46,6 @@ app-office/libreoffice
 app-portage/eix
 app-portage/elogv
 app-portage/emerge-delta-webrsync
-app-portage/fquery
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
@@ -68,7 +67,6 @@ app-text/htmltidy
 app-text/kchmviewer
 app-text/mupdf
 app-text/nfoview
-app-text/pandoc
 app-text/par
 app-text/pdfgrep
 app-text/pdftk
@@ -90,17 +88,16 @@ dev-db/mysql-workbench
 dev-db/pg_top
 dev-db/pgadmin3
 dev-db/pgbadger
-dev-db/pgtune
 dev-db/phpmyadmin
 dev-db/phppgadmin
-dev-db/postgresql-server
+dev-db/postgresql
 dev-db/redis
 dev-db/sqlite
 dev-db/sqlitebrowser
 dev-db/sqliteman
+dev-haskell/cabal
 dev-haskell/cabal-install
 dev-haskell/haskell-platform
-dev-haskell/hlint
 dev-java/ant
 dev-java/ant-contrib
 dev-java/ehcache
@@ -117,6 +114,8 @@ dev-java/slf4j-log4j12
 dev-java/testng
 dev-java/tomcat-native
 dev-lang/clojure
+dev-lang/elixir
+dev-lang/erlang
 dev-lang/ghc
 dev-lang/go
 dev-lang/mono
@@ -177,6 +176,7 @@ dev-vcs/bzr
 dev-vcs/cvs
 dev-vcs/git
 dev-vcs/gitg
+dev-vcs/gitstats
 dev-vcs/hub
 dev-vcs/mercurial
 dev-vcs/qgit
@@ -240,6 +240,7 @@ media-gfx/gimp
 media-gfx/gphotofs
 media-gfx/gpicview
 media-gfx/graphviz
+media-gfx/icoutils
 media-gfx/imagemagick
 media-gfx/scrot
 media-libs/exiftool
@@ -255,9 +256,7 @@ media-video/ffmpeg2theora
 media-video/get_flash_videos
 media-video/gtk-recordmydesktop
 media-video/guvcview
-media-video/handbrake
 media-video/mplayer
-media-video/mpv
 media-video/smplayer
 media-video/vlc
 net-analyzer/arping
@@ -312,6 +311,7 @@ net-wireless/aircrack-ng
 net-wireless/iw
 net-wireless/rfkill
 sci-mathematics/minisat
+sci-visualization/gnuplot
 sys-apps/ack
 sys-apps/cpuid
 sys-apps/dstat
@@ -390,7 +390,6 @@ www-servers/apache
 www-servers/gunicorn
 www-servers/nginx
 www-servers/spawn-fcgi
-www-servers/tomcat:7
 x11-apps/mesa-progs
 x11-apps/xbacklight
 x11-apps/xev
@@ -408,11 +407,8 @@ x11-misc/wmctrl
 x11-misc/x11vnc
 x11-misc/xclip
 x11-misc/xdotool
-x11-misc/xmobar
 x11-misc/xscreensaver
 x11-terms/qterminal
 x11-terms/rxvt-unicode
 x11-themes/crystal
 x11-themes/oxygen-gtk
-x11-wm/xmonad
-x11-wm/xmonad-contrib

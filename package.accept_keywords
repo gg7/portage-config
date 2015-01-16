@@ -49,7 +49,6 @@ dev-lang/fsharp ~*
 dev-libs/log4cxx ~*
 dev-libs/msgpack ~*
 dev-python/colorama ~*
-dev-python/cython ~*
 dev-python/dreampie ~*
 dev-python/mongoengine ~*
 dev-python/pypy ~*
@@ -103,6 +102,10 @@ sys-process/nmon ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
 x11-misc/urxvt-font-size ~*
+
+# cython
+dev-python/cython ~*
+=dev-python/setuptools-9.1 ~amd64
 
 # glances:
 sys-process/glances ~*
@@ -225,7 +228,6 @@ app-emulation/vagrant ~*
 =dev-ruby/childprocess-0.5.1 ~amd64
 =dev-ruby/erubis-2.7.0-r1 ~amd64
 =dev-ruby/ffi-1.9.3 ~amd64
-=dev-ruby/i18n-0.6.9-r1 ~amd64
 =dev-ruby/log4r-1.1.10-r1 ~amd64
 =dev-ruby/net-scp-1.1.2-r1 ~amd64
 =dev-ruby/net-ssh-2.7.0-r1 ~amd64
@@ -323,186 +325,33 @@ dev-python/celery ~*
 
 # haskell:
 # dev-haskell/* ~*
-=dev-lang/ghc-7.8.3 ~*
+=dev-lang/ghc-7.8.4 ~*
 =dev-haskell/cabal-1.20.0.2 ~amd64
 =dev-haskell/cabal-install-1.20.0.3-r2 ~amd64
 =dev-haskell/deepseq-1.3.0.2 ~amd64
-=dev-haskell/http-4000.2.17 ~amd64
-dev-haskell/haskell-platform ~*
-# app-emacs/ghc-mod ~*
+=dev-haskell/http-4000.2.19 ~amd64
+=dev-haskell/haskell-platform-2014.2.0.0 ~*
 # dev-haskell/aeson ~*
 # dev-haskell/hakyll ~*
 # dev-haskell/hoogle ~*
 # dev-haskell/yesod ~*
 # dev-vcs/darcs ~*
-=dev-vcs/darcs-2.8.4-r3 ~*
 
 # lens
 # dev-haskell/lens ~*
-=dev-haskell/generic-deriving-1.6.2 ~amd64
-=dev-haskell/lens-3.10.0.1 ~amd64
-=dev-haskell/reflection-1.3.2 ~amd64
+# =dev-haskell/generic-deriving-1.6.2 ~amd64
+# =dev-haskell/lens-3.10.0.1 ~amd64
+# =dev-haskell/reflection-1.3.2 ~amd64
 
 # hlint:
-dev-haskell/hlint ~*
-=dev-haskell/haskell-src-exts-1.14.0 ~amd64
-=dev-haskell/uniplate-1.6.12 ~amd64
+# dev-haskell/hlint ~*
+# =dev-haskell/haskell-src-exts-1.14.0 ~amd64
+# =dev-haskell/uniplate-1.6.12 ~amd64
 
 # xmonad and xmobar:
 x11-misc/xmobar ~*
 # x11-wm/xmonad ~*
 # x11-wm/xmonad-contrib ~*
-
-# gitit
-www-apps/gitit ~*
-=dev-haskell/configfile-1.1.1 ~amd64
-=dev-haskell/happstack-server-7.3.1 ~amd64
-=dev-haskell/time-compat-0.1.0.3 ~amd64
-=dev-haskell/threads-0.5.1.1 ~amd64
-=dev-haskell/hstringtemplate-0.7.1 ~amd64
-=dev-haskell/filestore-0.6.0.1 ~amd64
-=dev-haskell/recaptcha-0.1-r1 ~amd64
-=dev-haskell/sendfile-0.7.9 ~amd64
-=dev-haskell/url-2.1.3-r1 ~amd64
-
-# git-annex
-dev-vcs/git-annex ~*
-# =dev-haskell/aeson-0.7.0.6 ~amd64
-# =dev-haskell/ansi-terminal-0.6.1.1 ~amd64
-# =dev-haskell/appar-0.1.4 ~amd64
-# =dev-haskell/asn1-encoding-0.8.1.3 ~amd64
-# =dev-haskell/asn1-parse-0.8.1 ~amd64
-# =dev-haskell/asn1-types-0.2.3 ~amd64
-# =dev-haskell/attoparsec-0.12.1.0 ~amd64
-# =dev-haskell/attoparsec-conduit-1.0.1.2 ~amd64
-# =dev-haskell/authenticate-1.3.2.6 ~amd64
-# =dev-haskell/bifunctors-4.1.1 ~amd64
-# =dev-haskell/bloomfilter-1.2.6.10-r1 ~amd64
-# =dev-haskell/byteorder-1.0.4 ~amd64
-# =dev-haskell/clientsession-0.9.0.3 ~amd64
-# =dev-haskell/comonad-4.0 ~amd64
-# =dev-haskell/connection-0.2.0 ~amd64
-# =dev-haskell/contravariant-0.4.4 ~amd64
-# =dev-haskell/control-monad-loop-0.1 ~amd64
-# =dev-haskell/crypto-4.2.5.1 ~amd64
-# =dev-haskell/crypto-api-0.13 ~amd64
-# =dev-haskell/crypto-conduit-0.5.2.2 ~amd64
-# =dev-haskell/crypto-pubkey-0.2.4 ~amd64
-# =dev-haskell/crypto-pubkey-types-0.4.2.2 ~amd64
-# =dev-haskell/cryptohash-cryptoapi-0.1.0 ~amd64
-# =dev-haskell/css-text-0.1.1 ~amd64
-# =dev-haskell/dav-1.0.1 ~amd64
-# =dev-haskell/distributive-0.4 ~amd64
-# =dev-haskell/dns-0.3.8 ~amd64
-# =dev-haskell/edit-distance-0.2.1.2 ~amd64
-# =dev-haskell/either-4.3.0.1 ~amd64
-# =dev-haskell/email-validate-2.0.1 ~amd64
-# =dev-haskell/entropy-0.2.2.4 ~amd64
-# =dev-haskell/errors-1.4.7 ~amd64
-# =dev-haskell/exceptions-0.6.1 ~amd64
-# =dev-haskell/fast-logger-2.1.5 ~amd64
-# =dev-haskell/feed-0.3.8-r1 ~amd64
-# =dev-haskell/file-embed-0.0.6 ~amd64
-# =dev-haskell/fingertree-0.1.0.0 ~amd64
-# =dev-haskell/free-4.9 ~amd64
-# =dev-haskell/gnuidn-0.2.1 ~amd64
-# =dev-haskell/gnutls-0.1.4 ~amd64
-# =dev-haskell/gsasl-0.3.5 ~amd64
-# =dev-haskell/hamlet-1.1.9.2 ~amd64
-# =dev-haskell/hinotify-0.3.6 ~amd64
-# =dev-haskell/hjsmin-0.1.4.5 ~amd64
-# =dev-haskell/hs3-0.5.7 ~amd64
-# =dev-haskell/http-client-0.2.2.2 ~amd64
-# =dev-haskell/http-client-conduit-0.2.0.1 ~amd64
-# =dev-haskell/http-client-tls-0.2.1.1 ~amd64
-# =dev-haskell/http-conduit-2.0.0.8 ~amd64
-# =dev-haskell/http-date-0.0.4 ~amd64
-# =dev-haskell/ifelse-0.85 ~amd64
-# =dev-haskell/iproute-1.2.11 ~amd64
-# =dev-haskell/keys-3.10.1 ~amd64
-# =dev-haskell/language-javascript-0.5.8 ~amd64
-# =dev-haskell/mime-mail-0.4.4.1 ~amd64
-# =dev-haskell/monad-logger-0.3.4.0 ~amd64
-# =dev-haskell/monad-loops-0.4.2 ~amd64
-# =dev-haskell/monadcatchio-transformers-0.3.1.0 ~amd64
-# =dev-haskell/monadrandom-0.1.13 ~amd64
-# =dev-haskell/monads-tf-0.1.0.1-r1 ~amd64
-# =dev-haskell/network-bytestring-0.1.3.4 ~amd64
-# =dev-haskell/network-info-0.2.0.3 ~amd64
-# =dev-haskell/network-multicast-0.0.10 ~amd64
-# =dev-haskell/network-protocol-xmpp-0.4.6 ~amd64
-# =dev-haskell/optparse-applicative-0.7.0.2 ~amd64
-# =dev-haskell/path-pieces-0.1.3.1 ~amd64
-# =dev-haskell/persistent-1.3.1.1 ~amd64
-# =dev-haskell/persistent-template-1.3.1.1 ~amd64
-# =dev-haskell/pointed-4.0 ~amd64
-# =dev-haskell/pool-conduit-0.1.2 ~amd64
-# =dev-haskell/prelude-extras-0.4 ~amd64
-# =dev-haskell/process-conduit-1.0.0.1 ~amd64
-# =dev-haskell/profunctors-4.0.1 ~amd64
-# =dev-haskell/puremd5-2.1.2.1 ~amd64
-# =dev-haskell/pwstore-fast-2.4.1 ~amd64
-# =dev-haskell/reducers-3.10.2 ~amd64
-# =dev-haskell/regex-tdfa-1.2.0 ~amd64
-# =dev-haskell/resource-pool-0.2.1.1 ~amd64
-# =dev-haskell/safe-0.3.4 ~amd64
-# =dev-haskell/safesemaphore-0.9.0 ~amd64
-# =dev-haskell/scientific-0.3.3.0 ~amd64
-# =dev-haskell/scientific-0.3.3.0 ~amd64
-# =dev-haskell/semigroupoids-4.0 ~amd64
-# =dev-haskell/sha-1.6.4-r1 ~amd64
-# =dev-haskell/shakespeare-1.2.1.1 ~amd64
-# =dev-haskell/shakespeare-css-1.0.6.6 ~amd64
-# =dev-haskell/shakespeare-i18n-1.0.0.5 ~amd64
-# =dev-haskell/shakespeare-js-1.2.0.4 ~amd64
-# =dev-haskell/shakespeare-text-1.0.2 ~amd64
-# =dev-haskell/skein-1.0.9 ~amd64
-# =dev-haskell/stm-chans-3.0.0 ~amd64
-# =dev-haskell/stringsearch-0.3.6.5 ~amd64
-# =dev-haskell/system-fileio-0.3.12 ~amd64
-# =dev-haskell/tagged-0.7 ~amd64
-# =dev-haskell/tasty-0.8 ~amd64
-# =dev-haskell/tasty-hunit-0.8.0.1 ~amd64
-# =dev-haskell/tasty-quickcheck-0.8 ~amd64
-# =dev-haskell/tasty-rerun-1.1.2 ~amd64
-# =dev-haskell/text-1.1.1.3 ~amd64
-# =dev-haskell/text-stream-decode-0.1.0.5 ~amd64
-# =dev-haskell/tls-1.2.2 ~amd64
-# =dev-haskell/transformers-compat-0.1.1.1 ~amd64
-# =dev-haskell/unbounded-delays-0.1.0.5-r1 ~amd64
-# =dev-haskell/unix-time-0.2.2 ~amd64
-# =dev-haskell/utf8-light-0.4.2 ~amd64
-# =dev-haskell/uuid-1.3.3-r1 ~amd64
-# =dev-haskell/wai-2.1.0 ~amd64
-# =dev-haskell/wai-app-static-2.0.0.3 ~amd64
-# =dev-haskell/wai-extra-2.1.0 ~amd64
-# =dev-haskell/wai-logger-2.1.1 ~amd64
-# =dev-haskell/warp-2.1.0 ~amd64
-# =dev-haskell/warp-tls-2.0.3.1 ~amd64
-# =dev-haskell/word8-0.0.4 ~amd64
-# =dev-haskell/x509-1.4.10 ~amd64
-# =dev-haskell/x509-store-1.4.4 ~amd64
-# =dev-haskell/x509-system-1.4.2 ~amd64
-# =dev-haskell/x509-validation-1.5.0 ~amd64
-# =dev-haskell/xml-conduit-1.1.0.9 ~amd64
-# =dev-haskell/xml-hamlet-0.4.0.6 ~amd64
-# =dev-haskell/xss-sanitize-0.3.5 ~amd64
-# =dev-haskell/yesod-1.2.6 ~amd64
-# =dev-haskell/yesod-auth-1.3.1.1 ~amd64
-# =dev-haskell/yesod-core-1.2.17 ~amd64
-# =dev-haskell/yesod-default-1.2.0 ~amd64
-# =dev-haskell/yesod-form-1.3.11 ~amd64
-# =dev-haskell/yesod-persistent-1.2.3 ~amd64
-# =dev-haskell/yesod-routes-1.2.0.6 ~amd64
-# =dev-haskell/yesod-static-1.2.4 ~amd64
-# =dev-haskell/cookie-0.4.1.1 ~amd64
-# =dev-haskell/conduit-1.1.6 ~amd64
-# =dev-haskell/resourcet-1.1.2.2 ~amd64
-# =dev-haskell/css-text-0.1.2.1 ~amd64
-# =dev-haskell/base16-bytestring-0.1.1.6 ~amd64
-# =dev-haskell/cryptohash-conduit-0.1.1 ~amd64
-# =dev-haskell/conduit-extra-1.1.1 ~amd64
-# =dev-haskell/streaming-commons-0.1.3 ~amd64
 
 # namebench:
 net-analyzer/namebench ~*
@@ -528,16 +377,19 @@ dev-python/ipython ~*
 
 # required for activerecord 4
 =dev-ruby/activemodel-3.2.21 ~amd64
-=dev-ruby/activemodel-4.1.8 ~amd64
+=dev-ruby/activemodel-4.2.0 ~amd64
 =dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
 =dev-ruby/activesupport-3.2.21 ~amd64
-=dev-ruby/activesupport-4.1.8 ~amd64
-=dev-ruby/arel-4.0.1 ~amd64
+=dev-ruby/activesupport-4.2.0 ~amd64
+=dev-ruby/arel-6.0.0 ~amd64
 =dev-ruby/atomic-1.1.16 ~amd64
 =dev-ruby/bcrypt-ruby-3.1.2-r1 ~amd64
 =dev-ruby/builder-3.1.4 ~amd64
 =dev-ruby/mysql2-0.3.16 ~amd64
 =dev-ruby/thread_safe-0.3.3 ~amd64
+=dev-ruby/i18n-0.7.0 ~amd64
+=dev-ruby/pg-0.17.1-r1 ~amd64
+=dev-python/singledispatch-3.4.0.3 ~amd64
 
 # required by jinja:
 =dev-python/markupsafe-0.18 ~amd64
@@ -575,6 +427,7 @@ net-analyzer/metasploit:4.9 ~*
 =dev-ruby/rjb-1.4.9 ~amd64
 =dev-ruby/rkelly-remix-0.0.6 ~amd64
 =dev-ruby/robots-0.10.1-r2 ~amd64
+=dev-ruby/thread_safe-0.3.4 ~amd64
 =dev-ruby/tzinfo-1.1.0 ~amd64
 
 # new hardware
@@ -632,121 +485,28 @@ sys-apps/smartmontools ~*
 #     <media-libs/openjpeg-2.1:2[static-libs?] required by (app-text/mupdf-1.3_p20140118::gentoo, installed)
 =app-text/mupdf-1.5-r1
 
-# required by dev-ruby/activesupport-4.1.7[ruby_targets_ruby19]
-# required by dev-ruby/activerecord-4.1.7[ruby_targets_ruby19]
-# required by dev-ruby/metasploit_data_models-0.17.0[ruby_targets_ruby19]
-# required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
-# required by @selected
-# required by @world (argument)
-=dev-ruby/thread_safe-0.3.4 ~amd64
+# required by dev-haskell/haskell-platform-2014.2.0.0
+=dev-haskell/async-2.0.2 ~amd64
+=dev-haskell/case-insensitive-1.2.0.3 ~amd64
+=dev-haskell/fgl-5.5.0.1 ~amd64
+=dev-haskell/gluraw-1.4.0.1 ~amd64
+=dev-haskell/glut-2.5.1.1 ~amd64
+=dev-haskell/haddock-2.14.3.0.7.8.3 ~amd64
+=dev-haskell/happy-1.19.4 ~amd64
+=dev-haskell/hashable-1.2.3.1 ~amd64
+=dev-haskell/haskell-src-1.0.1.6 ~amd64
+=dev-haskell/hpc-0.6.0.1 ~amd64
+=dev-haskell/hscolour-1.20.3-r1 ~amd64
+=dev-haskell/mtl-2.2.1 ~amd64
+=dev-haskell/network-2.6.0.2 ~amd64
+=dev-haskell/network-uri-2.6.0.1 ~amd64
+=dev-haskell/opengl-2.9.2.0 ~amd64
+=dev-haskell/openglraw-1.5.0.0 ~amd64
+=dev-haskell/parallel-3.2.0.6 ~amd64
+=dev-haskell/parsec-3.1.7 ~amd64
+=dev-haskell/primitive-0.5.4.0 ~amd64
+=dev-haskell/text-1.2.0.3 ~amd64
+=dev-haskell/transformers-0.4.2.0 ~amd64
+=dev-haskell/unordered-containers-0.2.5.1 ~amd64
+=dev-haskell/vector-0.10.12.2 ~amd64
 
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/http-4000.2.17 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/text-1.1.1.3 ~amd64
-## required by dev-haskell/cabal-install-1.20.0.3-r2
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/cabal-1.20.0.2 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/mtl-2.2.1 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/hashable-1.2.2.0 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/parallel-3.2.0.4 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/unordered-containers-0.2.4.0 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0[X]
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/openglraw-1.5.0.0 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/hpc-0.6.0.1 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/fgl-5.5.0.1 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/vector-0.10.11.0 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0[X]
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/opengl-2.9.2.0 ~amd64
-## required by dev-haskell/http-4000.2.17
-## required by dev-haskell/cabal-install-1.20.0.3-r2
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/network-2.5.0.0 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0[doc]
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/haddock-2.14.3.0.7.8.3 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/parsec-3.1.5 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0[X]
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/glut-2.5.1.1 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/happy-1.19.4 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/haskell-src-1.0.1.6 ~amd64
-## required by dev-haskell/mtl-2.2.1
-## required by dev-haskell/fgl-5.5.0.1
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/transformers-0.4.1.0 ~amd64
-## required by dev-haskell/vector-0.10.0.1
-## required by dev-haskell/aeson-0.6.2.1
-## required by dev-haskell/pandoc-types-1.12.3
-## required by dev-haskell/texmath-0.6.4
-## required by app-text/pandoc-1.12
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/primitive-0.5.3.0 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0[X]
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/gluraw-1.4.0.1 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/case-insensitive-1.2.0.0 ~amd64
-## required by dev-haskell/haddock-2.14.3.0.7.8.3
-## required by dev-haskell/haskell-platform-2014.2.0.0[doc]
-## required by @selected
-## required by @world (argument)
-#=dev-lang/ghc-7.8.3 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/async-2.0.1.5 ~amd64
-## required by dev-haskell/haskell-platform-2014.2.0.0
-## required by @selected
-## required by @world (argument)
-#=dev-haskell/hscolour-1.20.3-r1 ~amd64
