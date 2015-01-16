@@ -46,6 +46,7 @@ app-office/libreoffice
 app-portage/eix
 app-portage/elogv
 app-portage/emerge-delta-webrsync
+app-portage/fquery
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
@@ -257,6 +258,7 @@ media-video/get_flash_videos
 media-video/gtk-recordmydesktop
 media-video/guvcview
 media-video/mplayer
+media-video/mpv
 media-video/smplayer
 media-video/vlc
 net-analyzer/arping
@@ -412,3 +414,4 @@ x11-terms/qterminal
 x11-terms/rxvt-unicode
 x11-themes/crystal
 x11-themes/oxygen-gtk
+x11-wm/xmonad
