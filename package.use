@@ -3,6 +3,8 @@
 sys-apps/pcsc-lite libusb -udev
 dev-java/oracle-jdk-bin nsplugin
 
+app-office/calligra import-filter mysql
+
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
@@ -371,4 +373,16 @@ net-wireless/lorcon python
 # required by www-client/chromium-38.0.2125.101
 # required by @selected
 # required by @world (argument)
-=dev-ruby/racc-1.4.9 ruby_targets_ruby20
+dev-ruby/racc ruby_targets_ruby20
+
+# required by media-libs/sk1libs-0.9.1-r3
+# required by media-gfx/uniconvertor-1.1.5
+# required by media-gfx/inkscape-0.48.5
+# required by inkscape (argument)
+media-libs/lcms python
+
+# required by dev-lang/ruby-2.0.0_p598
+# required by dev-ruby/racc-1.4.9[ruby_targets_ruby20]
+# required by dev-ruby/nokogiri-1.6.4.1[ruby_targets_ruby19]
+# required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
+virtual/rubygems ruby_targets_ruby20
