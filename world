@@ -93,7 +93,8 @@ dev-db/pgadmin3
 dev-db/pgbadger
 dev-db/phpmyadmin
 dev-db/phppgadmin
-dev-db/postgresql
+dev-db/postgresql:9.3
+dev-db/postgresql:9.4
 dev-db/redis
 dev-db/sqlite
 dev-db/sqlitebrowser
@@ -111,7 +112,6 @@ dev-java/junit
 dev-java/junit:0
 dev-java/maven-bin
 dev-java/mockito
-dev-java/oracle-jdk-bin
 dev-java/oracle-jdk-bin:1.7
 dev-java/oracle-jdk-bin:1.8
 dev-java/slf4j-log4j12
@@ -247,6 +247,7 @@ media-gfx/graphviz
 media-gfx/icoutils
 media-gfx/imagemagick
 media-gfx/inkscape
+media-gfx/pngcrush
 media-gfx/scrot
 media-libs/exiftool
 media-libs/x264
