@@ -85,7 +85,6 @@ app-vim/ntp-syntax
 app-vim/vim-spell-en
 dev-db/barman
 dev-db/couchdb
-dev-db/mongodb
 dev-db/mysql
 dev-db/mysql-workbench
 dev-db/pg_top
@@ -232,7 +231,7 @@ media-fonts/inconsolata
 media-fonts/intlfonts
 media-fonts/ja-ipafonts
 media-fonts/liberation-fonts
-media-fonts/libertine-ttf
+media-fonts/libertine
 media-fonts/takao-fonts
 media-fonts/terminus-font
 media-fonts/ttf-bitstream-vera
