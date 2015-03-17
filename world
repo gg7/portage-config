@@ -96,7 +96,6 @@ dev-db/postgresql:9.3
 dev-db/postgresql:9.4
 dev-db/redis
 dev-db/sqlite
-dev-db/sqlitebrowser
 dev-db/sqliteman
 dev-haskell/cabal
 dev-haskell/cabal-install
@@ -104,6 +103,7 @@ dev-haskell/haskell-platform
 dev-java/ant
 dev-java/ant-contrib
 dev-java/ehcache
+dev-java/icedtea-bin:6
 dev-java/icedtea-bin:7
 dev-java/icedtea:7
 dev-java/jdbc-postgresql
@@ -380,6 +380,8 @@ sys-process/lsof
 sys-process/nmon
 sys-process/parallel
 sys-process/tiptop
+virtual/jdk:1.6
+virtual/jdk:1.7
 www-apache/mod_fastcgi
 www-apache/mod_wsgi
 www-client/casperjs

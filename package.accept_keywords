@@ -79,7 +79,6 @@ media-sound/spotify ~*
 media-video/get_flash_videos ~*
 media-video/handbrake ~*
 media-video/luvcview ~*
-media-video/vlc ~*
 net-analyzer/openbsd-netcat ~*
 net-im/skype ~*
 net-misc/vidalia ~*
@@ -366,7 +365,10 @@ app-admin/salt ~*
 
 # findbugs:
 dev-util/findbugs ~*
-=dev-java/jformatstring-0.9-r1 ~amd64
+=dev-java/asm-5.0.3 ~amd64
+=dev-java/jformatstring-2.0.3 ~amd64
+=dev-java/jcip-annotations-1.0.1 ~amd64
+=dev-java/bcel-6.0_rc3 ~amd64
 
 # ipython:
 dev-python/ipython ~*
