@@ -1,6 +1,3 @@
-net-misc/openvpn examples iproute2
-app-emulation/lxc -doc examples seccomp
-
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
@@ -9,9 +6,10 @@ app-crypt/hashcat-gui cuda opencl
 app-editors/gvim bash-completion cscope gtk -gpm lua -motif -netbeans -nextaw -nls perl python ruby
 app-editors/nano ncurses minimal unicode
 app-editors/vim bash-completion cscope gpm lua -nls vim-pager perl python ruby
+app-emulation/lxc -doc examples seccomp
 app-emulation/virtualbox -additions extensions
 app-emulation/virtualbox-bin -additions extensions
-app-emulation/wine custom-cflags gecko -nls -mono prelink threads truetype -udisks win32 -win64
+app-emulation/wine custom-cflags gecko -nls -mono prelink staging threads truetype -udisks abi_x86_32 abi_x86_64
 app-misc/bb mikmod
 app-office/libreoffice linguas_bg linguas_en -nsplugin
 app-portage/pfl -network-cron
@@ -86,7 +84,7 @@ net-analyzer/metasploit gui mysql postgres sqlite
 net-analyzer/nmap gtk
 net-analyzer/rrdtool python
 net-analyzer/tcpdump -samba
-net-analyzer/wireshark gcrypt geoip gnutls gtk pcap pcre zlib gtk2 -qt4
+net-analyzer/wireshark gcrypt geoip gnutls gtk gtk2 gtk3 pcap pcre zlib -qt4
 net-fs/cifs-utils -acl -ads
 net-fs/samba cups server smbclient syslog
 net-irc/hexchat gtk perl python ssl
@@ -100,6 +98,7 @@ net-misc/knemo wifi
 net-misc/networkmanager dhcpcd
 net-misc/ntp caps
 net-misc/openssh hpn X X509
+net-misc/openvpn examples iproute2
 net-misc/rdesktop ao
 net-misc/rsync acl xattr
 net-misc/tightvnc server
@@ -130,6 +129,7 @@ sys-kernel/gentoo-sources -symlink
 sys-libs/ncurses static-libs
 sys-power/nvclock gtk
 sys-process/cronie anacron
+sys-process/htop oom
 virtual/mysql embedded
 www-apps/trac cgi fastcgi mysql postgres sqlite vhosts
 www-client/casperjs doc examples mono mono_compile python
@@ -220,7 +220,7 @@ app-emulation/libvirt libvirtd -lxc -nls policykit -python qemu virtualbox -xen 
 sys-apps/util-linux tty-helpers
 
 # python webdev:
-dev-python/django doc -mysql postgres sqlite vhosts python_targets_python2_7 python_targets_python3_3
+dev-python/django doc -mysql postgres sqlite vhosts python_targets_python2_7 python_targets_python3_4
 dev-python/django-extensions graphviz
 dev-python/pylons genshi jinja test
 dev-python/south doc
@@ -351,10 +351,6 @@ dev-python/PyQt4 svg webkit
 # required by sys-devel/prelink-20130503
 dev-libs/elfutils static-libs
 
-# qt 5:
-=dev-libs/libpcre-8.33 pcre16
-=dev-qt/qtcore-5.3.0 icu
-
 # >=dev-libs/redland-1.0.16[ssl] pulled in by:
 #   app-office/libreoffice-4.2.5.2
 dev-libs/redland ssl
@@ -379,12 +375,23 @@ media-video/mplayer bidi
 # required by @world (argument)
 net-dns/dnsmasq script
 
-# required by dev-db/pgxnclient-1.2-r1
-# required by @selected
-# required by @world (argument)
-virtual/postgresql server
-
 # required by net-wireless/aircrack-ng-1.2_rc1[airdrop-ng]
 # required by @selected
 # required by @world (argument)
 net-wireless/lorcon python
+
+# wine
+x11-libs/libva abi_x86_32
+
+# required by x11-misc/pcmanfm-1.2.3
+# required by @selected
+# required by @world (argument)
+x11-libs/libfm gtk
+
+# required by django, dev-python/sphinx, and dev-python/jinja:
+# >=dev-python/docutils-0.12 python_targets_python3_3
+# >=dev-python/jinja-2.7.3 python_targets_python3_3
+# =dev-python/pygments-2.0.1 python_targets_python3_3
+# =dev-python/setuptools-12.0.1 python_targets_python3_3
+# >=dev-python/markupsafe-0.23 python_targets_python3_3
+# =dev-python/sphinx-1.2.2 python_targets_python3_3

@@ -23,4 +23,7 @@ dev-java/mockito ~*
 
 # findbugs:
 dev-util/findbugs ~*
-=dev-java/jformatstring-0.9-r1 ~amd64
+=dev-java/asm-5.0.3 ~amd64
+=dev-java/bcel-6.0_rc3 ~amd64
+=dev-java/jcip-annotations-1.0.1 ~amd64
+=dev-java/jformatstring-2.0.3 ~amd64

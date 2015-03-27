@@ -1,2 +1,5 @@
 app-emulation/docker ~*
 app-emulation/lxc ~*
+
+# required by app-emulation/lxc-1.1.1-r1
+=sys-process/criu-1.5-r2 ~amd64

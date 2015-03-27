@@ -8,7 +8,7 @@ games-fps/urbanterror Q3AEULA
 net-im/skype skype-eula skype-4.0.0.7-copyright
 www-client/google-chrome google-chrome
 www-plugins/adobe-flash AdobeFlash-11.x
-www-plugins/google-talkplugin google-talkplugin
+www-plugins/google-talkplugin Google-TOS
 
 # unreal tournament 2004:
 games-fps/ut2004 ut2003
@@ -18,4 +18,3 @@ games-fps/ut2004-* ut2003
 net-wireless/broadcom-sta Broadcom
 sys-firmware/b43-firmware Broadcom
 
-=www-plugins/google-talkplugin-5.4.2.0 Google-TOS

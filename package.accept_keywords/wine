@@ -2,3 +2,5 @@
 # app-emulation/winetricks ~*
 # app-emulation/wine-doors ~*
 # app-emulation/playonlinux ~*
+
+# =x11-libs/libva-1.5.0 ~amd64

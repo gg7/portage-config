@@ -1,12 +1,6 @@
-app-emulation/vagrant-bin ~*
-sys-fs/zerofree ~*
-sys-apps/mbox ~*
-app-emulation/lxc ~*
-
 app-admin/ansible ~*
 app-admin/keepass ~*
 app-admin/logstash ~*
-app-admin/profile-cleaner ~*
 app-arch/duff ~*
 app-arch/upx-ucl ~*
 app-crypt/fcrackzip ~*
@@ -14,6 +8,7 @@ app-crypt/tc-play ~*
 app-crypt/truecrypt ~*
 app-doc/phrack ~*
 app-doc/phrack-all ~*
+app-emulation/vagrant-bin ~*
 app-emulation/vmware-player ~*
 app-misc/bb ~*
 app-misc/elasticsearch ~*
@@ -71,18 +66,19 @@ media-video/handbrake ~*
 media-video/luvcview ~*
 net-analyzer/openbsd-netcat ~*
 net-im/skype ~*
-net-misc/vidalia ~*
 net-misc/youtube-dl ~*
 net-p2p/dogecoin-qt ~*
 net-p2p/linuxdcpp ~*
 sci-mathematics/minisat ~*
 sys-apps/ack ~*
+sys-apps/mbox ~*
 sys-apps/paludis ~*
 sys-apps/pkgcore ~*
 sys-devel/crossdev ~*
 sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-fs/ecryptfs-utils ~*
+sys-fs/zerofree ~*
 sys-kernel/gentoo-sources ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
@@ -108,7 +104,7 @@ app-crypt/hashcat-bin ~*
 app-crypt/hashcat-gui ~*
 
 # firefox and thunderbird
-=www-client/firefox-29* ~*
+# www-client/firefox ~*
 # www-client/firefox-bin ~*
 # mail-client/thunderbird ~*
 
@@ -130,22 +126,14 @@ dev-libs/libsodium ~*
 # new hardware
 sys-apps/idle3-tools ~*
 sys-apps/smartmontools ~*
-=sys-kernel/linux-firmware-20131230 ~*
 
 # core dumps with older versions
 =app-text/nfoview-1.12.1 ~*
 
-# Error loading RubyGems plugin "/usr/lib64/ruby/gems/1.9.1/gems/yard-0.8.3/lib/rubygems_plugin.rb": cannot load such file -- rubygems/doc_manager (LoadError)
-=dev-ruby/yard-0.8.7.3 ~*
-
 # elogv .xz support
 =dev-python/pyliblzma-0.5.3-r1 ~amd64
 
-# required by app-emulation/emul-linux-x86-baselibs-20131008-r6:
-=media-libs/lcms-2.5-r1 ~amd64
-
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667361
-=net-p2p/rtorrent-0.9.2 ~*
 =net-libs/libtorrent-0.13.2 ~*
 
 # https://bugs.gentoo.org/show_bug.cgi?id=506200

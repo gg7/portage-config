@@ -6,12 +6,9 @@ dev-python/django-celery ~*
 dev-python/django-tastypie ~*
 dev-python/django-registration ~*
 dev-python/django-annoying ~*
-dev-python/pygraphviz ~*
 
 # flask:
-dev-python/flask ~*
-=dev-python/blinker-1.3 ~amd64
-=dev-python/itsdangerous-0.22 ~amd64
+# dev-python/flask ~*
 
 # dev-python/turbokid ~*
 # dev-python/sqlobject ~*
@@ -36,14 +33,3 @@ dev-python/flask ~*
 # virtualenv and virtualenvwrapper:
 dev-python/virtualenv ~*
 dev-python/virtualenvwrapper ~*
-=dev-python/pbr-0.7.0 ~amd64
-=dev-python/stevedore-0.15-r1 ~amd64
-
-# celery
-=dev-python/celery-3.1.15-r1 ~*
-=dev-python/billiard-3.3.0.18 ~amd64
-=dev-python/kombu-3.0.23 ~amd64
-=dev-python/py-amqp-1.4.6 ~amd64
-
-# required by jinja:
-=dev-python/markupsafe-0.18 ~amd64

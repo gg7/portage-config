@@ -77,6 +77,7 @@ app-office/lyx
 app-portage/eix
 app-portage/elogv
 app-portage/emerge-delta-webrsync
+app-portage/fquery
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/gentoolkit-dev
@@ -97,7 +98,6 @@ app-text/fbreader
 app-text/htmltidy
 app-text/kchmviewer
 app-text/mupdf
-app-text/nfoview
 app-text/par
 app-text/pdfgrep
 app-text/pdftk
@@ -131,7 +131,6 @@ dev-db/postgresql:9.3
 dev-db/postgresql:9.4
 dev-db/redis
 dev-db/sqlite
-dev-db/sqlitebrowser
 dev-db/sqliteman
 dev-dotnet/gnomevfs-sharp
 dev-dotnet/gtk-sharp
@@ -139,8 +138,6 @@ dev-haskell/haskell-platform
 dev-java/ant
 dev-java/ant-contrib
 dev-java/groovy
-dev-java/icedtea
-dev-java/icedtea-bin
 dev-java/icedtea-bin:6
 dev-java/icedtea-bin:7
 dev-java/icedtea:7
@@ -157,7 +154,6 @@ dev-lang/perl
 dev-lang/php
 dev-lang/python
 dev-lang/python:2.7
-dev-lang/python:3.3
 dev-lang/ruby
 dev-lang/ruby:1.9
 dev-lang/rust
@@ -176,11 +172,6 @@ dev-python/celery
 dev-python/colorama
 dev-python/couchdb-python
 dev-python/cython
-dev-python/django
-dev-python/django-annoying
-dev-python/django-extensions
-dev-python/django-piston
-dev-python/django-registration
 dev-python/dreampie
 dev-python/flake8
 dev-python/flask
@@ -203,7 +194,6 @@ dev-python/redis-py
 dev-python/requests
 dev-python/rst2pdf
 dev-python/sh
-dev-python/south
 dev-python/sphinx
 dev-python/sqlalchemy
 dev-python/termcolor
@@ -211,7 +201,6 @@ dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-python/werkzeug
 dev-ruby/bundler
-dev-ruby/ffi
 dev-ruby/pry
 dev-ruby/tilt
 dev-scheme/racket
@@ -271,7 +260,6 @@ games-misc/doge
 games-misc/fortune-mod
 games-misc/fortune-mod-gentoo-forums
 games-misc/fortune-mod-slackware
-games-strategy/0ad
 games-util/steam-client-meta
 games-util/steam-games-meta
 games-util/steam-launcher
@@ -334,7 +322,7 @@ media-fonts/inconsolata
 media-fonts/ipamonafont
 media-fonts/ja-ipafonts
 media-fonts/liberation-fonts
-media-fonts/libertine-ttf
+media-fonts/libertine
 media-fonts/takao-fonts
 media-fonts/terminus-font
 media-fonts/ttf-bitstream-vera
@@ -366,7 +354,6 @@ media-sound/mp3info
 media-sound/mpc
 media-sound/mpd
 media-sound/ncmpcpp
-media-sound/pianobar
 media-sound/picard
 media-sound/qmmp
 media-sound/qmpdclient
@@ -415,8 +402,9 @@ net-ftp/ftp
 net-im/skype
 net-irc/hexchat
 net-irc/irssi
-net-irc/weechat
 net-libs/nodejs
+net-libs/webkit-gtk
+net-libs/webkit-gtk:3
 net-libs/zeromq
 net-misc/aria2
 net-misc/badvpn
@@ -429,6 +417,7 @@ net-misc/geoipupdate
 net-misc/httpie
 net-misc/keychain
 net-misc/knemo
+net-misc/livestreamer
 net-misc/memcached
 net-misc/netifrc
 net-misc/ntp
@@ -441,7 +430,6 @@ net-misc/rdesktop
 net-misc/tightvnc
 net-misc/tor
 net-misc/unison
-net-misc/vidalia
 net-misc/whois
 net-misc/wicd
 net-misc/youtube-dl
@@ -528,13 +516,13 @@ sys-fs/sshfs-fuse
 sys-fs/xfsprogs
 sys-fs/zerofree
 sys-fs/zfs
-sys-kernel/gentoo-sources
+sys-kernel/gentoo-sources:3.12.38
+sys-kernel/gentoo-sources:3.18.9
 sys-kernel/linux-firmware
 sys-libs/libfaketime
 sys-power/acpid
 sys-power/acpitool
 sys-power/cpupower
-sys-power/nvclock
 sys-power/powertop
 sys-process/atop
 sys-process/fcron
@@ -544,6 +532,8 @@ sys-process/iotop
 sys-process/latencytop
 sys-process/lsof
 sys-process/parallel
+virtual/jdk:1.6
+virtual/jdk:1.7
 www-apache/mod_fastcgi
 www-apache/mod_wsgi
 www-client/casperjs
