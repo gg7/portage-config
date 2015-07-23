@@ -1,6 +1,6 @@
 # llvm and clang:
-sys-devel/clang ~*
-sys-devel/llvm ~*
+# sys-devel/clang ~*
+# sys-devel/llvm ~*
 
 # cppcheck
 dev-util/cppcheck ~*
