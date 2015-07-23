@@ -2,3 +2,8 @@
 x11-misc/xmobar ~*
 # x11-wm/xmonad ~*
 # x11-wm/xmonad-contrib ~*
+
+# required by x11-misc/xmobar-0.23::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-haskell/old-locale-1.0.0.7 ~amd64

@@ -1,7 +1,7 @@
 # required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
 net-analyzer/metasploit:4.9 ~*
-=dev-ruby/activemodel-4.2.1 ~amd64
-=dev-ruby/activesupport-4.2.1 ~amd64
+=dev-ruby/activemodel-4.2.3 ~amd64
+=dev-ruby/activesupport-4.2.3 ~amd64
 =dev-ruby/arel-3.0.2-r2 ~amd64
 =dev-ruby/arel-6.0.0 ~amd64
 =dev-ruby/builder-3.0.4-r1 ~amd64
@@ -19,3 +19,5 @@ net-analyzer/metasploit:4.9 ~*
 =dev-ruby/rkelly-remix-0.0.6 ~amd64
 =dev-ruby/robots-0.10.1-r2 ~amd64
 =dev-ruby/tzinfo-0.3.38 ~amd64
+=dev-ruby/activemodel-3.2.22 ~amd64
+=dev-ruby/activesupport-3.2.22 ~amd64

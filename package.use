@@ -1,3 +1,6 @@
+x11-themes/qtcurve gtk
+sys-boot/grub grub_platforms_pc
+
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
@@ -46,13 +49,13 @@ games-fps/nexuiz opengl -dedicated maps -sdl
 games-fps/urbanterror server
 games-strategy/wesnoth doc server
 kde-base/akregator handbook -kontact
-kde-base/ark bzip2 handbook
-kde-base/dolphin hardbook thumbnail
-kde-base/juk handbook musicbrainz
-kde-base/knetwalk handbook
+kde-apps/ark bzip2 handbook
+kde-apps/dolphin hardbook thumbnail
+kde-apps/juk handbook musicbrainz
+kde-apps/knetwalk handbook
 kde-base/knode -kontact
 kde-base/mplayerthumbs mplayer
-kde-base/okular -chm crypt djvu ebook -jpeg pdf ps -tiff
+kde-apps/okular -chm crypt djvu ebook -jpeg pdf ps -tiff
 kde-misc/kcm-grub2 imagemagick
 kde-misc/krename -pdf
 mail-client/mutt crypt doc gpg imap mbox pop sasl sidebar slang smime smtp tokyocabinet
@@ -163,7 +166,7 @@ sys-devel/binutils zlib
 sys-devel/gdb expat lzma zlib
 
 #  geoloc? ( introspection ) introspection? ( gstreamer )
-net-libs/webkit-gtk -geoloc -introspection
+net-libs/webkit-gtk -geoloc -introspection -gstreamer
 
 # kdenlive:
 media-libs/mlt ffmpeg melt
@@ -174,10 +177,10 @@ dev-util/nvidia-cuda-toolkit doc profiler
 x11-drivers/nvidia-drivers uvm
 
 # steam:
-games-util/steam-client-meta steamruntime flash trayicon
-games-util/steam-games-meta steamruntime steamgames_source_engine
-games-util/steam-launcher steamruntime
-games-util/steam-meta steamruntime
+games-util/steam-client-meta -steamruntime flash trayicon
+games-util/steam-games-meta s3tc -steamruntime steamgames_source_engine
+games-util/steam-launcher -steamruntime
+games-util/steam-meta -steamruntime
 
 # required by games-util/steam-games-meta[video_cards_nvidia]:
 x11-drivers/nvidia-drivers multilib
@@ -285,7 +288,7 @@ dev-libs/keybinder python
 media-libs/chromaprint tools
 
 # required by dev-lang/php:
-app-admin/eselect-php apache2
+app-eselect/eselect-php apache2
 
 # required by sys-devel/clang:
 sys-devel/llvm clang
@@ -395,3 +398,31 @@ x11-libs/libfm gtk
 # =dev-python/setuptools-12.0.1 python_targets_python3_3
 # >=dev-python/markupsafe-0.23 python_targets_python3_3
 # =dev-python/sphinx-1.2.2 python_targets_python3_3
+
+# required by gnome-base/gnome-keyring-3.14.0
+# required by app-crypt/libsecret-0.18
+# required by www-client/chromium-42.0.2311.90
+# required by chromium (argument)
+>=app-crypt/gcr-3.14.0 gtk
+
+# required by dev-libs/libappindicator-12.10.0-r200::gentoo
+# required by games-util/steam-client-meta-0-r20150329::steam-overlay[-steamruntime,trayicon]
+# required by games-util/steam-launcher-1.0.0.50::steam-overlay[-steamruntime]
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/libdbusmenu-12.10.2-r2 gtk
+
+# required by app-emulation/libvirt-1.2.14-r2::gentoo[virt-network]
+# required by @selected
+# required by @world (argument)
+>=net-firewall/iptables-1.4.21-r1 ipv6
+
+# required by www-client/chromium-43.0.2357.130::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.4.0 postproc
+
+# required by sci-mathematics/octave-3.8.2::gentoo[opengl]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/fltk-1.3.2 xft

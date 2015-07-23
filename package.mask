@@ -3,23 +3,11 @@ media-sound/pulseaudio
 # only required by clementine
 # media-libs/gstreamer
 
-# kernel version lock:
-# <=sys-kernel/gentoo-sources-3.11
-# >=sys-kernel/gentoo-sources-3.13
-
 # nvidia version lock:
-# >x11-drivers/nvidia-drivers-331.20
-# <x11-drivers/nvidia-drivers-331.20
-# >media-video/nvidia-settings-325.15
-# <media-video/nvidia-settings-325.15
-
-# wine version lock:
-# >app-emulation/wine-1.6.1
-# <app-emulation/wine-1.6.1
-
-# <sys-devel/llvm-3.4 required by (media-libs/mesa-9.1.6::gentoo, installed)
-# >=sys-devel/llvm-3.4
-# >=sys-devel/clang-3.4
+>x11-drivers/nvidia-drivers-340.76
+<x11-drivers/nvidia-drivers-340.76
+>media-video/nvidia-settings-340.76
+# <media-video/nvidia-settings-340.76
 
 # # http://forums.gentoo.org/viewtopic-t-983998-start-0.html
 # >=media-libs/libvorbis-1.3.4
@@ -31,10 +19,20 @@ media-sound/pulseaudio
 # =media-video/libav-9.14 ~amd64
 >media-sound/pianobar-2013.09.15
 
-# >=x11-drivers/nvidia-drivers-340.47
->=x11-drivers/nvidia-drivers-341.0.0
-
 # # https://wiki.gentoo.org/wiki/Udev/upgrade#udev_216_to_217
 # >=sys-fs/udev-217
 
+# Sorry, but this version does not yet support features
+# that you requested:   X509
+# Please mask openssh-6.7_p1 for now and check back later:
+#  # echo '=net-misc/openssh-6.7_p1' >> /etc/portage/package.mask
+# ERROR: net-misc/openssh-6.7_p1::gentoo failed (setup phase):
+#   booooo
 >=net-misc/openssh-6.7_p1
+
+# fucking mesa
+# >=sys-devel/clang-3.6.0
+# >=sys-devel/llvm-3.6.0
+
+# required webkit-gtk[instrospection], which required gstreamer
+>=dev-vcs/gitg-0.2.8

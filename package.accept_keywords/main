@@ -1,3 +1,10 @@
+dev-lang/elixir ~*
+app-crypt/keybase
+app-shells/zsh-completions
+sys-apps/inxi
+sys-kernel/dracut
+sys-fs/dfc
+
 app-admin/ansible ~*
 app-admin/keepass ~*
 app-admin/logstash ~*
@@ -70,27 +77,18 @@ net-misc/youtube-dl ~*
 net-p2p/dogecoin-qt ~*
 net-p2p/linuxdcpp ~*
 sci-mathematics/minisat ~*
-sys-apps/ack ~*
 sys-apps/mbox ~*
 sys-apps/paludis ~*
 sys-apps/pkgcore ~*
-sys-devel/crossdev ~*
-sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-fs/ecryptfs-utils ~*
 sys-fs/zerofree ~*
-sys-kernel/gentoo-sources ~*
 x11-misc/read-edid ~*
 x11-misc/redshift ~*
 
-# nvidia:
-# http://www.nvidia.com/Download/index.aspx?lang=en-us
-# =x11-drivers/nvidia-drivers-331.20 **
-# =media-video/nvidia-settings-331.20 **
-
-# gentoolkit:
-# app-portage/gentoolkit ~*
-# app-portage/gentoolkit-dev ~*
+# kernel
+sys-kernel/gentoo-sources ~*
+sys-kernel/linux-headers ~*
 
 # printer
 net-print/hplip ~*
@@ -110,13 +108,9 @@ app-crypt/hashcat-gui ~*
 
 # virtualization:
 # app-emulation/qemu ~*
-# app-emulation/qemu-kvm ~*
 # app-emulation/virt-manager ~*
 # app-emulation/virtinst ~*
 # app-emulation/libvirt ~*
-
-# tox
-dev-libs/libsodium ~*
 
 # sabnzbd:
 # dev-python/yenc ~*
@@ -144,3 +138,8 @@ dev-db/sqlitebrowser ~*
 
 # resolving a media-libs/openjpeg:2 conflict
 =app-text/mupdf-1.5-r1 ~*
+
+# can't compile otherwise
+=net-irc/weechat-1.1.1 ~*
+
+media-sound/apulse

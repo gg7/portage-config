@@ -6,12 +6,12 @@ index b002a7c..54b1d43 100644
      setup_console()
      setup_http_session()
  
--    if not args.no_version_check:
+-    if args.version_check or not args.no_version_check:
 -        with ignored(Exception):
--            check_version()
-+    # if not args.no_version_check:
+-            check_version(force=args.version_check)
++    # if args.version_check or not args.no_version_check:
 +    #     with ignored(Exception):
-+    #         check_version()
++    #         check_version(force=args.version_check)
  
      if args.plugins:
          print_plugins()
