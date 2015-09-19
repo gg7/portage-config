@@ -2,13 +2,13 @@
 
 =dev-haskell/async-2.0.1.5 ~amd64
 =dev-haskell/case-insensitive-1.2.0.4 ~*
-=dev-haskell/deepseq-1.3.0.2 ~*
 =dev-haskell/fgl-5.5.0.1 ~amd64
 =dev-haskell/gluraw-1.4.0.1 ~amd64
 =dev-haskell/glut-2.5.1.1 ~amd64
 =dev-haskell/haddock-2.14.3.0.7.8.3 ~*
 =dev-haskell/happy-1.19.4 ~amd64
 =dev-haskell/hashable-1.2.3.2 ~amd64
+=dev-haskell/hashtables-1.2.0.2 ~amd64
 =dev-haskell/haskell-src-1.0.1.6 ~amd64
 =dev-haskell/hpc-0.6.0.1 ~amd64
 =dev-haskell/hscolour-1.20.3-r1 ~amd64
@@ -23,6 +23,10 @@
 =dev-haskell/text-1.1.1.3 ~amd64
 =dev-haskell/transformers-0.4.1.0 ~amd64
 =dev-haskell/unordered-containers-0.2.4.0 ~amd64
-=dev-haskell/vector-0.10.11.0 ~amd64
+=dev-haskell/vector-0.10.12.3 ~amd64
 
-=dev-haskell/hashtables-1.2.0.2 ~amd64
+# required by dev-haskell/attoparsec-0.10.4.0::gentoo
+# required by dev-haskell/haskell-platform-2014.2.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-haskell/deepseq-1.3.0.2 **
