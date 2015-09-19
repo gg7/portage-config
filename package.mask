@@ -1,8 +1,5 @@
 media-sound/pulseaudio
 
-# only required by clementine
-# media-libs/gstreamer
-
 # nvidia version lock:
 >x11-drivers/nvidia-drivers-340.76
 <x11-drivers/nvidia-drivers-340.76
@@ -35,7 +32,7 @@ media-sound/pulseaudio
 # >=sys-devel/llvm-3.6.0
 
 # required webkit-gtk[instrospection], which required gstreamer
->=dev-vcs/gitg-0.2.8
+# >=dev-vcs/gitg-0.2.8
 
 # broken
 >=dev-lang/fsharp-4.0

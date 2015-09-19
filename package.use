@@ -165,8 +165,8 @@ x11-wm/xmonad-contrib doc hscolour xft
 sys-devel/binutils zlib
 sys-devel/gdb expat lzma zlib
 
-#  geoloc? ( introspection ) introspection? ( gstreamer )
-net-libs/webkit-gtk -geoloc -introspection -gstreamer
+# required by gitg
+net-libs/webkit-gtk gstreamer introspection
 
 # kdenlive:
 media-libs/mlt ffmpeg melt
