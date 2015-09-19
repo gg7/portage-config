@@ -26,5 +26,8 @@ media-sound/pulseaudio
 # required webkit-gtk[instrospection], which required gstreamer
 # >=dev-vcs/gitg-0.2.8
 
+# not needed for now
+>=dev-lang/ruby-2.1
+
 # broken
 >=dev-lang/fsharp-4.0
