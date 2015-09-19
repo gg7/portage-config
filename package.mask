@@ -19,14 +19,6 @@ media-sound/pulseaudio
 # # https://wiki.gentoo.org/wiki/Udev/upgrade#udev_216_to_217
 # >=sys-fs/udev-217
 
-# Sorry, but this version does not yet support features
-# that you requested:   X509
-# Please mask openssh-6.7_p1 for now and check back later:
-#  # echo '=net-misc/openssh-6.7_p1' >> /etc/portage/package.mask
-# ERROR: net-misc/openssh-6.7_p1::gentoo failed (setup phase):
-#   booooo
->=net-misc/openssh-6.7_p1
-
 # fucking mesa
 # >=sys-devel/clang-3.6.0
 # >=sys-devel/llvm-3.6.0
