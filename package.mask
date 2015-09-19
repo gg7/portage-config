@@ -29,5 +29,15 @@ media-sound/pulseaudio
 # not needed for now
 >=dev-lang/ruby-2.1
 
+# (dev-libs/boost-1.56.0-r1:0/1.56.0::gentoo, ebuild scheduled for merge) pulled in by
+#   (no parents that aren't satisfied by other packages in this slot)
+#
+# (dev-libs/boost-1.55.0-r2:0/1.55.0::gentoo, installed) pulled in by
+#   dev-libs/boost:0/1.55.0= required by (app-text/libwps-0.3.1:0/0::gentoo, installed)
+#                 ^^^^^^^^^^
+#
+#   (and 7 more with the same problem)
+dev-libs/boost:0/1.56.0
+
 # broken
 >=dev-lang/fsharp-4.0
