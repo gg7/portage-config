@@ -5,7 +5,7 @@ app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
 app-cdr/k3b dvd encode ffmpeg flac handbook mp3 musicbrainz taglib vorbis wav
-app-crypt/hashcat-gui cuda opencl
+app-crypt/hashcat-gui opencl
 app-editors/gvim bash-completion cscope gtk -gpm lua -motif -netbeans -nextaw -nls perl python ruby
 app-editors/nano ncurses minimal unicode
 app-editors/vim bash-completion cscope gpm lua -nls vim-pager perl python ruby
@@ -117,7 +117,7 @@ net-p2p/rtorrent daemon
 net-print/cups -usb
 net-print/hplip X qt4
 net-proxy/tsocks tordns
-net-wireless/pyrit cuda opencl
+net-wireless/pyrit opencl
 sci-mathematics/minisat doc extended-solver
 sci-visualization/gnuplot -pdf
 sys-apps/busybox static
@@ -170,11 +170,6 @@ net-libs/webkit-gtk -geoloc -introspection -gstreamer
 
 # kdenlive:
 media-libs/mlt ffmpeg melt
-
-# cuda:
-dev-util/nvidia-cuda-sdk cuda doc examples opencl
-dev-util/nvidia-cuda-toolkit doc profiler
-x11-drivers/nvidia-drivers uvm
 
 # steam:
 games-util/steam-client-meta -steamruntime flash trayicon
