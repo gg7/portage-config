@@ -4,6 +4,7 @@ app-shells/zsh-completions
 sys-apps/inxi
 sys-kernel/dracut
 sys-fs/dfc
+sys-fs/jmtpfs
 
 app-admin/ansible ~*
 app-admin/keepass ~*
