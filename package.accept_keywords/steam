@@ -30,3 +30,7 @@ games-util/steam-meta ~*
 # required by games-util/steam-meta-0-r20131107::steam-overlay
 # required by games-util/steam-meta (argument)
 =sys-fs/steam-runtime-udev-175-r2 ~amd64
+
+# required by games-util/steam-client-meta-0-r20150828::steam-overlay[-steamruntime]
+# required by games-util/steam-client-meta (argument)
+=sys-libs/libudev-compat-186 ~amd64

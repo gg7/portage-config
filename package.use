@@ -59,7 +59,8 @@ kde-apps/okular -chm crypt djvu ebook -jpeg pdf ps -tiff
 kde-misc/kcm-grub2 imagemagick
 kde-misc/krename -pdf
 mail-client/mutt crypt doc gpg imap mbox pop sasl sidebar slang smime smtp tokyocabinet
-mail-client/thunderbird crypt custom-cflags custom-optimization libnotify lightning system-cairo system-icu system-jpeg system-sqlite wifi
+# mail-client/thunderbird -crypt -jit
+mail-client/thunderbird crypt jemalloc3 jit lightning system-cairo system-icu system-jpeg system-libvpx system-sqlite
 media-gfx/digikam glib gphoto2 lensfun thumbnails
 media-gfx/gimp exif jpeg pdf png svg tiff
 media-gfx/graphviz doc examples -perl python -ruby
@@ -158,8 +159,8 @@ x11-misc/tint2 battery examples
 x11-misc/xmobar -alsa -dbus -mail unicode xft
 x11-terms/rxvt-unicode 256-color blink fading-colors font-styles -force-hints iso14755 perl pixbuf truetype unicode3 -vanilla wcwidth xft
 x11-themes/gtk-engines-qtcurve -firefox3 -mozilla
-x11-wm/xmonad default-term doc hscolour
-x11-wm/xmonad-contrib doc hscolour xft
+x11-wm/xmonad default-term -doc hscolour
+x11-wm/xmonad-contrib -doc hscolour xft
 
 # needed for FEATURES="compressdebug"
 sys-devel/binutils zlib
@@ -315,23 +316,6 @@ dev-libs/leveldb -snappy
 # required by app-emulation/wine[prelink]
 dev-libs/elfutils static-libs
 
-# ruby 2.0
-dev-ruby/abstract ruby_targets_ruby20
-dev-ruby/childprocess ruby_targets_ruby20
-dev-ruby/erubis ruby_targets_ruby20
-dev-ruby/ffi ruby_targets_ruby20
-dev-ruby/i18n ruby_targets_ruby20
-dev-ruby/json ruby_targets_ruby20
-dev-ruby/log4r ruby_targets_ruby20
-dev-ruby/net-scp ruby_targets_ruby20
-dev-ruby/net-ssh ruby_targets_ruby20
-dev-ruby/rake ruby_targets_ruby20
-dev-ruby/rake-compiler ruby_targets_ruby20
-dev-ruby/rdoc ruby_targets_ruby20
-dev-ruby/rubygems ruby_targets_ruby20
-dev-ruby/yard ruby_targets_ruby20
-virtual/ruby-ffi ruby_targets_ruby20
-
 # ???
 dev-qt/qtsql sqlite mysql
 dev-libs/apr-util -berkdb -gdbm mysql postgres -sqlite sqlite3
@@ -342,9 +326,6 @@ media-libs/libjpeg-turbo static-libs
 
 # dev-python/PyQt4[X,svg,webkit] required by (app-misc/anki-2.0.20::gentoo, installed)
 dev-python/PyQt4 svg webkit
-
-# required by thunderbird:
-# media-libs/libpng apng
 
 # required by sys-devel/prelink-20130503
 dev-libs/elfutils static-libs
@@ -421,3 +402,45 @@ x11-libs/libfm gtk
 # required by @selected
 # required by @world (argument)
 >=x11-libs/fltk-1.3.2 xft
+
+# !!! The ebuild selected to satisfy "net-misc/networkmanager[abi_x86_32]" has unmet requirements.
+# - net-misc/networkmanager-1.0.6::gentoo USE="bluetooth consolekit dhclient dhcpcd introspection modemmanager ncurses nss ppp wext wifi -connection-sharing -gnutls -resolvconf (-selinux) -systemd -teamd -test -vala -zeroconf" ABI_X86="32 64 -x32"
+#
+#   The following REQUIRED_USE flag constraints are unsatisfied:
+#     exactly-one-of ( dhclient dhcpcd )
+net-misc/networkmanager -dhclient dhcpcd
+
+# required by net-misc/networkmanager-1.0.6::gentoo[ppp]
+# required by games-util/steam-client-meta-0-r20150828::steam-overlay[-steamruntime]
+# required by games-util/steam-client-meta (argument)
+>=net-dialup/ppp-2.4.7 ipv6
+
+# required by app-emulation/libvirt-1.2.18-r1::gentoo[qemu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/mesa-10.3.7-r1 gles2
+# required by dev-vcs/gitg-3.16.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgit2-glib-0.22.8 ssh
+# required by dev-libs/libgit2-glib-0.22.8::gentoo[ssh]
+# required by dev-vcs/gitg-3.16.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgit2-0.22.3 ssh
+# required by gnome-base/gnome-keyring-3.16.0-r1::gentoo
+# required by app-crypt/libsecret-0.18.3::gentoo
+# required by dev-vcs/gitg-3.16.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/pinentry-0.9.5 gnome-keyring
+
+# https://github.com/jkbrzt/httpie/issues/316
+net-misc/httpie -python_targets_python2_7
+
+# !!! The ebuild selected to satisfy "net-irc/quassel" has unmet requirements.
+# - net-irc/quassel-0.12.2::gentoo USE="X crypt dbus kde server ssl (-ayatana) -debug -monolithic -phonon -postgres (-qt5) -syslog -webkit" ABI_X86="64"
+#
+#   The following REQUIRED_USE flag constraints are unsatisfied:
+#     kde? ( phonon )
+net-irc/quassel kde phonon

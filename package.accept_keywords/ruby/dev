@@ -1,4 +1,0 @@
-# required for activerecord 4
-=dev-ruby/builder-3.1.4 ~amd64
-=dev-ruby/activerecord-deprecated_finders-1.0.3 ~amd64
-=dev-ruby/atomic-1.1.16 ~amd64

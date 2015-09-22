@@ -2,3 +2,8 @@ app-admin/salt ~*
 =dev-python/pycryptopp-0.6.0 ~amd64
 =dev-python/m2crypto-0.22.3-r3 ~amd64
 =dev-python/pyyaml-3.10-r1 ~amd64
+
+# required by app-admin/salt-2015.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=www-servers/tornado-4.2.1 ~amd64

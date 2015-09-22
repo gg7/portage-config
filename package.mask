@@ -26,9 +26,6 @@ media-sound/pulseaudio
 # required webkit-gtk[instrospection], which required gstreamer
 # >=dev-vcs/gitg-0.2.8
 
-# not needed for now
->=dev-lang/ruby-2.1
-
 # (dev-libs/boost-1.56.0-r1:0/1.56.0::gentoo, ebuild scheduled for merge) pulled in by
 #   (no parents that aren't satisfied by other packages in this slot)
 #

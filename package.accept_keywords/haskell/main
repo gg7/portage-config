@@ -1,11 +1,7 @@
 # dev-haskell/* ~*
 
-=dev-lang/ghc-7.8.4 ~*
-=dev-haskell/cabal-1.20.0.2 ~*
-=dev-haskell/cabal-install-1.20.0.3-r2 ~*
+# dev-lang/ghc:0/7.10.2 ~*
+# =dev-haskell/cabal-1.22.4.0 ~amd64
+# =dev-haskell/cabal-install-1.22.6.0 ~amd64
 
 # dev-haskell/aeson ~*
-# dev-haskell/hakyll ~*
-# dev-haskell/hoogle ~*
-# dev-haskell/yesod ~*
-# dev-vcs/darcs ~*

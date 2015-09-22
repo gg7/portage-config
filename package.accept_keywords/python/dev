@@ -29,7 +29,3 @@ dev-python/django-annoying ~*
 # django-debug-toolbar:
 # dev-python/django-debug-toolbar ~*
 # =dev-python/python-sqlparse-0.1.10 ~amd64
-
-# virtualenv and virtualenvwrapper:
-dev-python/virtualenv ~*
-dev-python/virtualenvwrapper ~*

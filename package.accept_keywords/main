@@ -40,8 +40,6 @@ dev-python/mongoengine ~*
 dev-python/pypy ~*
 dev-python/sh ~*
 dev-python/termcolor ~*
-dev-ruby/activerecord ~*
-dev-scheme/racket ~*
 dev-util/checkbashisms ~*
 dev-util/checkstyle ~*
 dev-util/cloc ~*
