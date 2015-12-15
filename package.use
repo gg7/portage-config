@@ -12,7 +12,7 @@ app-editors/vim bash-completion cscope gpm lua -nls vim-pager perl python ruby
 app-emulation/lxc -doc examples seccomp
 app-emulation/virtualbox -additions extensions
 app-emulation/virtualbox-bin -additions extensions
-app-emulation/wine custom-cflags gecko -nls -mono prelink staging threads truetype -udisks abi_x86_32 abi_x86_64
+app-emulation/wine custom-cflags gecko -nls -mono -prelink staging threads truetype -udisks abi_x86_32 abi_x86_64
 app-misc/bb mikmod
 app-office/libreoffice linguas_bg linguas_en -nsplugin
 app-portage/pfl -network-cron
@@ -311,10 +311,6 @@ dev-libs/libpeas gtk
 
 # required by net-p2p/bitcoin-qt:
 dev-libs/leveldb -snappy
-
-# required by sys-devel/prelink
-# required by app-emulation/wine[prelink]
-dev-libs/elfutils static-libs
 
 # ???
 dev-qt/qtsql sqlite mysql
