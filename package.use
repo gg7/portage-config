@@ -1,10 +1,20 @@
 x11-themes/qtcurve gtk
-sys-boot/grub grub_platforms_pc
+sys-boot/grub multislot grub_platforms_pc
+net-misc/unison -gtk
+net-im/skype apulse
+kde-apps/kio-extras mtp
+x11-drivers/nvidia-drivers tools
+
+# doesn't compile
+# dev-lang/erlang hipe kpoll
+
+app-emulation/docker aufs btrfs device-mapper experimental
 
 app-admin/conky hddtemp -imlib iostats mpd nvidia rss truetype
 app-admin/sudo offensive
 app-arch/p7zip kde doc rar wxwidgets
-app-cdr/k3b dvd encode ffmpeg flac handbook mp3 musicbrainz taglib vorbis wav
+# move app-cdr/k3b kde-apps/k3b
+kde-apps/k3b dvd encode ffmpeg flac mp3 musicbrainz taglib vorbis wav # handbook
 app-crypt/hashcat-gui opencl
 app-editors/gvim bash-completion cscope gtk -gpm lua -motif -netbeans -nextaw -nls perl python ruby
 app-editors/nano ncurses minimal unicode
@@ -12,7 +22,7 @@ app-editors/vim bash-completion cscope gpm lua -nls vim-pager perl python ruby
 app-emulation/lxc -doc examples seccomp
 app-emulation/virtualbox -additions extensions
 app-emulation/virtualbox-bin -additions extensions
-app-emulation/wine custom-cflags gecko -nls -mono -prelink staging threads truetype -udisks abi_x86_32 abi_x86_64
+app-emulation/wine custom-cflags gecko -nls mono -prelink -staging threads truetype -udisks abi_x86_32 abi_x86_64 -vaapi
 app-misc/bb mikmod
 app-office/libreoffice linguas_bg linguas_en -nsplugin
 app-portage/pfl -network-cron
@@ -44,15 +54,15 @@ dev-util/kdevplatform subversion
 dev-util/ninja doc
 dev-util/perf python
 dev-vcs/git curl cvs -doc -perl subversion tk
-dev-vcs/subversion -berkdb -perl
+dev-vcs/subversion -berkdb -kde -perl
 games-fps/nexuiz opengl -dedicated maps -sdl
 games-fps/urbanterror server
 games-strategy/wesnoth doc server
-kde-base/akregator handbook -kontact
-kde-apps/ark bzip2 handbook
+kde-base/akregator -kontact # handbook
+kde-apps/ark bzip2 # handbook
 kde-apps/dolphin hardbook thumbnail
-kde-apps/juk handbook musicbrainz
-kde-apps/knetwalk handbook
+kde-apps/juk musicbrainz
+# kde-apps/knetwalk # handbook
 kde-base/knode -kontact
 kde-base/mplayerthumbs mplayer
 kde-apps/okular -chm crypt djvu ebook -jpeg pdf ps -tiff
@@ -69,14 +79,14 @@ media-gfx/inkscape gs spell
 media-libs/mesa -d3d g3dvl vdpau xa xvmc
 media-libs/phonon -gstreamer vlc
 media-libs/taglib asf mp4
-media-plugins/audacious-plugins gtk -gtk3 ffmpeg libsamplerate
+media-plugins/audacious-plugins -gtk -gtk3 ffmpeg libsamplerate qt5
 media-sound/amarok cdda debug embedded -lastfm -mtp ofa -opengl
 media-sound/aqualung ladspa libsamplerate systray
-media-sound/audacious gtk -gtk3
+media-sound/audacious -gtk -gtk3 qt5
 media-sound/beets beatport -bpd chroma -convert discogs doc echonest_tempo lastgenre replaygain web
 media-sound/clementine moodbar
 media-sound/easytag flac mp3 vorbis mp4
-media-sound/kid3 flac handbook musicbrainz vorbis taglib
+media-sound/kid3 flac musicbrainz vorbis taglib # handbook
 media-sound/mixxx tonal
 media-sound/picard cdda coverart ffmpeg
 media-video/ffmpeg doc examples opus rtmp libcaca
@@ -94,14 +104,15 @@ net-fs/samba cups server smbclient syslog
 net-irc/hexchat gtk perl python ssl
 net-irc/irssi perl socks5 ssl
 net-libs/zeromq pgm static-libs test
-net-misc/aria2 ares -bittorrent metalink -scripts ssl
+net-misc/aria2 ares -bittorrent -metalink -scripts ssl
 net-misc/badvpn -client -debug -ncd -server xtun2socks -udpgw
 net-misc/bfgminer -adl cpumining examples -lm_sensors -opencl scrypt
 net-misc/curl -ares gnutls idn ssl
 net-misc/knemo wifi
 net-misc/networkmanager dhcpcd
 net-misc/ntp caps
-net-misc/openssh hpn X X509
+# hpn: "Please mask openssh-7.2_p2 for now and check back later:"
+net-misc/openssh -hpn X X509
 net-misc/openvpn examples iproute2
 net-misc/rdesktop ao
 net-misc/rsync acl xattr
@@ -116,12 +127,13 @@ net-p2p/ktorrent -bwscheduler downloadorder infowidget ipfilter mediaplayer -rss
 net-p2p/mldonkey gnutella gtk
 net-p2p/rtorrent daemon
 net-print/cups -usb
-net-print/hplip X qt4
+net-print/hplip X -qt4 qt5
 net-proxy/tsocks tordns
 net-wireless/pyrit opencl
 sci-mathematics/minisat doc extended-solver
 sci-visualization/gnuplot -pdf
-sys-apps/busybox static
+# "You cannot have USE='static pam'.  Assuming static is more important."
+sys-apps/busybox static -pam
 sys-apps/moreutils -perl -doc
 sys-apps/paludis portage
 sys-apps/portage doc epydoc python3
@@ -219,12 +231,8 @@ app-emulation/libvirt libvirtd -lxc -nls policykit -python qemu virtualbox -xen 
 sys-apps/util-linux tty-helpers
 
 # python webdev:
-dev-python/django doc -mysql postgres sqlite vhosts python_targets_python2_7 python_targets_python3_4
-dev-python/django-extensions graphviz
-dev-python/pylons genshi jinja test
-dev-python/south doc
 dev-python/sphinx doc
-dev-python/sqlalchemy sqlite doc examples -mssql -mysql postgres
+dev-python/sqlalchemy sqlite -mssql -mysql postgres
 
 # if you are having problems compiling c++ code with clang, uncomment this:
 # sys-devel/clang system-cxx-headers
@@ -236,12 +244,20 @@ games-misc/fortune-mod-slackware offensive
 
 # jre/jdk:
 dev-java/icedtea -nsplugin -webstart
+dev-java/icedtea-bin -nsplugin -webstart
 dev-java/icedtea-web -nsplugin
-dev-java/oracle-jdk-bin -doc nsplugin
+# "You have disabled the javafx flag. Some modern desktop Java applications
+# require this and they may fail with a confusing error message."
+dev-java/oracle-jdk-bin -nsplugin javafx
 
 # boost:
 dev-libs/boost doc python static-libs tools
 dev-util/boost-build examples python
+
+# required by media-sound/ncmpcpp-0.7::gentoo[unicode]
+# required by @selected
+# required by @world (argument)
+dev-libs/boost icu
 
 # "Since you've chosen to turn off some of libsdl's functionality, don't bother
 # filing libsdl-related bugs until trying to remerge libsdl with the audio,
@@ -440,3 +456,73 @@ net-misc/httpie -python_targets_python2_7
 #   The following REQUIRED_USE flag constraints are unsatisfied:
 #     kde? ( phonon )
 net-irc/quassel kde phonon
+
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtwebkit-4.8.6-r1:4 -exceptions
+
+# # required by app-emulation/docker-1.10.0::gentoo[seccomp]
+# # required by @selected
+# # required by @world (argument)
+# sys-libs/libseccomp static-libs
+app-emulation/docker -seccomp
+
+# required by dev-lang/php-5.6.24::gentoo[apache2]
+# required by @selected
+# required by @world (argument)
+net-fs/samba winbind client
+
+# required by net-fs/samba-4.2.11::gentoo
+# required by kde-apps/kdebase-kioslaves-16.04.3-r1::gentoo[samba]
+# required by net-p2p/ktorrent-4.3.1-r1::gentoo[ipfilter]
+# required by @selected
+# required by @world (argument)
+sys-libs/ntdb python
+
+# required by kde-apps/okteta-16.04.3::gentoo
+# required by @selected
+# required by @world (argument)
+dev-qt/qtscript scripttools
+
+# (dependency required by "net-fs/samba-4.2.11::gentoo" [ebuild])
+# (dependency required by "net-libs/libsoup-2.52.2::gentoo[samba]" [installed])
+# (dependency required by "media-sound/gmpc-11.8.16-r1::gentoo" [installed])
+# (dependency required by "@selected" [set])
+# (dependency required by "@world" [argument])
+sys-libs/tdb python
+sys-libs/tevent python
+
+# (dependency required by "kde-apps/kdebase-runtime-meta-16.04.3::gentoo" [ebuild])
+# (dependency required by "kde-apps/kdecore-meta-16.04.3::gentoo[-minimal]" [ebuild])
+# (dependency required by "kde-apps/kdebase-meta-16.04.3::gentoo" [ebuild])
+# (dependency required by "@selected" [set])
+# (dependency required by "@world" [argument]
+kde-apps/solid-runtime -bluetooth
+
+# required by dev-lang/php-5.6.24::gentoo[apache2]
+# required by @selected
+# required by @world (argument)
+>=www-servers/apache-2.4.23 apache2_modules_unixd
+
+# !!! The ebuild selected to satisfy ">=kde-apps/artikulate-16.04.3" has unmet requirements.
+# - kde-apps/artikulate-16.04.3::gentoo USE="handbook -debug -gstreamer -qtmedia" ABI_X86="64"
+# 
+#   The following REQUIRED_USE flag constraints are unsatisfied:
+#     any-of ( gstreamer qtmedia )
+# 
+# (dependency required by "kde-apps/kdeedu-meta-16.04.3::gentoo" [ebuild])
+# (dependency required by "kde-apps/kde-apps-meta-16.04.3::gentoo" [ebuild])
+# (dependency required by "kde-apps/kde-meta-16.04.3::gentoo" [ebuild])
+# (dependency required by "kde-meta" [argument])
+kde-apps/artikulate qtmedia
+
+# required by www-client/chromium-55.0.2883.75::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.5.0 svc
+
+# required by dev-db/sqliteman-1.2.2-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/qscintilla-2.9.2-r1 qt4

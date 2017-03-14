@@ -3,6 +3,8 @@ app-admin/salt ~*
 =dev-python/m2crypto-0.22.3-r3 ~amd64
 =dev-python/pyyaml-3.10-r1 ~amd64
 
+app-vim/salt-vim
+
 # required by app-admin/salt-2015.8.0::gentoo
 # required by @selected
 # required by @world (argument)

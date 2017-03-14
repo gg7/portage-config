@@ -6,7 +6,9 @@ sys-kernel/dracut
 sys-fs/dfc
 sys-fs/jmtpfs
 
-app-admin/ansible ~*
+net-misc/unison:2.40
+
+# app-admin/ansible ~*
 app-admin/keepass ~*
 app-admin/logstash ~*
 app-arch/duff ~*
@@ -41,7 +43,6 @@ dev-python/pypy ~*
 dev-python/sh ~*
 dev-python/termcolor ~*
 dev-util/checkbashisms ~*
-dev-util/checkstyle ~*
 dev-util/cloc ~*
 dev-util/dwarves ~*
 dev-util/dwdiff ~*
@@ -86,8 +87,8 @@ x11-misc/read-edid ~*
 x11-misc/redshift ~*
 
 # kernel
-sys-kernel/gentoo-sources ~*
-sys-kernel/linux-headers ~*
+# sys-kernel/gentoo-sources ~*
+# sys-kernel/linux-headers ~*
 
 # printer
 net-print/hplip ~*
@@ -129,9 +130,6 @@ sys-apps/smartmontools ~*
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667361
 =net-libs/libtorrent-0.13.2 ~*
 
-# https://bugs.gentoo.org/show_bug.cgi?id=506200
-=dev-lang/mono-3.2.8 ~*
-
 dev-db/sqlitebrowser ~*
 =dev-libs/qcustomplot-1.2.1 ~amd64
 
@@ -143,6 +141,8 @@ dev-db/sqlitebrowser ~*
 
 media-sound/apulse
 
-# >>> Working in BUILD_DIR: "/var/tmp/portage/dev-lang/fsharp-4.0.0.3/work/fsharp-4.0.0.3"
-# configure: error: "You need mono 3.0"
-# =dev-lang/mono-3.12.1
+# required by dev-lang/fsharp-4.0.0.4::gentoo
+# required by @selected
+# required by @world (argument)
+# =dev-lang/mono-4.0.5.1 ~amd64
+dev-lang/mono

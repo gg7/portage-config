@@ -1,21 +1,21 @@
-app-emulation/docker ~*
-app-emulation/lxc ~*
-
-# required by app-emulation/lxc-1.1.1-r1
-=sys-process/criu-1.5.1 ~amd64
-
-# required by app-emulation/docker-1.8.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-go/go-md2man-1.0.3 ~amd64
-# required by dev-go/go-md2man-1.0.3::gentoo
-# required by app-emulation/docker-1.8.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-go/blackfriday-1.2_p20150720 ~amd64
-# required by dev-go/blackfriday-1.2_p20150720::gentoo
-# required by dev-go/go-md2man-1.0.3::gentoo
-# required by app-emulation/docker-1.8.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-go/sanitized-anchor-name-0_pre20150822 ~amd64
+# app-emulation/docker ~*
+# app-emulation/lxc ~*
+# 
+# # required by app-emulation/lxc-1.1.1-r1
+# =sys-process/criu-1.5.1 ~amd64
+# 
+# # required by app-emulation/docker-1.8.1::gentoo
+# # required by @selected
+# # required by @world (argument)
+# =dev-go/go-md2man-1.0.3 ~amd64
+# # required by dev-go/go-md2man-1.0.3::gentoo
+# # required by app-emulation/docker-1.8.1::gentoo
+# # required by @selected
+# # required by @world (argument)
+# =dev-go/blackfriday-1.2_p20150720 ~amd64
+# # required by dev-go/blackfriday-1.2_p20150720::gentoo
+# # required by dev-go/go-md2man-1.0.3::gentoo
+# # required by app-emulation/docker-1.8.1::gentoo
+# # required by @selected
+# # required by @world (argument)
+# =dev-go/sanitized-anchor-name-0_pre20150822 ~amd64

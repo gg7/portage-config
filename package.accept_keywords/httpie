@@ -1,1 +1,5 @@
 net-misc/httpie ~*
+# required by net-misc/httpie-0.9.9::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pygments-2.1.3 ~amd64

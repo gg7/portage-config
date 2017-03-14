@@ -2,4 +2,5 @@ dev-lang/rust ~*
 
 app-eselect/eselect-rust ~*
 app-shells/rust-zshcomp ~*
-app-vim/rust-mode ~*
+# move app-vim/rust-mode app-vim/rust-vim
+app-vim/rust-vim ~*

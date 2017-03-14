@@ -25,12 +25,13 @@ games-util/steam-meta ~*
 # required by games-util/steam-meta-0-r20131107::steam-overlay
 # required by games-util/steam-meta (argument)
 =dev-libs/libappindicator-12.10.0-r200 ~amd64
-# required by games-util/steam-client-meta-0-r20150329::steam-overlay[-steamruntime]
-# required by games-util/steam-launcher-1.0.0.50::steam-overlay[-steamruntime]
-# required by games-util/steam-meta-0-r20131107::steam-overlay
-# required by games-util/steam-meta (argument)
-=sys-fs/steam-runtime-udev-175-r2 ~amd64
 
 # required by games-util/steam-client-meta-0-r20150828::steam-overlay[-steamruntime]
 # required by games-util/steam-client-meta (argument)
 =sys-libs/libudev-compat-186 ~amd64
+
+# required by games-util/steam-games-meta-0-r20160812::steam-overlay[steamgames_source_engine]
+# required by games-util/steam-meta-0-r20160817::steam-overlay[-steamruntime]
+# required by @selected
+# required by @world (argument)
+=dev-libs/libgcrypt-1.5.6-r101 ~amd64
