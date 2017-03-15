@@ -42,7 +42,6 @@ app-crypt/tc-play
 app-crypt/truecrypt
 app-doc/phrack-all
 app-doc/pms
-app-editors/gedit
 app-editors/gvim
 app-editors/nano
 app-editors/vim
