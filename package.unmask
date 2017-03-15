@@ -12,3 +12,6 @@
 # ebuilds use that. You can safely uninstall dev-haskell/deepseq
 # and fix leftovers with 'haskell-updater' run.
 dev-haskell/deepseq
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /etc/portage/package.mask:
+=dev-libs/boost-1.62.0-r1
