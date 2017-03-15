@@ -1,0 +1,44 @@
+# move app-cdr/k3b kde-apps/k3b
+kde-apps/k3b
+kde-apps/ark
+kde-apps/dolphin
+kde-apps/filelight
+kde-apps/gwenview
+kde-apps/juk
+kde-apps/katomic
+kde-apps/kcachegrind
+kde-apps/kcalc
+kde-apps/kcolorchooser
+# kde-apps/kdegraphics-mobipocket
+# kde-apps/kdenlive
+# kde-apps/kig
+# kde-apps/kigo
+kde-apps/kmines
+kde-apps/kmix
+kde-apps/kmplot
+kde-apps/knetwalk
+kde-apps/kolourpaint
+# kde-apps/konqueror
+kde-apps/konquest
+kde-apps/kpat
+kde-apps/spectacle # kde-apps/ksnapshot
+# kde-apps/ksquares
+kde-apps/ksudoku
+# kde-apps/ksystemlog
+kde-apps/ktouch
+# kde-apps/marble
+kde-apps/okteta
+kde-apps/okular
+# kde-apps/palapeli
+# kde-apps/picmi
+# kde-misc/customizable-weather
+# kde-misc/kcm-grub2
+# kde-misc/kde-gtk-config
+# kde-misc/kio-mtp
+# kde-misc/krename
+# kde-misc/yakuake
+net-misc/knemo
+net-p2p/ktorrent
+kde-apps/kdebase-meta
+# kde-base/klipper # kde-plasma/plasma-workspace-5.6.5.1-r2 (/usr/bin/klipper)
+kde-plasma/kmenuedit
