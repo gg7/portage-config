@@ -105,7 +105,6 @@ net-irc/hexchat gtk perl python ssl
 net-irc/irssi perl socks5 ssl
 net-libs/zeromq pgm static-libs test
 net-misc/aria2 ares -bittorrent -metalink -scripts ssl
-net-misc/badvpn -client -debug -ncd -server xtun2socks -udpgw
 net-misc/bfgminer -adl cpumining examples -lm_sensors -opencl scrypt
 net-misc/curl -ares gnutls idn ssl
 net-misc/knemo wifi

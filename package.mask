@@ -1,7 +1,8 @@
 media-sound/pulseaudio
 
 # nvidia version lock:
->=x11-drivers/nvidia-drivers-340.102
+# we want 340.1020
+>=x11-drivers/nvidia-drivers-340.103
 <=x11-drivers/nvidia-drivers-340.100
 
 # #  (x11-drivers/nvidia-drivers-340.96:0/340::gentoo, ebuild scheduled for merge) pulled in by

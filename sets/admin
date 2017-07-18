@@ -84,7 +84,7 @@ app-vim/rust-vim
 app-vim/toggle
 app-vim/uptime
 app-vim/vim-spell-en
-net-analyzer/arping
+# net-analyzer/arping
 net-analyzer/bmon
 net-analyzer/bwm-ng
 net-analyzer/dsniff
@@ -135,7 +135,6 @@ sys-apps/lm_sensors
 sys-apps/lshw
 sys-apps/mbox
 sys-apps/memtest86+
-sys-apps/microcode-ctl
 sys-apps/mlocate
 sys-apps/moreutils
 sys-apps/paludis
@@ -196,3 +195,4 @@ sys-process/iotop
 sys-process/latencytop
 sys-process/lsof
 sys-process/parallel
+sys-apps/iucode_tool
