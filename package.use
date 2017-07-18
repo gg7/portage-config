@@ -110,13 +110,12 @@ net-misc/curl -ares gnutls idn ssl
 net-misc/knemo wifi
 net-misc/networkmanager dhcpcd
 net-misc/ntp caps
-# hpn: "Please mask openssh-7.2_p2 for now and check back later:"
-net-misc/openssh -hpn X X509
-net-misc/openvpn examples iproute2
+net-misc/openssh X X509
+net-vpn/openvpn examples iproute2
 net-misc/rdesktop ao
 net-misc/rsync acl xattr
 net-misc/tightvnc server
-net-misc/tor tor-hardening
+net-vpn/tor tor-hardening
 net-misc/wicd X gtk pm-utils
 net-nntp/sabnzbd rar ssl yenc rss unzip
 net-p2p/amule geoip gtk -remote -stats unicode
