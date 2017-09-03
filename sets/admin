@@ -1,4 +1,4 @@
-app-admin/ansible
+# app-admin/ansible
 app-admin/logrotate
 app-shells/autojump
 app-shells/bash
@@ -12,14 +12,11 @@ app-admin/hardening-check
 app-admin/hddtemp
 app-admin/mcelog
 app-admin/procinfo
-app-admin/profile-cleaner
 app-admin/pydf
-app-admin/salt
 app-admin/sudo
 app-admin/syslog-ng
 app-admin/sysstat
 app-arch/deb2targz
-app-arch/duff
 app-arch/lz4
 app-arch/lzop
 app-arch/p7zip
@@ -36,10 +33,6 @@ app-benchmarks/siege
 app-benchmarks/tiobench
 app-crypt/aespipe
 app-crypt/gnupg
-app-crypt/johntheripper
-app-crypt/md5deep
-app-crypt/tc-play
-app-crypt/truecrypt
 app-doc/phrack-all
 app-doc/pms
 app-editors/gvim
@@ -48,19 +41,12 @@ app-editors/vim
 app-emulation/docker
 app-emulation/libvirt
 app-emulation/lxc
-app-emulation/qemu
-app-emulation/vagrant-bin
-app-emulation/virtualbox
-app-emulation/virtualbox-extpack-oracle
 app-forensics/chkrootkit
 app-forensics/rkhunter
-app-misc/jq
 app-misc/rlwrap
-app-misc/sl
 app-misc/tmux
 app-misc/tmux-mem-cpu-load
 app-misc/uptimed
-app-misc/vifm
 app-portage/eix
 app-portage/elogv
 app-portage/emerge-delta-webrsync
@@ -89,7 +75,6 @@ net-analyzer/bmon
 net-analyzer/bwm-ng
 net-analyzer/dsniff
 net-analyzer/ettercap
-net-analyzer/fail2ban
 net-analyzer/fping
 net-analyzer/gnu-netcat
 net-analyzer/hping
@@ -137,7 +122,6 @@ sys-apps/mbox
 sys-apps/memtest86+
 sys-apps/mlocate
 sys-apps/moreutils
-sys-apps/paludis
 sys-apps/pciutils
 sys-apps/portage
 sys-apps/preload
@@ -147,7 +131,6 @@ sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-apps/usermode-utilities
-sys-apps/v86d
 sys-block/gparted
 sys-block/parted
 sys-boot/grub
@@ -178,7 +161,6 @@ sys-fs/xfsprogs
 sys-fs/zerofree
 sys-fs/zfs
 sys-kernel/dracut
-sys-kernel/genkernel
 sys-kernel/gentoo-sources:4.2.0-r1
 sys-kernel/linux-firmware
 sys-libs/libfaketime

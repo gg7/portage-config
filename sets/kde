@@ -4,8 +4,8 @@ kde-apps/ark
 kde-apps/dolphin
 kde-apps/filelight
 kde-apps/gwenview
-kde-apps/juk
-kde-apps/katomic
+# kde-apps/juk
+# kde-apps/katomic
 kde-apps/kcachegrind
 kde-apps/kcalc
 kde-apps/kcolorchooser
@@ -41,4 +41,7 @@ net-misc/knemo
 net-p2p/ktorrent
 kde-apps/kdebase-meta
 # kde-base/klipper # kde-plasma/plasma-workspace-5.6.5.1-r2 (/usr/bin/klipper)
-kde-plasma/kmenuedit
+# kde-plasma/kmenuedit
+
+# for dolphin
+kde-apps/kleopatra

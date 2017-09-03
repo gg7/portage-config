@@ -94,7 +94,6 @@ app-shells/gentoo-zsh-completions
 app-shells/rust-zshcomp
 app-shells/zsh
 app-text/XML-Schema-learner
-app-text/acroread
 app-text/ansifilter
 app-text/diffpdf
 app-text/djvu
@@ -389,7 +388,6 @@ net-analyzer/hping
 net-analyzer/hydra
 net-analyzer/iftop
 net-analyzer/macchanger
-net-analyzer/metasploit:4.9
 net-analyzer/mtr
 net-analyzer/namebench
 net-analyzer/nethogs

@@ -44,8 +44,6 @@ media-sound/pulseaudio
 # >=dev-libs/libgcrypt-1.6
 
 
->=dev-libs/boost-1.57
-
 
 
 
@@ -64,3 +62,11 @@ media-sound/pulseaudio
 # <dev-libs/icu-57.1
 # <app-text/poppler-0.45.0
 # <dev-lang/ghc-7.10.3
+#
+
+
+
+<sys-kernel/gentoo-sources-4.2.0-r1
+>sys-kernel/gentoo-sources-4.2.0-r1
+<sys-kernel/vanilla-sources-4.11.10
+>sys-kernel/vanilla-sources-4.11.10

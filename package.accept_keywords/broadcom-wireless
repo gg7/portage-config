@@ -1,3 +1,2 @@
 sys-firmware/b43-firmware ~*
-net-wireless/b43-fwcutter ~*
 net-wireless/broadcom-sta ~*

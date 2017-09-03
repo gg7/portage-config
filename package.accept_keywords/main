@@ -1,148 +1,54 @@
-dev-lang/elixir ~*
-app-crypt/keybase
-app-shells/zsh-completions
-sys-apps/inxi
-sys-kernel/dracut
-sys-fs/dfc
-sys-fs/jmtpfs
-
-net-misc/unison:2.40
-
-# app-admin/ansible ~*
-app-admin/keepass ~*
-app-admin/logstash ~*
-app-arch/duff ~*
 app-arch/upx-ucl ~*
-app-crypt/fcrackzip ~*
-app-crypt/tc-play ~*
-app-crypt/truecrypt ~*
-app-doc/phrack ~*
-app-doc/phrack-all ~*
-app-emulation/vagrant-bin ~*
-app-emulation/vmware-player ~*
 app-misc/bb ~*
-app-misc/elasticsearch ~*
-app-misc/tmux-mem-cpu-load ~*
 app-portage/fquery ~*
-app-shells/autojump ~*
 app-text/XML-Schema-learner ~*
-app-text/ansifilter ~*
 app-text/diffpdf ~*
 app-text/jpdftweak ~*
 app-text/par ~*
-app-vim/recover ~*
-dev-cpp/gflags ~*
-dev-db/couchdb ~*
-dev-lang/fsharp ~*
 dev-libs/log4cxx ~*
 dev-libs/msgpack ~*
 dev-python/colorama ~*
-dev-python/dreampie ~*
-dev-python/mongoengine ~*
-dev-python/pypy ~*
 dev-python/sh ~*
-dev-python/termcolor ~*
 dev-util/checkbashisms ~*
-dev-util/cloc ~*
 dev-util/dwarves ~*
 dev-util/dwdiff ~*
-dev-util/flawfinder ~*
 dev-util/perf ~*
 dev-util/scanmem ~*
 dev-vcs/cvs-fast-export ~*
 dev-vcs/gitinspector ~*
 dev-vcs/gitstats ~*
 dev-vcs/hub ~*
-dev-vcs/vcsh ~*
 games-fps/ut2004-crossfire ~*
 games-misc/doge ~*
 gnustep-apps/batmon ~*
 kde-misc/kio-mtp ~*
-media-fonts/takao-fonts ~*
-media-gfx/gphotofs ~*
-media-libs/fontconfig ~*
-media-sound/bpmdetect ~*
-media-sound/kid3 ~*
-media-sound/mixxx ~*
-media-sound/mp3diags ~*
-media-sound/pianobar ~*
-media-sound/qtmpc ~*
-media-sound/spotify ~*
 media-video/get_flash_videos ~*
 media-video/handbrake ~*
 media-video/luvcview ~*
 net-analyzer/openbsd-netcat ~*
-net-im/skype ~*
 net-misc/youtube-dl ~*
 net-p2p/dogecoin-qt ~*
-net-p2p/linuxdcpp ~*
 sci-mathematics/minisat ~*
+sys-apps/inxi
 sys-apps/mbox ~*
-sys-apps/paludis ~*
 sys-apps/pkgcore ~*
-sys-fs/btrfs-progs ~*
+sys-fs/dfc
 sys-fs/ecryptfs-utils ~*
+sys-fs/jmtpfs
 sys-fs/zerofree ~*
 x11-misc/read-edid ~*
-x11-misc/redshift ~*
 
 # kernel
 # sys-kernel/gentoo-sources ~*
 # sys-kernel/linux-headers ~*
+sys-kernel/vanilla-sources
 
 # printer
-net-print/hplip ~*
 net-print/foo2zjs **
-
-# pentesting
-net-wireless/pyrit ~*
-net-wireless/cpyrit-cuda ~*
-net-wireless/cpyrit-opencl ~*
-app-crypt/hashcat-bin ~*
-app-crypt/hashcat-gui ~*
-
-# firefox and thunderbird
-# www-client/firefox ~*
-# www-client/firefox-bin ~*
-# mail-client/thunderbird ~*
-
-# virtualization:
-# app-emulation/qemu ~*
-# app-emulation/virt-manager ~*
-# app-emulation/virtinst ~*
-# app-emulation/libvirt ~*
-
-# sabnzbd:
-# dev-python/yenc ~*
-# net-nntp/hellanzb ~*
-# net-nntp/sabnzbd ~*
 
 # new hardware
 sys-apps/idle3-tools ~*
 sys-apps/smartmontools ~*
 
-# core dumps with older versions
-=app-text/nfoview-1.12.1 ~*
-
 # elogv .xz support
 =dev-python/pyliblzma-0.5.3-r1 ~amd64
-
-# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667361
-=net-libs/libtorrent-0.13.2 ~*
-
-dev-db/sqlitebrowser ~*
-=dev-libs/qcustomplot-1.2.1 ~amd64
-
-# resolving a media-libs/openjpeg:2 conflict
-=app-text/mupdf-1.5-r1 ~*
-
-# can't compile otherwise
-=net-irc/weechat-1.1.1 ~*
-
-media-sound/apulse
-
-# required by dev-lang/fsharp-4.0.0.4::gentoo
-# required by @selected
-# required by @world (argument)
-# =dev-lang/mono-4.0.5.1 ~amd64
-dev-lang/mono
