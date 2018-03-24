@@ -11,7 +11,7 @@ app-admin/eselect
 app-admin/hardening-check
 app-admin/hddtemp
 app-admin/mcelog
-app-admin/procinfo
+app-admin/procinfo-ng
 app-admin/pydf
 app-admin/sudo
 app-admin/syslog-ng
