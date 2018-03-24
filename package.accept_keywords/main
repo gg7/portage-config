@@ -9,7 +9,6 @@ dev-libs/log4cxx ~*
 dev-libs/msgpack ~*
 dev-python/colorama ~*
 dev-python/sh ~*
-dev-util/checkbashisms ~*
 dev-util/dwarves ~*
 dev-util/dwdiff ~*
 dev-util/perf ~*
@@ -22,33 +21,38 @@ games-fps/ut2004-crossfire ~*
 games-misc/doge ~*
 gnustep-apps/batmon ~*
 kde-misc/kio-mtp ~*
-media-video/get_flash_videos ~*
 media-video/handbrake ~*
 media-video/luvcview ~*
 net-analyzer/openbsd-netcat ~*
 net-misc/youtube-dl ~*
-net-p2p/dogecoin-qt ~*
 sci-mathematics/minisat ~*
 sys-apps/inxi
-sys-apps/mbox ~*
-sys-apps/pkgcore ~*
+sys-apps/mbox
+sys-apps/pkgcore
 sys-fs/dfc
-sys-fs/ecryptfs-utils ~*
+sys-fs/ecryptfs-utils
 sys-fs/jmtpfs
-sys-fs/zerofree ~*
-x11-misc/read-edid ~*
+# sys-fs/mtpfs
+sys-fs/zerofree
 
 # kernel
 # sys-kernel/gentoo-sources ~*
 # sys-kernel/linux-headers ~*
-sys-kernel/vanilla-sources
+=sys-kernel/linux-headers-4.14
 
 # printer
 net-print/foo2zjs **
 
-# new hardware
 sys-apps/idle3-tools ~*
-sys-apps/smartmontools ~*
 
 # elogv .xz support
 =dev-python/pyliblzma-0.5.3-r1 ~amd64
+
+dev-util/dropwatch
+
+games-action/wordwarvi
+games-board/crafty
+games-misc/bsd-games
+games-misc/cowsay
+games-misc/fortune-mod-gentoo-forums
+games-misc/fortune-mod-slackware
